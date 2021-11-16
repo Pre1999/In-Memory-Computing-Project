@@ -1,0 +1,37 @@
+_vWBLB\\<0\\> (WBLB\\<0\\> 0) vsource dc=0 type=dc
+_vWBLB\\<1\\> (WBLB\\<1\\> 0) vsource dc=1.8 type=dc
+_vWBLB\\<2\\> (WBLB\\<2\\> 0) vsource dc=0 type=dc
+_vWBLB\\<3\\> (WBLB\\<3\\> 0) vsource dc=0 type=dc
+_vWBLB\\<4\\> (WBLB\\<4\\> 0) vsource dc=0 type=dc
+_vWBLB\\<5\\> (WBLB\\<5\\> 0) vsource dc=0 type=dc
+_vWBLB\\<6\\> (WBLB\\<6\\> 0) vsource dc=0 type=dc
+_vWBLB\\<7\\> (WBLB\\<7\\> 0) vsource dc=0 type=dc
+_vWBLB\\<8\\> (WBLB\\<8\\> 0) vsource dc=0 type=dc
+_vWBLB\\<9\\> (WBLB\\<9\\> 0) vsource dc=0 type=dc
+_vWBLB\\<10\\> (WBLB\\<10\\> 0) vsource dc=0 type=dc
+_vWBLB\\<11\\> (WBLB\\<11\\> 0) vsource dc=0 type=dc
+_vWBLB\\<12\\> (WBLB\\<12\\> 0) vsource dc=0 type=dc
+_vWBLB\\<13\\> (WBLB\\<13\\> 0) vsource dc=0 type=dc
+_vWBLB\\<14\\> (WBLB\\<14\\> 0) vsource dc=0 type=dc
+_vWBLB\\<15\\> (WBLB\\<15\\> 0) vsource dc=0 type=dc
+_vWBL\\<0\\> (WBL\\<0\\> 0) vsource dc=1.8 type=dc
+_vWBL\\<1\\> (WBL\\<1\\> 0) vsource dc=0 type=dc
+_vWBL\\<2\\> (WBL\\<2\\> 0) vsource dc=1.8 type=dc
+_vWBL\\<3\\> (WBL\\<3\\> 0) vsource dc=1.8 type=dc
+_vWBL\\<4\\> (WBL\\<4\\> 0) vsource dc=1.8 type=dc
+_vWBL\\<5\\> (WBL\\<5\\> 0) vsource dc=1.8 type=dc
+_vWBL\\<6\\> (WBL\\<6\\> 0) vsource dc=1.8 type=dc
+_vWBL\\<7\\> (WBL\\<7\\> 0) vsource dc=1.8 type=dc
+_vWBL\\<8\\> (WBL\\<8\\> 0) vsource dc=1.8 type=dc
+_vWBL\\<9\\> (WBL\\<9\\> 0) vsource dc=1.8 type=dc
+_vWBL\\<10\\> (WBL\\<10\\> 0) vsource dc=1.8 type=dc
+_vWBL\\<11\\> (WBL\\<11\\> 0) vsource dc=1.8 type=dc
+_vWBL\\<12\\> (WBL\\<12\\> 0) vsource dc=1.8 type=dc
+_vWBL\\<13\\> (WBL\\<13\\> 0) vsource dc=1.8 type=dc
+_vWBL\\<14\\> (WBL\\<14\\> 0) vsource dc=1.8 type=dc
+_vWBL\\<15\\> (WBL\\<15\\> 0) vsource dc=1.8 type=dc
+_vGND (GND 0) vsource dc=0 type=dc
+_vVDD (VDD 0) vsource dc=1.8 type=dc
+_vRWL\\<0\\> (RWL\\<0\\> 0) vsource val0=0 val1=1.8 period=50n delay=30n rise=1n fall=1n width=10n type=pulse
+_vWWL\\<0\\> (WWL\\<0\\> 0) vsource val0=0 val1=1.8 period=50n delay=2n rise=1n fall=1n width=10n type=pulse
+ic RBL\\<0\\>=1.8 RBL\\<1\\>=1.8 RBL\\<2\\>=1.8  RBL\\<3\\>=1.8 RBL\\<4\\>=1.8 RBL\\<5\\>=1.8 RBL\\<6\\>=1.8 RBL\\<7\\>=1.8 RBL\\<8\\>=1.8 RBL\\<9\\>=1.8 RBL\\<10\\>=1.8 RBL\\<11\\>=1.8 RBL\\<12\\>=1.8 RBL\\<13\\>=1.8 RBL\\<14\\>=1.8 RBL\\<15\\>=1.8
