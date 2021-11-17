@@ -1,0 +1,210 @@
+@(#)$CDS: LVS version 6.1.8-64b 06/29/2021 19:05 (sjfhw316) $
+
+Command line: /package/eda/cadence/IC618/tools.lnx86/dfII/bin/64bit/LVS -dir /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1116/Project/LVS -l -s -t /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1116/Project/LVS/layout /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1116/Project/LVS/schematic
+Like matching is enabled.
+Net swapping is enabled.
+Using terminal names as correspondence points.
+Compiling Diva LVS rules...
+
+    Net-list summary for /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1116/Project/LVS/layout/netlist
+       count
+        117             nets
+        52              terminals
+        32              pmos
+        96              nmos
+
+    Net-list summary for /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1116/Project/LVS/schematic/netlist
+       count
+        100             nets
+        52              terminals
+        16              cap
+        32              pmos
+        96              nmos
+
+
+    Terminal correspondence points
+    N77       N19       GND
+    N68       N15       RBL<0>
+    N87       N5        RBL<10>
+    N80       N4        RBL<11>
+    N73       N3        RBL<12>
+    N66       N2        RBL<13>
+    N111      N1        RBL<14>
+    N106      N0        RBL<15>
+    N113      N14       RBL<1>
+    N108      N13       RBL<2>
+    N102      N12       RBL<3>
+    N96       N11       RBL<4>
+    N91       N10       RBL<5>
+    N86       N9        RBL<6>
+    N79       N8        RBL<7>
+    N72       N7        RBL<8>
+    N65       N6        RBL<9>
+    N81       N17       RWL<0>
+    N114      N18       VDD
+    N74       N20       WBL<0>
+    N104      N30       WBL<10>
+    N98       N31       WBL<11>
+    N92       N32       WBL<12>
+    N88       N33       WBL<13>
+    N82       N34       WBL<14>
+    N75       N35       WBL<15>
+    N67       N21       WBL<1>
+    N112      N22       WBL<2>
+    N107      N23       WBL<3>
+    N101      N24       WBL<4>
+    N95       N25       WBL<5>
+    N90       N26       WBL<6>
+    N84       N27       WBL<7>
+    N78       N28       WBL<8>
+    N71       N29       WBL<9>
+    N99       N36       WBLB<0>
+    N70       N46       WBLB<10>
+    N116      N47       WBLB<11>
+    N110      N48       WBLB<12>
+    N105      N49       WBLB<13>
+    N100      N50       WBLB<14>
+    N94       N51       WBLB<15>
+    N93       N37       WBLB<1>
+    N89       N38       WBLB<2>
+    N83       N39       WBLB<3>
+    N76       N40       WBLB<4>
+    N69       N41       WBLB<5>
+    N115      N42       WBLB<6>
+    N109      N43       WBLB<7>
+    N103      N44       WBLB<8>
+    N97       N45       WBLB<9>
+    N85       N16       WWL<0>
+
+Devices in the rules but not in the netlist:
+        nfet pfet nmos4 pmos4
+
+    Ill-defined correspondence points.
+
+	N80	N4  Accepted because one is a subset of the other
+	N91	N10  Accepted because one is a subset of the other
+	N66	N2  Accepted because one is a subset of the other
+	N66	N2  Accepted because one is a subset of the other
+	N72	N7  Accepted because one is a subset of the other
+	N79	N8  Accepted because one is a subset of the other
+	N87	N5  Accepted because one is a subset of the other
+	N96	N11  Accepted because one is a subset of the other
+	N102	N12  Accepted because one is a subset of the other
+	N108	N13  Accepted because one is a subset of the other
+	N111	N1  Accepted because one is a subset of the other
+	N106	N0  Accepted because one is a subset of the other
+	N114	N18  Accepted because one is a subset of the other
+	N65	N6  Accepted because one is a subset of the other
+	N77	N19  Accepted because one is a subset of the other
+	N108	N13  Accepted because one is a subset of the other
+	N114	N18  Accepted because one is a subset of the other
+	N65	N6  Accepted because one is a subset of the other
+	N87	N5  Accepted because one is a subset of the other
+	N68	N15  Accepted because one is a subset of the other
+	N96	N11  Accepted because one is a subset of the other
+	N77	N19  Accepted because one is a subset of the other
+	N80	N4  Accepted because one is a subset of the other
+	N86	N9  Accepted because one is a subset of the other
+	N73	N3  Accepted because one is a subset of the other
+	N113	N14  Accepted because one is a subset of the other
+	N86	N9  Accepted because one is a subset of the other
+	N111	N1  Accepted because one is a subset of the other
+	N72	N7  Accepted because one is a subset of the other
+	N113	N14  Accepted because one is a subset of the other
+	N73	N3  Accepted because one is a subset of the other
+	N79	N8  Accepted because one is a subset of the other
+	N91	N10  Accepted because one is a subset of the other
+	N106	N0  Accepted because one is a subset of the other
+	N68	N15  Accepted because one is a subset of the other
+	N102	N12  Accepted because one is a subset of the other
+
+
+        Device summary for layout
+                   bad  total
+            pmos     1     32
+            nmos     1     96
+
+
+        Device summary for schematic
+                   bad  total
+             cap    16     16
+            pmos     1     32
+            nmos     1     96
+
+The net-lists failed to match.
+
+                             layout  schematic
+                                instances
+        un-matched              2       18     
+        rewired                 0       0      
+        size errors             0       0      
+        pruned                  0       0      
+        active                  128     144    
+        total                   128     144    
+
+                                  nets
+        un-matched              19      2      
+        merged                  0       0      
+        pruned                  0       0      
+        active                  117     100    
+        total                   117     100    
+
+                                terminals
+        un-matched              2       2      
+        matched but
+        different type          50      50     
+        total                   52      52     
+
+
+Probe files from /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1116/Project/LVS/schematic
+
+devbad.out:
+The no. of lines exceeded than specified by the variable lvsLimitLinesInOutFile.
+To see the complete information please see the file:
+/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1116/Project/LVS/schematic/devbad.out
+
+netbad.out:
+N /GND
+? Net does not cross-match. It has 145 connections.
+N /VDD
+? Net does not cross-match. It has 65 connections.
+
+mergenet.out:
+
+termbad.out:
+The no. of lines exceeded than specified by the variable lvsLimitLinesInOutFile.
+To see the complete information please see the file:
+/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1116/Project/LVS/schematic/termbad.out
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:
+
+
+Probe files from /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1116/Project/LVS/layout
+
+devbad.out:
+I /+3
+? Device does not cross-match.
+I /+113
+? Device does not cross-match.
+
+netbad.out:
+The no. of lines exceeded than specified by the variable lvsLimitLinesInOutFile.
+To see the complete information please see the file:
+/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1116/Project/LVS/layout/netbad.out
+
+mergenet.out:
+
+termbad.out:
+The no. of lines exceeded than specified by the variable lvsLimitLinesInOutFile.
+To see the complete information please see the file:
+/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1116/Project/LVS/layout/termbad.out
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:

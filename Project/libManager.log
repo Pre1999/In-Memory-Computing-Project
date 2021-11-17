@@ -1,0 +1,185 @@
+\o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 06/02/2021 23:23 (sjfdcl1073) $
+\o Sub version:		sub-version  s195 
+\o Arguments:		-mpssession virtuoso10035 -mpshost ecegrid-thin2.ecn.purdue.edu 
+\o Working Directory:	ecegrid-thin2.ecn.purdue.edu:/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1116/Project
+\o 64-bit offsets
+\o Qt version: 		5.9.1
+\o Log file is "/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1116/Project/libManager.log".
+\o Opening libManager window.
+\a nrSetCurrentWindow(cdsLibManager)
+\o Loading customization file "/package/eda/cells/ncsu-cdk-1.6.0.beta/cdssetup/cdsLibMgr.il"
+\o Loading NCSU Library Manager customizations...done.
+\a nrResizeWindow(cdsLibManager list(515 254 602 491))
+\o changeWorkingDir("/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1116/Project") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o MPS service: map window
+\o Library Manager customization server connected.
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "Project"
+\a cdsLibManager->libLineEdit->value = "Project"
+\a cdsLibManager->cellListBox->value = "sram_array_layout"
+\a cdsLibManager->cellLineEdit->value = "sram_array_layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 5 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Project"
+\a cdsLibManager->libLineEdit->value = "Project"
+\a cdsLibManager->cellListBox->value = "sram_array_layout"
+\a cdsLibManager->cellLineEdit->value = "sram_array_layout"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Project"
+\a cdsLibManager->libLineEdit->value = "Project"
+\a cdsLibManager->cellListBox->value = "sram_array_layout"
+\a cdsLibManager->cellLineEdit->value = "sram_array_layout"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Project"
+\a cdsLibManager->libLineEdit->value = "Project"
+\a cdsLibManager->cellListBox->value = "sram_array_layout"
+\a cdsLibManager->cellLineEdit->value = "sram_array_layout"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Project"
+\a cdsLibManager->libLineEdit->value = "Project"
+\a cdsLibManager->cellListBox->value = "sram_array_layout"
+\a cdsLibManager->cellLineEdit->value = "sram_array_layout"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Project"
+\a cdsLibManager->libLineEdit->value = "Project"
+\a cdsLibManager->cellListBox->value = "sram_array_layout"
+\a cdsLibManager->cellLineEdit->value = "sram_array_layout"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Project"
+\a cdsLibManager->libLineEdit->value = "Project"
+\a cdsLibManager->cellListBox->value = "sram_array_layout"
+\a cdsLibManager->cellLineEdit->value = "sram_array_layout"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Project"
+\a cdsLibManager->libLineEdit->value = "Project"
+\a cdsLibManager->cellListBox->value = "sram_array_layout"
+\a cdsLibManager->cellLineEdit->value = "sram_array_layout"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Project"
+\a cdsLibManager->libLineEdit->value = "Project"
+\a cdsLibManager->cellListBox->value = "sram_array_layout"
+\a cdsLibManager->cellLineEdit->value = "sram_array_layout"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Project"
+\a cdsLibManager->libLineEdit->value = "Project"
+\a cdsLibManager->cellListBox->value = "sram_array_layout"
+\a cdsLibManager->cellLineEdit->value = "sram_array_layout"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Project"
+\a cdsLibManager->libLineEdit->value = "Project"
+\a cdsLibManager->cellListBox->value = "sram_array_layout"
+\a cdsLibManager->cellLineEdit->value = "sram_array_layout"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Project"
+\a cdsLibManager->libLineEdit->value = "Project"
+\a cdsLibManager->cellListBox->value = "sram_array_layout"
+\a cdsLibManager->cellLineEdit->value = "sram_array_layout"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Project"
+\a cdsLibManager->libLineEdit->value = "Project"
+\a cdsLibManager->cellListBox->value = "sram_array_layout"
+\a cdsLibManager->cellLineEdit->value = "sram_array_layout"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Project"
+\a cdsLibManager->libLineEdit->value = "Project"
+\a cdsLibManager->cellListBox->value = "sram_array_layout"
+\a cdsLibManager->cellLineEdit->value = "sram_array_layout"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Project"
+\a cdsLibManager->libLineEdit->value = "Project"
+\a cdsLibManager->cellListBox->value = "sram_array_layout"
+\a cdsLibManager->cellLineEdit->value = "sram_array_layout"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Project"
+\a cdsLibManager->libLineEdit->value = "Project"
+\a cdsLibManager->cellListBox->value = "sram_array_layout"
+\a cdsLibManager->cellLineEdit->value = "sram_array_layout"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Project"
+\a cdsLibManager->libLineEdit->value = "Project"
+\a cdsLibManager->cellListBox->value = "sram_array_layout"
+\a cdsLibManager->cellLineEdit->value = "sram_array_layout"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Project"
+\a cdsLibManager->libLineEdit->value = "Project"
+\a cdsLibManager->cellListBox->value = "sram_array_layout"
+\a cdsLibManager->cellLineEdit->value = "sram_array_layout"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Project"
+\a cdsLibManager->libLineEdit->value = "Project"
+\a cdsLibManager->cellListBox->value = "sram_array_layout"
+\a cdsLibManager->cellLineEdit->value = "sram_array_layout"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Project"
+\a cdsLibManager->libLineEdit->value = "Project"
+\a cdsLibManager->cellListBox->value = "sram_array_layout"
+\a cdsLibManager->cellLineEdit->value = "sram_array_layout"
+\o MPS service: shutdown
+\o libManager is exiting.
+\a exit(0)

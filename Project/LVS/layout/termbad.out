@@ -1,0 +1,54 @@
+T -1  GND /GND
+? Terminal GND in the layout failed to match any terminal in the schematic.
+? Terminal RBL<0>'s type in the layout: inputOutput, in the schematic: output
+? Terminal RBL<10>'s type in the layout: inputOutput, in the schematic: output
+? Terminal RBL<11>'s type in the layout: inputOutput, in the schematic: output
+? Terminal RBL<12>'s type in the layout: inputOutput, in the schematic: output
+? Terminal RBL<13>'s type in the layout: inputOutput, in the schematic: output
+? Terminal RBL<14>'s type in the layout: inputOutput, in the schematic: output
+? Terminal RBL<15>'s type in the layout: inputOutput, in the schematic: output
+? Terminal RBL<1>'s type in the layout: inputOutput, in the schematic: output
+? Terminal RBL<2>'s type in the layout: inputOutput, in the schematic: output
+? Terminal RBL<3>'s type in the layout: inputOutput, in the schematic: output
+? Terminal RBL<4>'s type in the layout: inputOutput, in the schematic: output
+? Terminal RBL<5>'s type in the layout: inputOutput, in the schematic: output
+? Terminal RBL<6>'s type in the layout: inputOutput, in the schematic: output
+? Terminal RBL<7>'s type in the layout: inputOutput, in the schematic: output
+? Terminal RBL<8>'s type in the layout: inputOutput, in the schematic: output
+? Terminal RBL<9>'s type in the layout: inputOutput, in the schematic: output
+? Terminal RWL<0>'s type in the layout: inputOutput, in the schematic: input
+T -1  VDD /VDD
+? Terminal VDD in the layout failed to match any terminal in the schematic.
+? Terminal WBL<0>'s type in the layout: inputOutput, in the schematic: input
+? Terminal WBL<10>'s type in the layout: inputOutput, in the schematic: input
+? Terminal WBL<11>'s type in the layout: inputOutput, in the schematic: input
+? Terminal WBL<12>'s type in the layout: inputOutput, in the schematic: input
+? Terminal WBL<13>'s type in the layout: inputOutput, in the schematic: input
+? Terminal WBL<14>'s type in the layout: inputOutput, in the schematic: input
+? Terminal WBL<15>'s type in the layout: inputOutput, in the schematic: input
+? Terminal WBL<1>'s type in the layout: inputOutput, in the schematic: input
+? Terminal WBL<2>'s type in the layout: inputOutput, in the schematic: input
+? Terminal WBL<3>'s type in the layout: inputOutput, in the schematic: input
+? Terminal WBL<4>'s type in the layout: inputOutput, in the schematic: input
+? Terminal WBL<5>'s type in the layout: inputOutput, in the schematic: input
+? Terminal WBL<6>'s type in the layout: inputOutput, in the schematic: input
+? Terminal WBL<7>'s type in the layout: inputOutput, in the schematic: input
+? Terminal WBL<8>'s type in the layout: inputOutput, in the schematic: input
+? Terminal WBL<9>'s type in the layout: inputOutput, in the schematic: input
+? Terminal WBLB<0>'s type in the layout: inputOutput, in the schematic: input
+? Terminal WBLB<10>'s type in the layout: inputOutput, in the schematic: input
+? Terminal WBLB<11>'s type in the layout: inputOutput, in the schematic: input
+? Terminal WBLB<12>'s type in the layout: inputOutput, in the schematic: input
+? Terminal WBLB<13>'s type in the layout: inputOutput, in the schematic: input
+? Terminal WBLB<14>'s type in the layout: inputOutput, in the schematic: input
+? Terminal WBLB<15>'s type in the layout: inputOutput, in the schematic: input
+? Terminal WBLB<1>'s type in the layout: inputOutput, in the schematic: input
+? Terminal WBLB<2>'s type in the layout: inputOutput, in the schematic: input
+? Terminal WBLB<3>'s type in the layout: inputOutput, in the schematic: input
+? Terminal WBLB<4>'s type in the layout: inputOutput, in the schematic: input
+? Terminal WBLB<5>'s type in the layout: inputOutput, in the schematic: input
+? Terminal WBLB<6>'s type in the layout: inputOutput, in the schematic: input
+? Terminal WBLB<7>'s type in the layout: inputOutput, in the schematic: input
+? Terminal WBLB<8>'s type in the layout: inputOutput, in the schematic: input
+? Terminal WBLB<9>'s type in the layout: inputOutput, in the schematic: input
+? Terminal WWL<0>'s type in the layout: inputOutput, in the schematic: input
