@@ -1,35 +1,40 @@
 \o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 06/02/2021 23:23 (sjfdcl1073) $
 \o Sub version:		sub-version  s195 
-\o Arguments:		-mpssession virtuoso14518 -mpshost ecegrid-thin3.ecn.purdue.edu 
-\o Working Directory:	ecegrid-thin3.ecn.purdue.edu:/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1116
+\o Arguments:		-mpssession virtuoso22892 -mpshost ecegrid-thin7.ecn.purdue.edu 
+\o Working Directory:	ecegrid-thin7.ecn.purdue.edu:/home/ecegrid/a/559mg24/In-Memory-Computing-Project
 \o 64-bit offsets
 \o Qt version: 		5.9.1
-\o Log file is "/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1116/libManager.log".
+\o Log file is "/home/ecegrid/a/559mg24/In-Memory-Computing-Project/libManager.log".
 \o Opening libManager window.
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(515 254 602 491))
-\o changeWorkingDir("/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1116") unnecessary.
+\a nrResizeWindow(cdsLibManager list(377 181 602 464))
+\o changeWorkingDir("/home/ecegrid/a/559mg24/In-Memory-Computing-Project") unnecessary.
 \o ddSetForcedLib("") unnecessary.
 \o MPS service: map window
+\a nrSetCurrentWindow(cdsLibManager)
 \o Loading customization file "/package/eda/cells/ncsu-cdk-1.6.0.beta/cdssetup/cdsLibMgr.il"
 \o Loading NCSU Library Manager customizations...done.
 \o Library Manager customization server connected.
-\a cdsLibManager->libListBox->value = "Assignment1"
-\a cdsLibManager->libLineEdit->value = "Assignment1"
-\a cdsLibManager->cellListBox->value = "8-T_project"
-\a cdsLibManager->cellLineEdit->value = "8-T_project"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->libListBox->value = "Project"
 \a cdsLibManager->libLineEdit->value = "Project"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellListBox->value = "8-T_complete"
-\a cdsLibManager->cellLineEdit->value = "8-T_complete"
-\a cdsLibManager->cellListBox->value = "sram_array"
-\a cdsLibManager->cellLineEdit->value = "sram_array"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "Tap_Cell"
+\a cdsLibManager->cellLineEdit->value = "Tap_Cell"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "sram_array_layout_best"
+\a cdsLibManager->cellLineEdit->value = "sram_array_layout_best"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
 \o MPS request: edit design
 \a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
@@ -39,20 +44,188 @@
 \a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->libListBox->value = "Project"
 \a cdsLibManager->libLineEdit->value = "Project"
+\a cdsLibManager->cellListBox->value = "sram_array_layout_best"
+\a cdsLibManager->cellLineEdit->value = "sram_array_layout_best"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "Tap_Cell"
+\a cdsLibManager->cellLineEdit->value = "Tap_Cell"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 5 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "Project"
+\a cdsLibManager->libLineEdit->value = "Project"
+\a cdsLibManager->cellListBox->value = "Tap_Cell"
+\a cdsLibManager->cellLineEdit->value = "Tap_Cell"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->cellListBox->value = "sram_array"
 \a cdsLibManager->cellLineEdit->value = "sram_array"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 71 110 2 "sram_array")
+\a cdsLibManager->copySimpleButton->value = t
+\a copyCellForm->SkipLibrariesEdit->value = "*"
+\a copyCellForm->SkipLibrariesEdit->value = "*"
+\a copyCellForm->CopyFromLibrary->value = "Assignment1"
+\a copyCellForm->CopyToLibrary->value = "Assignment1"
+\a copyCellForm->CopyFromLibrary->value = "Project"
+\a copyCellForm->CopyFromCell->value = "sram_array"
+\a copyCellForm->CopyToLibrary->value = "Project"
+\a copyCellForm->CopyToCell->value = "sram_array"
+\a copyCellForm->ViewsToCopy->value = "maestro schematic"
+\a copyCellForm->SkipLibrariesEdit->value = ""
+\a copyCellForm->SkipLibrariesEdit->value = "Assignment1 NCSU_Analog_Parts NCSU_Digital_Parts NCSU_TechLib_ami06 NCSU_TechLib_ami16 NCSU_TechLib_hp06 NCSU_TechLib_tsmc02 NCSU_TechLib_tsmc02d NCSU_TechLib_tsmc03 NCSU_TechLib_tsmc03d NCSU_TechLib_tsmc04_4M2P analogLib basic cdsDefTechLib"
+\a nrSetWindowVisibility(copyCellForm "show")
+\a nrSetCurrentWindow(copyCellForm)
+\a nrResizeWindow(copyCellForm list(410 81 516 659))
+\a copyCellForm->CopyToCell->value = "sram_array_1x16_LVS_check"
+\a copyCellForm->Apply->value = t
+\o Beginning simple copy to library "Project".
+\o Processing files to be copied...
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(532 344 273 133))
+\o Copy succeeded.
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Project"
+\a cdsLibManager->libLineEdit->value = "Project"
+\a cdsLibManager->cellListBox->value = "sram_array"
+\a cdsLibManager->cellLineEdit->value = "sram_array"
+\a copyCellForm->SkipLibrariesEdit->value = "*"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(workingDialogForm list(532 307 273 133))
+\a nrSetCurrentWindow(copyCellForm)
+\a copyCellForm->OK->value = t
+\o Beginning simple copy to library "Project".
+\o Processing files to be copied...
+\o ERROR (CLM-173): One or more of the following problems have occurred:\n      1. The source file does not exist.\n      2. A destination file will be overwritten.\n      3. A destination file is checked out.\n      4. A destination file is opened for edit.\n      5. A destination file conflicts with another.\n      6. A source library file is not valid in a different library.\n      7. A source OpenAccess cellview master file has zero size.
+\a nrSetWindowVisibility(copyProblemsDialog "show")
+\a nrSetCurrentWindow(copyProblemsDialog)
+\a nrResizeWindow(workingDialogForm list(540 307 273 133))
+\a nrResizeWindow(copyProblemsDialog list(256 153 825 441))
+\a copyProblemsDialog->Cancel->value = t
+\a copyCellForm->SkipLibrariesEdit->value = "*"
+\a nrSetCurrentWindow(copyCellForm)
+\a nrResizeWindow(copyProblemsDialog list(256 116 825 441))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(copyCellForm list(410 7 516 659))
+\a cdsLibManager->cellListBox->value = "sram_array_1x16_LVS_check"
+\a cdsLibManager->cellLineEdit->value = "sram_array_1x16_LVS_check"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellListBox->value = "sram_array_1x16_LVS_check"
+\a cdsLibManager->cellLineEdit->value = "sram_array_1x16_LVS_check"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "sram_array_128x16_best"
+\a cdsLibManager->cellLineEdit->value = "sram_array_128x16_best"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "logs_559mg16"
+\a cdsLibManager->cellLineEdit->value = "logs_559mg16"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "logs0"
+\a cdsLibManager->viewLineEdit->value = "logs0"
+\a cdsLibManager->cellListBox->value = "sram_array"
+\a cdsLibManager->cellLineEdit->value = "sram_array"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "sram_array_layout"
+\a cdsLibManager->cellLineEdit->value = "sram_array_layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "sram_layout_best"
+\a cdsLibManager->cellLineEdit->value = "sram_layout_best"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "8-T_complete_best"
+\a cdsLibManager->cellLineEdit->value = "8-T_complete_best"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "sram_array_layout_best"
+\a cdsLibManager->cellLineEdit->value = "sram_array_layout_best"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(117 182 602 464))
 \a nrSetWindowVisibility(cdsLibManager "hide")
 \a _lmgrCloseIconify("cdsLibManager" 1)
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
 \o MPS service: shutdown
 \o libManager is exiting.
 \a exit(0)

@@ -1,0 +1,1141 @@
+<?xml version="1.0"?>
+<statedb ICVersion="IC6.1.8-64b.500.19" modifiedTime="11/13/2021 16:01:53" version="5">active
+	<Test Name="Project_sram_array_1">
+		<component Name="adeInfo" Type="skillTable">adeinfo
+			<field Name="projectDir" Type="string">"/home/ecegrid/a/559mg16/cadence/simulation/Project/sram_array/maestro/results/maestro/.tmpADEDir_559mg16/Project_sram_array_1/simulation"</field>
+			<field Name="descriptiontext" Type="string">"None"</field>
+			<field Name="designInfo" Type="list">("Project" "sram_array" "schematic" "spectre")</field>
+		</component>
+		<component Name="rfstim" Type="skillTable">rfstim</component>
+		<component Name="analyses" Type="skillTable">asiEnvSaveTable
+			<analyses Name="analysis">
+				<analysis Name="tran">
+					<partition Name="options">
+						<field Name="emirfile" Type="string">""</field>
+						<field Name="emirstop" Type="string">""</field>
+						<field Name="emirstart" Type="string">""</field>
+						<field Name="emirformat" Type="string">""</field>
+						<field Name="additionalParams" Type="string">""</field>
+						<field Name="start" Type="string">""</field>
+						<field Name="outputstart" Type="string">""</field>
+						<field Name="step" Type="string">""</field>
+						<field Name="maxstep" Type="string">""</field>
+						<field Name="minstep" Type="string">""</field>
+						<field Name="ic" Type="string">""</field>
+						<field Name="skipdc" Type="string">""</field>
+						<field Name="readic" Type="string">""</field>
+						<field Name="linearic" Type="string">""</field>
+						<field Name="oscfreq" Type="string">""</field>
+						<field Name="readns" Type="string">""</field>
+						<field Name="cmin" Type="string">""</field>
+						<field Name="write" Type="string">"spectre.ic"</field>
+						<field Name="writefinal" Type="string">"spectre.fc"</field>
+						<field Name="saveclock" Type="string">""</field>
+						<field Name="saveperiod" Type="string">""</field>
+						<field Name="savetime" Type="list">nil</field>
+						<field Name="savefile" Type="string">""</field>
+						<field Name="recover" Type="string">""</field>
+						<field Name="method" Type="string">""</field>
+						<field Name="relref" Type="string">""</field>
+						<field Name="vrefmax" Type="string">""</field>
+						<field Name="vrefbins" Type="list">nil</field>
+						<field Name="irefmax" Type="string">""</field>
+						<field Name="irefbins" Type="list">nil</field>
+						<field Name="lteratio" Type="string">""</field>
+						<field Name="annotate" Type="string">"status"</field>
+						<field Name="annotatedigits" Type="string">"4"</field>
+						<field Name="save" Type="string">""</field>
+						<field Name="nestlvl" Type="string">""</field>
+						<field Name="compression" Type="string">""</field>
+						<field Name="complvl" Type="string">""</field>
+						<field Name="compreltol" Type="string">""</field>
+						<field Name="compvabstol" Type="string">""</field>
+						<field Name="compiabstol" Type="string">""</field>
+						<field Name="flushpoints" Type="string">""</field>
+						<field Name="flushtime" Type="string">""</field>
+						<field Name="flushofftime" Type="string">""</field>
+						<field Name="oppoint" Type="string">""</field>
+						<field Name="skipstart" Type="string">""</field>
+						<field Name="skipstop" Type="string">""</field>
+						<field Name="skipcount" Type="string">""</field>
+						<field Name="strobeperiod" Type="string">""</field>
+						<field Name="strobeoutput" Type="string">""</field>
+						<field Name="strobedelay" Type="string">""</field>
+						<field Name="finalTimeOp" Type="symbol">t</field>
+						<field Name="FinalOpOtherParameters" Type="string">""</field>
+						<field Name="infotimes" Type="list">nil</field>
+						<field Name="infoname" Type="list">nil</field>
+						<field Name="InfotimesOtherParameters" Type="string">""</field>
+						<field Name="actimes" Type="list">nil</field>
+						<field Name="acnames" Type="list">nil</field>
+						<field Name="maxiters" Type="string">"5"</field>
+						<field Name="restart" Type="string">""</field>
+						<field Name="captab" Type="list">nil</field>
+						<field Name="timed" Type="list">nil</field>
+						<field Name="threshold" Type="string">"0.0"</field>
+						<field Name="detail" Type="string">"node"</field>
+						<field Name="sort" Type="string">"name"</field>
+					</partition>
+					<partition Name="fields">
+						<field Name="dynParamSetInput" Type="string">""</field>
+						<field Name="dynParamSetChoice" Type="string">"User-defined"</field>
+						<field Name="dynParamInput" Type="string">""</field>
+						<field Name="dynParamChoice" Type="string">"User-defined"</field>
+						<field Name="dynparam" Type="string">""</field>
+						<field Name="dynamicParameter" Type="string">"Parameter"</field>
+						<field Name="dynParamB" Type="list">nil</field>
+						<field Name="noiseinst" Type="string">""</field>
+						<field Name="noiseonoff" Type="string">""</field>
+						<field Name="noiseruns" Type="string">"100"</field>
+						<field Name="tranNoiseMultiRuns" Type="string">""</field>
+						<field Name="binnum" Type="string">"16"</field>
+						<field Name="transtrobe" Type="string">""</field>
+						<field Name="noiseupdate" Type="string">""</field>
+						<field Name="noisetmin" Type="string">""</field>
+						<field Name="noisescale" Type="string">""</field>
+						<field Name="noiseseed" Type="string">"1"</field>
+						<field Name="noisefmin" Type="string">""</field>
+						<field Name="noisefmax" Type="string">""</field>
+						<field Name="tranNoise" Type="string">""</field>
+						<field Name="errpreset" Type="string">""</field>
+						<field Name="calcStop" Type="string">""</field>
+						<field Name="stop" Type="string">"10n"</field>
+						<field Name="enable" Type="list">(t)</field>
+						<field Name="dynchoice" Type="string">"Parameter vector"</field>
+						<field Name="dynamicChoice" Type="string">"Vector"</field>
+						<field Name="param_file" Type="string">""</field>
+						<field Name="dynParamSetParam" Type="list">nil</field>
+						<field Name="dynHeadListBox" Type="skillDpl">
+							<field Name="choices" Type="list">("#         time                     value")</field>
+							<field Name="value" Type="list">nil</field>
+						</field>
+						<field Name="dynParamListBox" Type="skillDpl">
+							<field Name="choices" Type="list">nil</field>
+							<field Name="value" Type="list">nil</field>
+						</field>
+						<field Name="dynParamTab" Type="list">nil</field>
+						<field Name="dynParamSetTab" Type="list">nil</field>
+						<field Name="paramTime" Type="string">""</field>
+						<field Name="paramValue" Type="string">""</field>
+						<field Name="param_vec" Type="list">nil</field>
+						<field Name="dynParam" Type="string">""</field>
+						<field Name="param" Type="string">""</field>
+					</partition>
+				</analysis>
+			</analyses>
+		</component>
+		<component Name="convergence" Type="skillTable">sigList
+			<partition Name="Signallist">
+				<field Name="nodeSets" Type="list">nil</field>
+				<field Name="forceNodes" Type="list">nil</field>
+				<field Name="initConds" Type="list">nil</field>
+			</partition>
+		</component>
+		<component Name="cosimOptions" Type="skillTable">asiEnvSaveTable
+			<partition Name="cosim">
+				<field Name="enable" Type="list">nil</field>
+				<field Name="inputs" Type="list">nil</field>
+				<field Name="port" Type="fixnum">38520</field>
+				<field Name="design" Type="string">""</field>
+				<field Name="matlabStartDir" Type="string">""</field>
+				<field Name="server" Type="string">""</field>
+				<field Name="timeout" Type="fixnum">60</field>
+				<field Name="whenStartMatlab" Type="string">"no"</field>
+				<field Name="outputs" Type="list">nil</field>
+				<field Name="matlabStartCmd" Type="string">"matlab"</field>
+				<field Name="serverr" Type="string">"localhost"</field>
+			</partition>
+		</component>
+		<component Name="devCheckingSetup" Type="skillTable">stateDpl
+			<field Name="stateDpl" Type="skillDpl">
+				<field Name="devCheckingEnabled" Type="string">"no"</field>
+				<field Name="asserts" Type="list">nil</field>
+				<field Name="inclusiveFilters" Type="list">nil</field>
+				<field Name="exclusiveFilters" Type="list">nil</field>
+				<field Name="options" Type="skillDpl">
+					<field Name="checklimit" Type="skillDpl">
+						<field Name="pzFilterExtreme" Type="list">nil</field>
+						<field Name="pzFilterNone" Type="list">nil</field>
+						<field Name="pzAddtionalArguments" Type="list">nil</field>
+						<field Name="pzDisableAll" Type="list">nil</field>
+						<field Name="pzEnableAll" Type="list">nil</field>
+						<field Name="pzSeverity" Type="string">"None"</field>
+						<field Name="noiseFilterExtreme" Type="list">nil</field>
+						<field Name="noiseFilterNone" Type="list">nil</field>
+						<field Name="noiseAddtionalArguments" Type="list">nil</field>
+						<field Name="noiseDisableAll" Type="list">nil</field>
+						<field Name="noiseEnableAll" Type="list">nil</field>
+						<field Name="noiseSeverity" Type="string">"None"</field>
+						<field Name="spFilterExtreme" Type="list">nil</field>
+						<field Name="spFilterNone" Type="list">nil</field>
+						<field Name="spAddtionalArguments" Type="list">nil</field>
+						<field Name="spDisableAll" Type="list">nil</field>
+						<field Name="spEnableAll" Type="list">nil</field>
+						<field Name="spSeverity" Type="string">"None"</field>
+						<field Name="acFilterExtreme" Type="list">nil</field>
+						<field Name="acFilterNone" Type="list">nil</field>
+						<field Name="acAddtionalArguments" Type="list">nil</field>
+						<field Name="acDisableAll" Type="list">nil</field>
+						<field Name="acEnableAll" Type="list">nil</field>
+						<field Name="acSeverity" Type="string">"None"</field>
+						<field Name="dcOpFilterExtreme" Type="list">nil</field>
+						<field Name="dcOpFilterNone" Type="list">nil</field>
+						<field Name="dcOpAddtionalArguments" Type="list">nil</field>
+						<field Name="dcOpDisableAll" Type="list">nil</field>
+						<field Name="dcOpEnableAll" Type="list">nil</field>
+						<field Name="dcOpSeverity" Type="string">"None"</field>
+						<field Name="dcFilterExtreme" Type="list">nil</field>
+						<field Name="dcFilterNone" Type="list">nil</field>
+						<field Name="dcAddtionalArguments" Type="list">nil</field>
+						<field Name="dcDisableAll" Type="list">nil</field>
+						<field Name="dcEnableAll" Type="list">nil</field>
+						<field Name="dcSeverity" Type="string">"None"</field>
+						<field Name="tranFilterExtreme" Type="list">nil</field>
+						<field Name="tranFilterNone" Type="list">nil</field>
+						<field Name="tranAddtionalArguments" Type="list">nil</field>
+						<field Name="tranDisableAll" Type="list">nil</field>
+						<field Name="tranEnableAll" Type="list">nil</field>
+						<field Name="tranSeverity" Type="string">"None"</field>
+						<field Name="tranStopTime" Type="list">nil</field>
+						<field Name="tranStartTime" Type="list">nil</field>
+					</field>
+				</field>
+			</field>
+		</component>
+		<component Name="emirOptions" Type="skillTable">asiEnvSaveTable
+			<partition Name="emirOpts">
+				<field Name="staticAnaSummaryBox" Type="list">nil</field>
+				<field Name="sheEmReportsRms" Type="list">nil</field>
+				<field Name="sheViewName" Type="string">""</field>
+				<field Name="customizedOptionsListBox" Type="list">nil</field>
+				<field Name="techFileMode" Type="string">"qrcTechFile with external EM Only ICT File"</field>
+				<field Name="foundry" Type="string">""</field>
+				<field Name="dspfListBox" Type="list">nil</field>
+				<field Name="dfIILayermapNoShe" Type="string">""</field>
+				<field Name="includeFile" Type="string">""</field>
+				<field Name="sheCellName" Type="string">""</field>
+				<field Name="runDirGF12LPPShe" Type="string">""</field>
+				<field Name="runNameNoShe" Type="string">""</field>
+				<field Name="hideAnalysesItems" Type="string">""</field>
+				<field Name="runNameTSMCShe" Type="string">""</field>
+				<field Name="layerName" Type="string">""</field>
+				<field Name="timeWindowListBox" Type="list">nil</field>
+				<field Name="layermapNoShe" Type="string">"Use DFII Layermap"</field>
+				<field Name="sheEmReports" Type="list">nil</field>
+				<field Name="editSummaryInfoTable" Type="list">nil</field>
+				<field Name="emOnlyIctFile" Type="string">""</field>
+				<field Name="spgsFilterMoscap" Type="string">"no"</field>
+				<field Name="layermapGF12LPPShe" Type="string">"Use DFII Layermap"</field>
+				<field Name="sheSelfHeatingReports" Type="list">nil</field>
+				<field Name="advancedTableForSHE" Type="list">nil</field>
+				<field Name="sheEmReportsAvg" Type="list">nil</field>
+				<field Name="dfIILayermapGF12LPPShe" Type="string">""</field>
+				<field Name="vfiProcess" Type="string">""</field>
+				<field Name="netName" Type="string">""</field>
+				<field Name="runNameTSMCNoShe" Type="string">""</field>
+				<field Name="advancedTableForSHE12LPP" Type="list">nil</field>
+				<field Name="short" Type="string">""</field>
+				<field Name="dfIILayermapTSMCNoShe" Type="string">""</field>
+				<field Name="qrcTechFile" Type="string">""</field>
+				<field Name="runDirTSMCShe" Type="string">""</field>
+				<field Name="shortResLayer" Type="string">"yes"</field>
+				<field Name="shEMEffect" Type="string">"beolT"</field>
+				<field Name="layermapTSMCNoShe" Type="string">"Use DFII Layermap"</field>
+				<field Name="timeWindowMode" Type="string">""</field>
+				<field Name="advancedTableForNoSHE" Type="list">nil</field>
+				<field Name="solverMethod" Type="string">"Direct"</field>
+				<field Name="summaryListBox" Type="list">nil</field>
+				<field Name="irIrcxFile" Type="string">""</field>
+				<field Name="enableEMIRAna" Type="list">nil</field>
+				<field Name="solverMethodTable" Type="list">nil</field>
+				<field Name="advancedTable" Type="list">nil</field>
+				<field Name="sheTileSizeR" Type="string">""</field>
+				<field Name="emDataFile" Type="string">""</field>
+				<field Name="runDirTSMCNoShe" Type="string">""</field>
+				<field Name="dynamicAnaSummaryBox" Type="list">nil</field>
+				<field Name="disableShapeServerSH" Type="string">""</field>
+				<field Name="dspfLayermap" Type="string">""</field>
+				<field Name="sheEmReportsPeak" Type="list">nil</field>
+				<field Name="staticCurrentFile" Type="string">""</field>
+				<field Name="emIrcxFile" Type="string">""</field>
+				<field Name="ictFile" Type="string">""</field>
+				<field Name="runNameGF12LPPShe" Type="string">""</field>
+				<field Name="res_pdata_sw" Type="string">""</field>
+				<field Name="anaType" Type="string">"Dynamic"</field>
+				<field Name="sheTileSizeL" Type="string">""</field>
+				<field Name="spgsAdvIRDrop" Type="list">nil</field>
+				<field Name="sheLibName" Type="string">""</field>
+				<field Name="mode" Type="string">"No SHE"</field>
+				<field Name="shParamFile" Type="string">""</field>
+				<field Name="autoLoadVfiFile" Type="list">nil</field>
+				<field Name="runDirNoShe" Type="string">""</field>
+			</partition>
+		</component>
+		<component Name="environmentOptions" Type="skillTable">asiEnvSaveTable
+			<partition Name="envOpts">
+				<field Name="savestate" Type="string">""</field>
+				<field Name="emAnaType" Type="string">"Dynamic"</field>
+				<field Name="analysisOrder" Type="list">("pz" "dcmatch" "stb" "tran" "envlp" "ac" "dc" "lf" "noise" "xf" "sp" "pss" "pac" "pstb" "pnoise" "pxf" "psp" "qpss" "qpac" "qpnoise" "qpxf" "qpsp" "hb" "hbac" "hbstb" "hbnoise" "hbxf" "sens" "acmatch")</field>
+				<field Name="termDirectionMismatch" Type="string">"default"</field>
+				<field Name="bus_delimiter" Type="string">""</field>
+				<field Name="extra_port" Type="string">"false"</field>
+				<field Name="emirEnable" Type="list">nil</field>
+				<field Name="setTopLevelAsSubckt" Type="list">nil</field>
+				<field Name="enableDiagnose" Type="list">nil</field>
+				<field Name="case_sensitive" Type="string">"false"</field>
+				<field Name="licQueueSleep" Type="string">""</field>
+				<field Name="enableNoiseRefactor" Type="symbol">t</field>
+				<field Name="cpfIsVMSEnabled" Type="symbol">t</field>
+				<field Name="stimulusFile" Type="list">nil</field>
+				<field Name="printComments" Type="list">(nil nil)</field>
+				<field Name="enableNewMultiHarmCut" Type="list">nil</field>
+				<field Name="emirSumList_Static" Type="list">nil</field>
+				<field Name="emirEnable_static" Type="list">nil</field>
+				<field Name="liclog" Type="list">nil</field>
+				<field Name="emLayerMap" Type="string">""</field>
+				<field Name="stopViewList" Type="list">("spectre")</field>
+				<field Name="emirSumList" Type="list">nil</field>
+				<field Name="sst2usecolon" Type="list">nil</field>
+				<field Name="lastEmAnaType" Type="string">""</field>
+				<field Name="emTechFile" Type="string">""</field>
+				<field Name="pllWizardinfo" Type="string">""</field>
+				<field Name="dspfFile" Type="list">nil</field>
+				<field Name="licQueueTimeOut" Type="string">"900"</field>
+				<field Name="restart" Type="string">""</field>
+				<field Name="preserveSubcktTermNamesByOrder" Type="list">nil</field>
+				<field Name="setEngNotation" Type="list">nil</field>
+				<field Name="pllPlugin" Type="string">""</field>
+				<field Name="lsusp" Type="list">nil</field>
+				<field Name="firstRun" Type="symbol">t</field>
+				<field Name="emirLCVDisable" Type="list">nil</field>
+				<field Name="definitionFiles" Type="list">nil</field>
+				<field Name="cmd64bit" Type="list">nil</field>
+				<field Name="paramRangeCheckFile" Type="string">""</field>
+				<field Name="emirDSPF" Type="list">nil</field>
+				<field Name="emirSumList_MacroModel" Type="list">nil</field>
+				<field Name="vcoType" Type="string">""</field>
+				<field Name="poloNameMapDBDir" Type="string">""</field>
+				<field Name="autoDisplay" Type="symbol">t</field>
+				<field Name="enableArclength" Type="list">nil</field>
+				<field Name="emirSumList_Dynamic" Type="list">nil</field>
+				<field Name="mapFirstSubnodeForNet" Type="list">nil</field>
+				<field Name="switchViewList" Type="list">("spectre" "cmos_sch" "cmos.sch" "schematic" "veriloga")</field>
+				<field Name="rptOptionToggle" Type="string">""</field>
+				<field Name="macroModelEnable" Type="list">nil</field>
+				<field Name="userCmdLineOption" Type="string">""</field>
+				<field Name="macroModelList" Type="list">nil</field>
+				<field Name="displayToolTip" Type="symbol">t</field>
+				<field Name="emirSumList_SPGS" Type="list">nil</field>
+				<field Name="emOnlyICTFile" Type="string">""</field>
+				<field Name="port_order" Type="string">"sch"</field>
+				<field Name="termMismatch" Type="string">"default"</field>
+				<field Name="emirEnable_spgs" Type="list">nil</field>
+				<field Name="enablePhaseNoiseBW" Type="symbol">t</field>
+				<field Name="other_opts" Type="string">""</field>
+			</partition>
+		</component>
+		<component Name="graphicalStimuli" Type="skillTable">graphicalStimTable
+			<field Name="HISTORY_NAMED_STIMULI" Type="list">(((stimuliName "VDD") (libName "") (srcType "dc") (sourceName "Voltage") (cdfInstName "vdc") (isRemoved "false") (timeStamp "13/11/2021;3:39:46:PM") (stopTime "1n") (isourceResistor "1k") (cdfParams (("FNpairs" "0") ("vdc" "1.8")))) ((stimuliName "GND") (libName "") (srcType "dc") (sourceName "Voltage") (cdfInstName "vdc") (isRemoved "false") (timeStamp "13/11/2021;3:39:52:PM") (stopTime "1n") (isourceResistor "1k") (cdfParams (("FNpairs" "0") ("vdc" "0")))) ((stimuliName "WR_pulse") (libName "") (srcType "pulse") (sourceName "Voltage") (cdfInstName "vpulse") (isRemoved "false") (timeStamp "13/11/2021;3:59:52:PM") (stopTime "1n") (isourceResistor "1k") (cdfParams (("FNpairs" "0") ("vdc" "1.8") ("v1" "1.8") ("v2" "0") ("per" "10n") ("td" "0") ("tr" "1p") ("tf" "1p") ("pw" "100p")))) ((stimuliName "READ_pulse") (libName "") (srcType "pulse") (sourceName "Voltage") (cdfInstName "vpulse") (isRemoved "false") (timeStamp "13/11/2021;4:0:20:PM") (stopTime "1n") (isourceResistor "1k") (cdfParams (("FNpairs" "0") ("vdc" "1.8") ("v1" "1.8") ("v2" "0") ("per" "10n") ("td" "150p") ("tr" "1p") ("tf" "1p") ("pw" "100p")))))</field>
+			<field Name="GLOBALS" Type="list">(nil)</field>
+			<field Name="INPUTS" Type="list">(((name "WWL&lt;0&gt;") (nodes ("WWL&lt;0&gt;" "/gnd!")) (enabled t) (tranType "pulse") (srcType "Voltage") (instParameters (dc("1.8") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (val0 "1.8") (val1 "0") (period "10n") delay("0") (rise "1p") (fall "1p") (width "100p") (tc1 "") (tc2 "") (tnom "") type("pulse") (edgetype ""))) (otherParameters ((fundname "") (noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 ""))) (namedStimuli "WR_pulse")) ((name "RWL&lt;0&gt;") (nodes ("RWL&lt;0&gt;" "/gnd!")) (enabled t) (tranType "pulse") (srcType "Voltage") (instParameters (dc("1.8") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (val0 "1.8") (val1 "0") (period "10n") delay("150p") (rise "1p") (fall "1p") (width "100p") (tc1 "") (tc2 "") (tnom "") type("pulse") (edgetype ""))) (otherParameters ((fundname "") (noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 ""))) (namedStimuli "READ_pulse")) ((name "VDD") (nodes ("VDD" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("1.8") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 ""))) (namedStimuli "VDD")) ((name "GND") (nodes ("GND" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("0") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 ""))) (namedStimuli "GND")) ((name "WBL&lt;15&gt;") (nodes ("WBL&lt;15&gt;" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("1.8") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 ""))) (namedStimuli "VDD")) ((name "WBL&lt;14&gt;") (nodes ("WBL&lt;14&gt;" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("1.8") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 ""))) (namedStimuli "VDD")) ((name "WBL&lt;13&gt;") (nodes ("WBL&lt;13&gt;" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("1.8") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 ""))) (namedStimuli "VDD")) ((name "WBL&lt;12&gt;") (nodes ("WBL&lt;12&gt;" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("1.8") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 ""))) (namedStimuli "VDD")) ((name "WBL&lt;11&gt;") (nodes ("WBL&lt;11&gt;" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("1.8") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 ""))) (namedStimuli "VDD")) ((name "WBL&lt;10&gt;") (nodes ("WBL&lt;10&gt;" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("1.8") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 ""))) (namedStimuli "VDD")) ((name "WBL&lt;9&gt;") (nodes ("WBL&lt;9&gt;" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("1.8") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 ""))) (namedStimuli "VDD")) ((name "WBL&lt;8&gt;") (nodes ("WBL&lt;8&gt;" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("1.8") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 ""))) (namedStimuli "VDD")) ((name "WBL&lt;7&gt;") (nodes ("WBL&lt;7&gt;" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("1.8") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 ""))) (namedStimuli "VDD")) ((name "WBL&lt;6&gt;") (nodes ("WBL&lt;6&gt;" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("1.8") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 ""))) (namedStimuli "VDD")) ((name "WBL&lt;5&gt;") (nodes ("WBL&lt;5&gt;" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("1.8") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 ""))) (namedStimuli "VDD")) ((name "WBL&lt;4&gt;") (nodes ("WBL&lt;4&gt;" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("1.8") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 ""))) (namedStimuli "VDD")) ((name "WBL&lt;3&gt;") (nodes ("WBL&lt;3&gt;" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("1.8") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 ""))) (namedStimuli "VDD")) ((name "WBL&lt;2&gt;") (nodes ("WBL&lt;2&gt;" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("1.8") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 ""))) (namedStimuli "VDD")) ((name "WBL&lt;1&gt;") (nodes ("WBL&lt;1&gt;" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("1.8") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 ""))) (namedStimuli "VDD")) ((name "WBL&lt;0&gt;") (nodes ("WBL&lt;0&gt;" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("1.8") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 ""))) (namedStimuli "VDD")) ((name "WBLB&lt;15&gt;") (nodes ("WBLB&lt;15&gt;" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("0") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 ""))) (namedStimuli "GND")) ((name "WBLB&lt;14&gt;") (nodes ("WBLB&lt;14&gt;" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("0") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 ""))) (namedStimuli "GND")) ((name "WBLB&lt;13&gt;") (nodes ("WBLB&lt;13&gt;" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("0") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 ""))) (namedStimuli "GND")) ((name "WBLB&lt;12&gt;") (nodes ("WBLB&lt;12&gt;" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("0") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 ""))) (namedStimuli "GND")) ((name "WBLB&lt;11&gt;") (nodes ("WBLB&lt;11&gt;" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("0") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 ""))) (namedStimuli "GND")) ((name "WBLB&lt;10&gt;") (nodes ("WBLB&lt;10&gt;" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("0") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 ""))) (namedStimuli "GND")) ((name "WBLB&lt;9&gt;") (nodes ("WBLB&lt;9&gt;" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("0") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 ""))) (namedStimuli "GND")) ((name "WBLB&lt;8&gt;") (nodes ("WBLB&lt;8&gt;" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("0") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 ""))) (namedStimuli "GND")) ((name "WBLB&lt;7&gt;") (nodes ("WBLB&lt;7&gt;" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("0") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 ""))) (namedStimuli "GND")) ((name "WBLB&lt;6&gt;") (nodes ("WBLB&lt;6&gt;" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("0") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 ""))) (namedStimuli "GND")) ((name "WBLB&lt;5&gt;") (nodes ("WBLB&lt;5&gt;" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("0") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 ""))) (namedStimuli "GND")) ((name "WBLB&lt;4&gt;") (nodes ("WBLB&lt;4&gt;" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("0") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 ""))) (namedStimuli "GND")) ((name "WBLB&lt;3&gt;") (nodes ("WBLB&lt;3&gt;" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("0") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 ""))) (namedStimuli "GND")) ((name "WBLB&lt;2&gt;") (nodes ("WBLB&lt;2&gt;" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("0") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 ""))) (namedStimuli "GND")) ((name "WBLB&lt;1&gt;") (nodes ("WBLB&lt;1&gt;" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("0") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 ""))) (namedStimuli "GND")) ((name "WBLB&lt;0&gt;") (nodes ("WBLB&lt;0&gt;" "/gnd!")) (enabled t) (tranType "dc") (srcType "Voltage") (instParameters (dc("0") mag("") phase("") (xfmag "") (pacmag "") (pacphase "") (tc1 "") (tc2 "") (tnom "") type("dc"))) (otherParameters ((noisefile "") (FNpairs "0") (F1 "") (N1 "") (F2 "") (N2 "") (F3 "") (N3 "") (F4 "") (N4 "") (F5 "") (N5 "") (F6 "") (N6 "") (F7 "") (N7 "") (F8 "") (N8 "") (F9 "") (N9 "") (F10 "") (N10 "") (F11 "") (N11 "") (F12 "") (N12 "") (F13 "") (N13 "") (F14 "") (N14 "") (F15 "") (N15 "") (F16 "") (N16 "") (F17 "") (N17 "") (F18 "") (N18 "") (F19 "") (N19 "") (F20 "") (N20 "") (F21 "") (N21 "") (F22 "") (N22 "") (F23 "") (N23 "") (F24 "") (N24 "") (F25 "") (N25 "") (F26 "") (N26 "") (F27 "") (N27 "") (F28 "") (N28 "") (F29 "") (N29 "") (F30 "") (N30 "") (F31 "") (N31 "") (F32 "") (N32 "") (F33 "") (N33 "") (F34 "") (N34 "") (F35 "") (N35 "") (F36 "") (N36 "") (F37 "") (N37 "") (F38 "") (N38 "") (F39 "") (N39 "") (F40 "") (N40 "") (F41 "") (N41 "") (F42 "") (N42 "") (F43 "") (N43 "") (F44 "") (N44 "") (F45 "") (N45 "") (F46 "") (N46 "") (F47 "") (N47 "") (F48 "") (N48 "") (F49 "") (N49 "") (F50 "") (N50 ""))) (namedStimuli "GND")))</field>
+		</component>
+		<component Name="mdlOptions" Type="skillTable">asiEnvSaveTable
+			<partition Name="mdlOpts">
+				<field Name="formatType" Type="string">"Default"</field>
+				<field Name="additionals" Type="string">""</field>
+				<field Name="mdlFrom" Type="string">"From File"</field>
+				<field Name="cellName" Type="string">""</field>
+				<field Name="precFormat" Type="string">"%.15g"</field>
+				<field Name="engFormat" Type="fixnum">6</field>
+				<field Name="viewName" Type="string">""</field>
+				<field Name="libName" Type="string">""</field>
+				<field Name="mdlFile" Type="string">""</field>
+				<field Name="enable" Type="list">nil</field>
+			</partition>
+		</component>
+		<component Name="modelSetup" Type="skillTable">modelSetup
+			<field Name="modelFiles" Type="list">(("/package/eda/cells/ncsu-cdk-1.6.0.beta/models/hspice/public/tsmc18dN.m" "") ("/package/eda/cells/ncsu-cdk-1.6.0.beta/models/hspice/public/tsmc18dP.m" ""))</field>
+		</component>
+		<component Name="mtsSetup" Type="skillTable">mtsSetup
+			<field Name="mtsOptions" Type="list">(nil)</field>
+			<field Name="mtsMode" Type="list">nil</field>
+		</component>
+		<component Name="opPoints" Type="skillTable">opPoints
+			<field Name="opPoints" Type="list">nil</field>
+		</component>
+		<component Name="otherInfo" Type="skillTable">otherInfo</component>
+		<component Name="outputs" Type="skillTable">outputs
+			<partition Name="outputsCommon">
+				<partition Name="envSaveOptions">
+					<field Name="keepRegPcellLabel" Type="string">""</field>
+					<field Name="keepRegisteredPcell" Type="symbol">t</field>
+					<field Name="clearPcell" Type="string">""</field>
+					<field Name="savePcellSelect" Type="string">""</field>
+					<field Name="savePcell" Type="string">""</field>
+					<field Name="subcktoppoint" Type="list">nil</field>
+					<field Name="pcellFrame" Type="string">""</field>
+					<field Name="saveBySubcktInstances" Type="list">(("&lt;Click_here_to_add_an_Instance&gt;" "" "" "" "" "" "" "" "all" ""))</field>
+					<field Name="saveBySubcktFrame" Type="string">""</field>
+					<field Name="allcapInfo" Type="list">nil</field>
+					<field Name="extremesInfo" Type="list">nil</field>
+					<field Name="assertsInfo" Type="list">nil</field>
+					<field Name="designParamValInfo" Type="symbol">t</field>
+					<field Name="subcktsInfo" Type="symbol">t</field>
+					<field Name="primitivesInfo" Type="symbol">t</field>
+					<field Name="outputParamInfo" Type="symbol">t</field>
+					<field Name="elementInfo" Type="symbol">t</field>
+					<field Name="saveFrame" Type="string">""</field>
+					<field Name="save" Type="string">"allpub"</field>
+					<field Name="pwr" Type="string">""</field>
+					<field Name="nestlvl" Type="string">""</field>
+					<field Name="currents" Type="string">""</field>
+					<field Name="useprobes" Type="string">""</field>
+					<field Name="subcktprobelvl" Type="string">""</field>
+					<field Name="saveahdlvars" Type="string">""</field>
+					<field Name="timewindFrame" Type="string">""</field>
+					<field Name="enableTimeWindowSetup" Type="list">nil</field>
+					<field Name="timeWindLabel" Type="string">""</field>
+					<field Name="timeWindow" Type="string">""</field>
+					<field Name="signalNames" Type="string">""</field>
+					<field Name="time_window_a" Type="string">""</field>
+					<field Name="sumInfo_a" Type="string">""</field>
+					<field Name="infoFrame" Type="string">""</field>
+					<field Name="infoOptions" Type="list">(("modelParameter" "models" "rawfile" "" "" "" t) ("element" "inst" "rawfile" "" "" "" t) ("outputParameter" "output" "rawfile" "" "" "" t) ("designParamVals" "parameters" "rawfile" "" "" "" t) ("primitives" "primitives" "rawfile" "" "" "" t) ("subckts" "subckts" "rawfile" "" "" "" t) ("asserts" "assert" "rawfile" "" "" "" nil) ("extremeinfo" "all" "logfile" "" "yes" "" nil) ("&lt;Click_To_Add&gt;" "none" "rawfile" "" "" "" nil))</field>
+					<field Name="captab_detail" Type="string">"node"</field>
+					<field Name="captab_sort" Type="string">"name"</field>
+					<field Name="captab_threshold" Type="string">""</field>
+					<field Name="outputFrame" Type="string">""</field>
+					<field Name="simOutputFormat" Type="string">""</field>
+					<field Name="fastViewOption" Type="list">nil</field>
+					<field Name="modelParamInfo" Type="symbol">t</field>
+				</partition>
+				<field Name="outputList" Type="skillList">
+					<field Name="outputList_0" Type="defstruct">sevOutputStruct
+						<field Name="name" Type="list">nil</field>
+						<field Name="expression" Type="list">nil</field>
+						<field Name="signal" Type="string">"/RBL&lt;15:0&gt;"</field>
+						<field Name="scriptFile" Type="list">nil</field>
+						<field Name="type2" Type="list">nil</field>
+						<field Name="evalType" Type="list">nil</field>
+						<field Name="displayIt" Type="list">nil</field>
+						<field Name="internalName" Type="list">nil</field>
+						<field Name="masterName" Type="list">nil</field>
+						<field Name="masterScriptFile" Type="list">nil</field>
+						<field Name="saveScriptFile" Type="list">nil</field>
+						<field Name="saveMasterScriptFile" Type="list">nil</field>
+						<field Name="isReferenced" Type="list">nil</field>
+						<field Name="lastEvalTime" Type="list">nil</field>
+						<field Name="origin" Type="list">nil</field>
+						<field Name="sweepSet" Type="list">nil</field>
+						<field Name="depList" Type="list">nil</field>
+						<field Name="type" Type="symbol">net</field>
+						<field Name="areaTable" Type="list">nil</field>
+						<field Name="selectionDetail" Type="list">((color ("y2" "drawing")))</field>
+						<field Name="value" Type="list">nil</field>
+						<field Name="plot" Type="symbol">t</field>
+						<field Name="save" Type="list">nil</field>
+						<field Name="march" Type="list">nil</field>
+						<field Name="implicit" Type="list">nil</field>
+						<field Name="index" Type="fixnum">1</field>
+						<field Name="timeStamp" Type="list">nil</field>
+						<field Name="graphType" Type="list">nil</field>
+						<field Name="yaxisLabel" Type="list">nil</field>
+						<field Name="label" Type="list">nil</field>
+						<field Name="yaxisUnit" Type="list">nil</field>
+						<field Name="waveSpec" Type="list">nil</field>
+						<field Name="uniqueName" Type="string">"/RBL&lt;15:0&gt;"</field>
+						<field Name="inValidObject" Type="list">nil</field>
+						<field Name="inLastSet" Type="list">nil</field>
+					</field>
+					<field Name="outputList_1" Type="defstruct">sevOutputStruct
+						<field Name="name" Type="list">nil</field>
+						<field Name="expression" Type="list">nil</field>
+						<field Name="signal" Type="string">"/WWL&lt;0&gt;"</field>
+						<field Name="scriptFile" Type="list">nil</field>
+						<field Name="type2" Type="list">nil</field>
+						<field Name="evalType" Type="list">nil</field>
+						<field Name="displayIt" Type="list">nil</field>
+						<field Name="internalName" Type="list">nil</field>
+						<field Name="masterName" Type="list">nil</field>
+						<field Name="masterScriptFile" Type="list">nil</field>
+						<field Name="saveScriptFile" Type="list">nil</field>
+						<field Name="saveMasterScriptFile" Type="list">nil</field>
+						<field Name="isReferenced" Type="list">nil</field>
+						<field Name="lastEvalTime" Type="list">nil</field>
+						<field Name="origin" Type="list">nil</field>
+						<field Name="sweepSet" Type="list">nil</field>
+						<field Name="depList" Type="list">nil</field>
+						<field Name="type" Type="symbol">net</field>
+						<field Name="areaTable" Type="list">nil</field>
+						<field Name="selectionDetail" Type="list">((color ("y3" "drawing")))</field>
+						<field Name="value" Type="list">nil</field>
+						<field Name="plot" Type="symbol">t</field>
+						<field Name="save" Type="list">nil</field>
+						<field Name="march" Type="list">nil</field>
+						<field Name="implicit" Type="list">nil</field>
+						<field Name="index" Type="fixnum">2</field>
+						<field Name="timeStamp" Type="list">nil</field>
+						<field Name="graphType" Type="list">nil</field>
+						<field Name="yaxisLabel" Type="list">nil</field>
+						<field Name="label" Type="list">nil</field>
+						<field Name="yaxisUnit" Type="list">nil</field>
+						<field Name="waveSpec" Type="list">nil</field>
+						<field Name="uniqueName" Type="string">"/WWL&lt;0&gt;"</field>
+						<field Name="inValidObject" Type="list">nil</field>
+						<field Name="inLastSet" Type="list">nil</field>
+					</field>
+					<field Name="outputList_2" Type="defstruct">sevOutputStruct
+						<field Name="name" Type="list">nil</field>
+						<field Name="expression" Type="list">nil</field>
+						<field Name="signal" Type="string">"/RWL&lt;0&gt;"</field>
+						<field Name="scriptFile" Type="list">nil</field>
+						<field Name="type2" Type="list">nil</field>
+						<field Name="evalType" Type="list">nil</field>
+						<field Name="displayIt" Type="list">nil</field>
+						<field Name="internalName" Type="list">nil</field>
+						<field Name="masterName" Type="list">nil</field>
+						<field Name="masterScriptFile" Type="list">nil</field>
+						<field Name="saveScriptFile" Type="list">nil</field>
+						<field Name="saveMasterScriptFile" Type="list">nil</field>
+						<field Name="isReferenced" Type="list">nil</field>
+						<field Name="lastEvalTime" Type="list">nil</field>
+						<field Name="origin" Type="list">nil</field>
+						<field Name="sweepSet" Type="list">nil</field>
+						<field Name="depList" Type="list">nil</field>
+						<field Name="type" Type="symbol">net</field>
+						<field Name="areaTable" Type="list">nil</field>
+						<field Name="selectionDetail" Type="list">((color ("y4" "drawing")))</field>
+						<field Name="value" Type="list">nil</field>
+						<field Name="plot" Type="symbol">t</field>
+						<field Name="save" Type="list">nil</field>
+						<field Name="march" Type="list">nil</field>
+						<field Name="implicit" Type="list">nil</field>
+						<field Name="index" Type="fixnum">3</field>
+						<field Name="timeStamp" Type="list">nil</field>
+						<field Name="graphType" Type="list">nil</field>
+						<field Name="yaxisLabel" Type="list">nil</field>
+						<field Name="label" Type="list">nil</field>
+						<field Name="yaxisUnit" Type="list">nil</field>
+						<field Name="waveSpec" Type="list">nil</field>
+						<field Name="uniqueName" Type="string">"/RWL&lt;0&gt;"</field>
+						<field Name="inValidObject" Type="list">nil</field>
+						<field Name="inLastSet" Type="list">nil</field>
+					</field>
+					<field Name="outputList_3" Type="defstruct">sevOutputStruct
+						<field Name="name" Type="list">nil</field>
+						<field Name="expression" Type="list">nil</field>
+						<field Name="signal" Type="string">"/VDD"</field>
+						<field Name="scriptFile" Type="list">nil</field>
+						<field Name="type2" Type="list">nil</field>
+						<field Name="evalType" Type="list">nil</field>
+						<field Name="displayIt" Type="list">nil</field>
+						<field Name="internalName" Type="list">nil</field>
+						<field Name="masterName" Type="list">nil</field>
+						<field Name="masterScriptFile" Type="list">nil</field>
+						<field Name="saveScriptFile" Type="list">nil</field>
+						<field Name="saveMasterScriptFile" Type="list">nil</field>
+						<field Name="isReferenced" Type="list">nil</field>
+						<field Name="lastEvalTime" Type="list">nil</field>
+						<field Name="origin" Type="list">nil</field>
+						<field Name="sweepSet" Type="list">nil</field>
+						<field Name="depList" Type="list">nil</field>
+						<field Name="type" Type="symbol">net</field>
+						<field Name="areaTable" Type="list">nil</field>
+						<field Name="selectionDetail" Type="list">((color ("y5" "drawing")))</field>
+						<field Name="value" Type="list">nil</field>
+						<field Name="plot" Type="list">nil</field>
+						<field Name="save" Type="list">nil</field>
+						<field Name="march" Type="list">nil</field>
+						<field Name="implicit" Type="list">nil</field>
+						<field Name="index" Type="fixnum">4</field>
+						<field Name="timeStamp" Type="list">nil</field>
+						<field Name="graphType" Type="list">nil</field>
+						<field Name="yaxisLabel" Type="list">nil</field>
+						<field Name="label" Type="list">nil</field>
+						<field Name="yaxisUnit" Type="list">nil</field>
+						<field Name="waveSpec" Type="list">nil</field>
+						<field Name="uniqueName" Type="string">"/VDD"</field>
+						<field Name="inValidObject" Type="list">(nil "/VDD")</field>
+						<field Name="inLastSet" Type="list">nil</field>
+					</field>
+					<field Name="outputList_4" Type="defstruct">sevOutputStruct
+						<field Name="name" Type="list">nil</field>
+						<field Name="expression" Type="list">nil</field>
+						<field Name="signal" Type="string">"/GND"</field>
+						<field Name="scriptFile" Type="list">nil</field>
+						<field Name="type2" Type="list">nil</field>
+						<field Name="evalType" Type="list">nil</field>
+						<field Name="displayIt" Type="list">nil</field>
+						<field Name="internalName" Type="list">nil</field>
+						<field Name="masterName" Type="list">nil</field>
+						<field Name="masterScriptFile" Type="list">nil</field>
+						<field Name="saveScriptFile" Type="list">nil</field>
+						<field Name="saveMasterScriptFile" Type="list">nil</field>
+						<field Name="isReferenced" Type="list">nil</field>
+						<field Name="lastEvalTime" Type="list">nil</field>
+						<field Name="origin" Type="list">nil</field>
+						<field Name="sweepSet" Type="list">nil</field>
+						<field Name="depList" Type="list">nil</field>
+						<field Name="type" Type="symbol">net</field>
+						<field Name="areaTable" Type="list">nil</field>
+						<field Name="selectionDetail" Type="list">((color ("y6" "drawing")))</field>
+						<field Name="value" Type="list">nil</field>
+						<field Name="plot" Type="list">nil</field>
+						<field Name="save" Type="list">nil</field>
+						<field Name="march" Type="list">nil</field>
+						<field Name="implicit" Type="list">nil</field>
+						<field Name="index" Type="fixnum">5</field>
+						<field Name="timeStamp" Type="list">nil</field>
+						<field Name="graphType" Type="list">nil</field>
+						<field Name="yaxisLabel" Type="list">nil</field>
+						<field Name="label" Type="list">nil</field>
+						<field Name="yaxisUnit" Type="list">nil</field>
+						<field Name="waveSpec" Type="list">nil</field>
+						<field Name="uniqueName" Type="string">"/GND"</field>
+						<field Name="inValidObject" Type="list">(nil "/GND")</field>
+						<field Name="inLastSet" Type="list">nil</field>
+					</field>
+					<field Name="outputList_5" Type="defstruct">sevOutputStruct
+						<field Name="name" Type="list">nil</field>
+						<field Name="expression" Type="list">nil</field>
+						<field Name="signal" Type="string">"/WBL&lt;15:0&gt;"</field>
+						<field Name="scriptFile" Type="list">nil</field>
+						<field Name="type2" Type="list">nil</field>
+						<field Name="evalType" Type="list">nil</field>
+						<field Name="displayIt" Type="list">nil</field>
+						<field Name="internalName" Type="list">nil</field>
+						<field Name="masterName" Type="list">nil</field>
+						<field Name="masterScriptFile" Type="list">nil</field>
+						<field Name="saveScriptFile" Type="list">nil</field>
+						<field Name="saveMasterScriptFile" Type="list">nil</field>
+						<field Name="isReferenced" Type="list">nil</field>
+						<field Name="lastEvalTime" Type="list">nil</field>
+						<field Name="origin" Type="list">nil</field>
+						<field Name="sweepSet" Type="list">nil</field>
+						<field Name="depList" Type="list">nil</field>
+						<field Name="type" Type="symbol">net</field>
+						<field Name="areaTable" Type="list">nil</field>
+						<field Name="selectionDetail" Type="list">((color ("y7" "drawing")))</field>
+						<field Name="value" Type="list">nil</field>
+						<field Name="plot" Type="symbol">t</field>
+						<field Name="save" Type="list">nil</field>
+						<field Name="march" Type="list">nil</field>
+						<field Name="implicit" Type="list">nil</field>
+						<field Name="index" Type="fixnum">6</field>
+						<field Name="timeStamp" Type="list">nil</field>
+						<field Name="graphType" Type="list">nil</field>
+						<field Name="yaxisLabel" Type="list">nil</field>
+						<field Name="label" Type="list">nil</field>
+						<field Name="yaxisUnit" Type="list">nil</field>
+						<field Name="waveSpec" Type="list">nil</field>
+						<field Name="uniqueName" Type="string">"/WBL&lt;15:0&gt;"</field>
+						<field Name="inValidObject" Type="list">nil</field>
+						<field Name="inLastSet" Type="list">nil</field>
+					</field>
+					<field Name="outputList_6" Type="defstruct">sevOutputStruct
+						<field Name="name" Type="list">nil</field>
+						<field Name="expression" Type="list">nil</field>
+						<field Name="signal" Type="string">"/WBLB&lt;15:0&gt;"</field>
+						<field Name="scriptFile" Type="list">nil</field>
+						<field Name="type2" Type="list">nil</field>
+						<field Name="evalType" Type="list">nil</field>
+						<field Name="displayIt" Type="list">nil</field>
+						<field Name="internalName" Type="list">nil</field>
+						<field Name="masterName" Type="list">nil</field>
+						<field Name="masterScriptFile" Type="list">nil</field>
+						<field Name="saveScriptFile" Type="list">nil</field>
+						<field Name="saveMasterScriptFile" Type="list">nil</field>
+						<field Name="isReferenced" Type="list">nil</field>
+						<field Name="lastEvalTime" Type="list">nil</field>
+						<field Name="origin" Type="list">nil</field>
+						<field Name="sweepSet" Type="list">nil</field>
+						<field Name="depList" Type="list">nil</field>
+						<field Name="type" Type="symbol">net</field>
+						<field Name="areaTable" Type="list">nil</field>
+						<field Name="selectionDetail" Type="list">((color ("y8" "drawing")))</field>
+						<field Name="value" Type="list">nil</field>
+						<field Name="plot" Type="symbol">t</field>
+						<field Name="save" Type="list">nil</field>
+						<field Name="march" Type="list">nil</field>
+						<field Name="implicit" Type="list">nil</field>
+						<field Name="index" Type="fixnum">7</field>
+						<field Name="timeStamp" Type="list">nil</field>
+						<field Name="graphType" Type="list">nil</field>
+						<field Name="yaxisLabel" Type="list">nil</field>
+						<field Name="label" Type="list">nil</field>
+						<field Name="yaxisUnit" Type="list">nil</field>
+						<field Name="waveSpec" Type="list">nil</field>
+						<field Name="uniqueName" Type="string">"/WBLB&lt;15:0&gt;"</field>
+						<field Name="inValidObject" Type="list">nil</field>
+						<field Name="inLastSet" Type="list">nil</field>
+					</field>
+				</field>
+			</partition>
+			<partition Name="outputsScripts">
+				<field Name="outputList" Type="list">nil</field>
+			</partition>
+			<partition Name="outputsAreaGoal">
+				<field Name="areaGoal" Type="list">nil</field>
+			</partition>
+			<partition Name="outputsOpRegion">
+				<field Name="opRegion" Type="list">nil</field>
+			</partition>
+		</component>
+		<component Name="paramSetup" Type="skillTable">expr</component>
+		<component Name="relxOptions" Type="skillTable">asiEnvSaveTable
+			<partition Name="relxOpts">
+				<field Name="mosDevDegVdsatModels" Type="string">""</field>
+				<field Name="degSortMaxDevices" Type="string">""</field>
+				<field Name="anaModeClone" Type="string">"Reliability"</field>
+				<field Name="presetType" Type="string">"lifetime"</field>
+				<field Name="degCheckException" Type="string">""</field>
+				<field Name="enablePreset" Type="list">nil</field>
+				<field Name="scaleMode" Type="string">"Original"</field>
+				<field Name="mosDevDegVgsweep_end_nModels" Type="string">""</field>
+				<field Name="mosDevDegVdsat" Type="string">""</field>
+				<field Name="mosDevDegVgsweep_start_pModels" Type="string">""</field>
+				<field Name="mosOutputBiasVoltage" Type="list">nil</field>
+				<field Name="mosDevDegVgsweep_end_n" Type="string">""</field>
+				<field Name="showOutputModelName" Type="list">nil</field>
+				<field Name="gaAlterValue" Type="string">""</field>
+				<field Name="mosDevDegVglin" Type="string">""</field>
+				<field Name="degSortAgeLevel" Type="string">"TMI Default"</field>
+				<field Name="mosDumpAgeModel" Type="list">nil</field>
+				<field Name="includeFiles" Type="string">""</field>
+				<field Name="doADELPostProcess" Type="symbol">t</field>
+				<field Name="mosSubcktInSch" Type="string">""</field>
+				<field Name="mosCalcLifetime" Type="list">nil</field>
+				<field Name="gaMode" Type="string">"Age points"</field>
+				<field Name="mosDevDegVgsweep_start_p" Type="string">""</field>
+				<field Name="mosDeltadIdlin" Type="string">"0.1"</field>
+				<field Name="mosDevDegVbconst_pModels" Type="string">""</field>
+				<field Name="mosDevDegVddSetting" Type="list">nil</field>
+				<field Name="mcMode" Type="string">"singlestress"</field>
+				<field Name="gaAlterHeadListBox" Type="list">nil</field>
+				<field Name="mosDeltadIdsat" Type="string">"0.1"</field>
+				<field Name="mosDevDegVglinModels" Type="string">""</field>
+				<field Name="degSortThreshold" Type="string">""</field>
+				<field Name="gaSkipLast" Type="list">nil</field>
+				<field Name="gaAlterParam" Type="string">""</field>
+				<field Name="enableEMIROnStress" Type="list">nil</field>
+				<field Name="anaMode" Type="string">"Reliability"</field>
+				<field Name="outputSubcktDegSubNodes" Type="string">""</field>
+				<field Name="mosMaskSubckt" Type="string">""</field>
+				<field Name="gaSkipFresh" Type="list">nil</field>
+				<field Name="mosDevDegVgsweep_start_nModels" Type="string">""</field>
+				<field Name="presetValue" Type="string">""</field>
+				<field Name="checknegagingtype" Type="string">"error"</field>
+				<field Name="gaSaveResults" Type="string">"all"</field>
+				<field Name="gaInputStressDir" Type="string">""</field>
+				<field Name="mosDevDegVbconst_nModels" Type="string">""</field>
+				<field Name="mosDevDegVgsat" Type="string">""</field>
+				<field Name="aged_var_list" Type="list">nil</field>
+				<field Name="cycleTime" Type="string">""</field>
+				<field Name="simModeType" Type="string">"all"</field>
+				<field Name="limitDegradation" Type="string">"Real"</field>
+				<field Name="reportSubcktDegradation" Type="list">nil</field>
+				<field Name="relxTranStop" Type="string">""</field>
+				<field Name="simModeFile" Type="string">"input.bs0"</field>
+				<field Name="gaAlterTime" Type="string">""</field>
+				<field Name="btiRecovery" Type="list">nil</field>
+				<field Name="stress_var_list" Type="list">nil</field>
+				<field Name="mosMaskDevInclude" Type="string">"include"</field>
+				<field Name="compactagednetlist" Type="string">"none"</field>
+				<field Name="mosDevDegVgsweep_start_n" Type="string">""</field>
+				<field Name="mosDeltadVtlin" Type="string">"0.1"</field>
+				<field Name="mosMaskDevInstance" Type="string">""</field>
+				<field Name="showDegHideAgeLevel" Type="string">""</field>
+				<field Name="combinedeg" Type="string">"off"</field>
+				<field Name="stress_data_dir" Type="string">""</field>
+				<field Name="mosDevDegModels" Type="string">""</field>
+				<field Name="mosModelsInSch" Type="string">""</field>
+				<field Name="aged_data_dir" Type="string">""</field>
+				<field Name="enableRelXTran" Type="list">nil</field>
+				<field Name="tmiMosMode" Type="list">(t t)</field>
+				<field Name="mosMode" Type="list">(t t t)</field>
+				<field Name="presetBlock" Type="string">""</field>
+				<field Name="mosDevDegVgsatModels" Type="string">""</field>
+				<field Name="enableOutputSubcktDegInFile" Type="string">"GUI"</field>
+				<field Name="fresh_data_dir" Type="string">""</field>
+				<field Name="mosDevDegVsconst" Type="string">""</field>
+				<field Name="mosDevDegVdd" Type="string">""</field>
+				<field Name="nativeMode" Type="string">"Spectre native"</field>
+				<field Name="mosDevDegVbconst_p" Type="string">""</field>
+				<field Name="mosAgingTimeUnit" Type="string">"Years"</field>
+				<field Name="mosMaskDev" Type="list">nil</field>
+				<field Name="mosDevDegVsconstModels" Type="string">""</field>
+				<field Name="degdatatype" Type="string">"appendage"</field>
+				<field Name="gaAgeStepUnit" Type="string">"Years"</field>
+				<field Name="mindtemp" Type="string">""</field>
+				<field Name="mosMinAge" Type="string">""</field>
+				<field Name="mosEnableOutputDevDeg" Type="list">nil</field>
+				<field Name="outputSubcktDegVgsatSubckts" Type="string">""</field>
+				<field Name="gaAgeStepStop" Type="string">""</field>
+				<field Name="ageOMIModelType" Type="string">"AgeMOS(Spectre Internal)"</field>
+				<field Name="otherTMIRXOptions" Type="string">""</field>
+				<field Name="uriAppendtype" Type="string">"none"</field>
+				<field Name="enabledegdata" Type="list">nil</field>
+				<field Name="ageMultiMode" Type="string">"AgeMOS(Spectre Internal)"</field>
+				<field Name="showunageddevices" Type="string">"limit"</field>
+				<field Name="displayOMIGui" Type="list">nil</field>
+				<field Name="degSortElectroParam" Type="string">"TMI Default"</field>
+				<field Name="relxTranStart" Type="string">""</field>
+				<field Name="gaAlterParamListBox" Type="list">nil</field>
+				<field Name="mosDeltad" Type="string">"0.1"</field>
+				<field Name="mosDevDegVgstep" Type="string">""</field>
+				<field Name="gaIterationNum" Type="string">""</field>
+				<field Name="addAdditionalArgumentForTMI" Type="list">nil</field>
+				<field Name="gaAgePointsUnit" Type="string">"Years"</field>
+				<field Name="mosHciIdMethod" Type="string">"ids"</field>
+				<field Name="outputSubcktDegVddSubckts" Type="string">""</field>
+				<field Name="gaAgeStepType" Type="string">"lin"</field>
+				<field Name="gaEarlyExit" Type="symbol">t</field>
+				<field Name="mosHciIgateMethod" Type="string">"calculate"</field>
+				<field Name="uriMode" Type="string">"agemos"</field>
+				<field Name="gaAgeStepStart" Type="string">""</field>
+				<field Name="mosAgeModelLimitType" Type="string">"age"</field>
+				<field Name="displayTMIGui" Type="list">nil</field>
+				<field Name="tmiBTI" Type="string">""</field>
+				<field Name="outputmethod" Type="string">"single"</field>
+				<field Name="removeTMIAgeSettingInFresh" Type="list">nil</field>
+				<field Name="tmiNBTI" Type="string">""</field>
+				<field Name="enableSelfheating" Type="list">nil</field>
+				<field Name="gaPassParam" Type="string">"no"</field>
+				<field Name="displayTMIRTSHEGui" Type="list">nil</field>
+				<field Name="mosDevDegVbconst_n" Type="string">""</field>
+				<field Name="outputSubcktDegVgsat" Type="string">""</field>
+				<field Name="relxpertExecName" Type="string">"relxpert"</field>
+				<field Name="saStepType" Type="string">"Total steps"</field>
+				<field Name="enableDegSort" Type="list">nil</field>
+				<field Name="tmiPBTI" Type="string">""</field>
+				<field Name="mosAgingTime" Type="string">"10"</field>
+				<field Name="mosAgeModelLimit" Type="list">nil</field>
+				<field Name="outputSubcktDegIvth" Type="string">""</field>
+				<field Name="reportModelParamChanged" Type="list">nil</field>
+				<field Name="mosHciLifeTimeMethodTable" Type="string">""</field>
+				<field Name="displayRelxpertGui" Type="list">nil</field>
+				<field Name="tmiHCI" Type="string">""</field>
+				<field Name="mosCompactAgeModel" Type="list">nil</field>
+				<field Name="tmiNHCI" Type="string">""</field>
+				<field Name="uriLibs" Type="string">""</field>
+				<field Name="mosAgeModelLimitNum" Type="string">"10"</field>
+				<field Name="mosHciOpMethod" Type="string">"calculate"</field>
+				<field Name="enableTMI" Type="list">nil</field>
+				<field Name="gaMultiPlayBack" Type="list">nil</field>
+				<field Name="outputSubcktDegVdlinSubckts" Type="string">""</field>
+				<field Name="relusercmdlineoption" Type="string">""</field>
+				<field Name="mosOutputDevDegInFilePath" Type="string">""</field>
+				<field Name="mosDevDegVdconstwl" Type="string">""</field>
+				<field Name="mosHciLifeTimeMethod" Type="string">"calculate"</field>
+				<field Name="agingPointsType" Type="string">"Standard aging"</field>
+				<field Name="saAgeStepOrTotalStep" Type="string">""</field>
+				<field Name="ageModelType" Type="string">"AgeMOS(Spectre Internal)"</field>
+				<field Name="enableAging" Type="list">nil</field>
+				<field Name="standardAgeType" Type="string">"Age points"</field>
+				<field Name="enableOutputDevDegInFile" Type="string">"GUI"</field>
+				<field Name="mosOutputSubcktDegInFilePath" Type="string">""</field>
+				<field Name="otherRXOptions" Type="string">""</field>
+				<field Name="mosDevDegVgstepModels" Type="string">""</field>
+				<field Name="mosAgeModelingEffect" Type="string">"Include"</field>
+				<field Name="enableAgingForTMI" Type="symbol">t</field>
+				<field Name="uriDebugMode" Type="string">"0"</field>
+				<field Name="outputSubcktDegVdd" Type="string">""</field>
+				<field Name="ageLevel" Type="string">"All"</field>
+				<field Name="tmiPHCI" Type="string">""</field>
+				<field Name="enableStress" Type="list">nil</field>
+				<field Name="gaAgeStepTotalStep" Type="string">""</field>
+				<field Name="mosVthMethod" Type="string">"calculate"</field>
+				<field Name="mosDevDegVdconst" Type="string">""</field>
+				<field Name="mosDevDegSimulatorPath" Type="string">""</field>
+				<field Name="electroParamType" Type="string">"TMI Default"</field>
+				<field Name="outputSubcktDegVglinSubckts" Type="string">""</field>
+				<field Name="electroParamTypeAgeMos" Type="string">"Delta Idsat"</field>
+				<field Name="mosDevDegVthUseIs" Type="list">nil</field>
+				<field Name="enableAgeMosTMI" Type="list">nil</field>
+				<field Name="temp" Type="string">""</field>
+				<field Name="outputSubcktDegVglin" Type="string">""</field>
+				<field Name="mosMaskModels" Type="string">""</field>
+				<field Name="enableGradualAging" Type="list">nil</field>
+				<field Name="mosModifyNetlist" Type="list">nil</field>
+				<field Name="mosDevDegIdconstwl" Type="string">""</field>
+				<field Name="enableAgeMOS" Type="symbol">t</field>
+				<field Name="mosEffectiveModel" Type="symbol">t</field>
+				<field Name="gaDynamicTable" Type="list">nil</field>
+				<field Name="mosAppendDeviceAge" Type="list">nil</field>
+				<field Name="outputSubcktDegVdlin" Type="string">""</field>
+				<field Name="gaDynamicParam" Type="list">nil</field>
+				<field Name="mosHciAccuracy" Type="string">"liberal (1)"</field>
+				<field Name="gaSaveSome" Type="string">""</field>
+				<field Name="mosAgeModelFilePath" Type="string">""</field>
+				<field Name="mosDevDegVthConstCurrSp" Type="list">nil</field>
+				<field Name="enableRelxpert" Type="list">nil</field>
+				<field Name="mosAgeDomain" Type="string">"loglog"</field>
+				<field Name="outputSubcktDegIvthp" Type="string">""</field>
+				<field Name="gaAgePoints" Type="string">"10"</field>
+				<field Name="mosDevDegVgsweep_end_p" Type="string">""</field>
+				<field Name="outputSubcktDegIvthn" Type="string">""</field>
+				<field Name="outputSubcktDegIvthSubckts" Type="string">""</field>
+				<field Name="mosAgeMethod" Type="string">"agemos"</field>
+				<field Name="mosDevDegVgsweep_end_pModels" Type="string">""</field>
+				<field Name="mosDevDegVdlin" Type="string">""</field>
+				<field Name="agingVariation" Type="list">nil</field>
+				<field Name="tmiAgingType" Type="string">"TMI Aging"</field>
+				<field Name="mosDevDegVdlinModels" Type="string">""</field>
+				<field Name="degRatioDevInstance" Type="string">""</field>
+				<field Name="mosDevDegIdconst" Type="string">""</field>
+				<field Name="checknegagingclamp" Type="string">"no"</field>
+				<field Name="mosDevDegNeedSimulator" Type="list">nil</field>
+				<field Name="enableDegRatio" Type="list">nil</field>
+				<field Name="degRatioDevInclude" Type="string">"include"</field>
+				<field Name="presetAgeLevel" Type="string">""</field>
+				<field Name="outputSubcktDegSubNames" Type="string">""</field>
+				<field Name="mosDevDegVthUseId" Type="list">nil</field>
+			</partition>
+		</component>
+		<component Name="simulationFiles" Type="skillTable">_simulationFiles
+			<field Name="hlcheck" Type="string">"off"</field>
+			<field Name="allVcdFiles" Type="list">nil</field>
+			<field Name="includePath" Type="string">""</field>
+			<field Name="pspiceFile" Type="list">nil</field>
+			<field Name="EVcdFile" Type="string">""</field>
+			<field Name="allDefinitionFiles" Type="list">nil</field>
+			<field Name="definitionFiles" Type="list">nil</field>
+			<field Name="allPspiceFiles" Type="list">nil</field>
+			<field Name="allVectorFiles" Type="list">nil</field>
+			<field Name="VectorFile" Type="list">nil</field>
+			<field Name="VcdInfoFile" Type="string">""</field>
+			<field Name="allDspfFiles" Type="list">nil</field>
+			<field Name="EVcdInfoFile" Type="string">""</field>
+			<field Name="stimulusFile" Type="list">nil</field>
+			<field Name="spefFile" Type="list">nil</field>
+			<field Name="VcdFile" Type="string">""</field>
+			<field Name="allIncludedPaths" Type="list">nil</field>
+			<field Name="allEVcdFiles" Type="list">nil</field>
+			<field Name="allSpefFiles" Type="list">nil</field>
+			<field Name="dspfFile" Type="list">nil</field>
+			<field Name="allStimulusFiles" Type="list">nil</field>
+		</component>
+		<component Name="simulatorOptions" Type="skillTable">asiEnvSaveTable
+			<partition Name="opts">
+				<field Name="icpriority" Type="string">""</field>
+				<field Name="warn" Type="string">""</field>
+				<field Name="ivthp" Type="string">""</field>
+				<field Name="nonconv_topnum" Type="string">""</field>
+				<field Name="checklimitskipsubs" Type="string">""</field>
+				<field Name="scale" Type="string">"1.0"</field>
+				<field Name="ivthl" Type="string">""</field>
+				<field Name="value1" Type="string">""</field>
+				<field Name="checklimitskipfile" Type="string">""</field>
+				<field Name="digits" Type="string">"5"</field>
+				<field Name="error" Type="string">""</field>
+				<field Name="ivth_vdsmin" Type="string">""</field>
+				<field Name="ivthw" Type="string">""</field>
+				<field Name="ahdllint_maxwarn" Type="string">""</field>
+				<field Name="ahdllint" Type="string">""</field>
+				<field Name="tranSeverity" Type="string">""</field>
+				<field Name="tmevthmod" Type="string">""</field>
+				<field Name="limit" Type="string">""</field>
+				<field Name="tranEnableAll" Type="list">nil</field>
+				<field Name="ahdllint_on" Type="string">""</field>
+				<field Name="reltol" Type="string">"1e-3"</field>
+				<field Name="tranDisableAll" Type="list">nil</field>
+				<field Name="title" Type="string">""</field>
+				<field Name="tranStartTime" Type="string">""</field>
+				<field Name="info" Type="string">""</field>
+				<field Name="debug" Type="string">""</field>
+				<field Name="vdsatmod" Type="string">""</field>
+				<field Name="note" Type="string">""</field>
+				<field Name="spDisableAll" Type="list">nil</field>
+				<field Name="spEnableAll" Type="list">nil</field>
+				<field Name="spSeverity" Type="string">""</field>
+				<field Name="acFilterExtreme" Type="list">nil</field>
+				<field Name="cols" Type="string">"80"</field>
+				<field Name="nthreads" Type="string">""</field>
+				<field Name="acAddtionalArguments" Type="string">""</field>
+				<field Name="pivrel" Type="string">"1e-3"</field>
+				<field Name="acDisableAll" Type="list">nil</field>
+				<field Name="acFilterNone" Type="list">nil</field>
+				<field Name="pivotdc" Type="string">""</field>
+				<field Name="acEnableAll" Type="list">nil</field>
+				<field Name="maxwarns" Type="string">"5"</field>
+				<field Name="checklimitfile" Type="string">""</field>
+				<field Name="narrate" Type="string">""</field>
+				<field Name="acSeverity" Type="string">""</field>
+				<field Name="maxnotes" Type="string">"5"</field>
+				<field Name="dcOpFilterNone" Type="list">nil</field>
+				<field Name="convdbg" Type="string">""</field>
+				<field Name="useprobes" Type="string">""</field>
+				<field Name="scalem" Type="string">"1.0"</field>
+				<field Name="ivthn" Type="string">""</field>
+				<field Name="noiseSeverity" Type="string">""</field>
+				<field Name="checklimitdest" Type="string">"psf"</field>
+				<field Name="spFilterExtreme" Type="list">nil</field>
+				<field Name="dcOpFilterExtreme" Type="list">nil</field>
+				<field Name="pivabs" Type="string">""</field>
+				<field Name="vthmod" Type="string">""</field>
+				<field Name="rebuild_matrix" Type="string">""</field>
+				<field Name="noiseEnableAll" Type="list">nil</field>
+				<field Name="flow" Type="string">""</field>
+				<field Name="ignshorts" Type="string">""</field>
+				<field Name="nportirreuse" Type="string">""</field>
+				<field Name="dcOpDisableAll" Type="list">nil</field>
+				<field Name="topcheck" Type="string">""</field>
+				<field Name="dcOpAddtionalArguments" Type="string">""</field>
+				<field Name="rforce" Type="string">"1"</field>
+				<field Name="nportcompress" Type="string">""</field>
+				<field Name="quantities" Type="string">""</field>
+				<field Name="gmin_check" Type="string">""</field>
+				<field Name="dcOpEnableAll" Type="list">nil</field>
+				<field Name="nportirfiledir" Type="string">""</field>
+				<field Name="noiseAddtionalArguments" Type="string">""</field>
+				<field Name="inventory" Type="string">""</field>
+				<field Name="nportcompressfiledir" Type="string">""</field>
+				<field Name="noiseDisableAll" Type="list">nil</field>
+				<field Name="audit" Type="string">""</field>
+				<field Name="nportunusedportgmin" Type="string">""</field>
+				<field Name="opptcheck" Type="string">""</field>
+				<field Name="noiseFilterNone" Type="list">nil</field>
+				<field Name="dcFilterExtreme" Type="list">nil</field>
+				<field Name="nportbbsfittedfiledir" Type="string">""</field>
+				<field Name="dcOpSeverity" Type="string">""</field>
+				<field Name="diagnose" Type="string">""</field>
+				<field Name="nportunusedportrmin" Type="string">""</field>
+				<field Name="dcAddtionalArguments" Type="string">""</field>
+				<field Name="approx" Type="string">""</field>
+				<field Name="tempeffects" Type="string">""</field>
+				<field Name="redefinedparams" Type="string">""</field>
+				<field Name="homotopy" Type="string">""</field>
+				<field Name="sensformat" Type="string">""</field>
+				<field Name="tnom" Type="string">"27"</field>
+				<field Name="dcFilterNone" Type="list">nil</field>
+				<field Name="residualtol" Type="string">""</field>
+				<field Name="sensfile" Type="string">"../psf/sens.output"</field>
+				<field Name="iabstol" Type="string">"1e-12"</field>
+				<field Name="noiseFilterExtreme" Type="list">nil</field>
+				<field Name="nport_default_passivity" Type="string">""</field>
+				<field Name="rabsshort" Type="string">""</field>
+				<field Name="gmin" Type="string">"1e-12"</field>
+				<field Name="auto_minductor" Type="string">""</field>
+				<field Name="senstype" Type="string">""</field>
+				<field Name="maxrsd" Type="string">""</field>
+				<field Name="sensfileonly" Type="string">""</field>
+				<field Name="pzSeverity" Type="string">""</field>
+				<field Name="gmethod" Type="string">""</field>
+				<field Name="rabsclamp" Type="string">""</field>
+				<field Name="rthresh" Type="string">""</field>
+				<field Name="macromodels" Type="string">""</field>
+				<field Name="gmindc" Type="string">""</field>
+				<field Name="minr" Type="string">""</field>
+				<field Name="tranAddtionalArguments" Type="string">""</field>
+				<field Name="tranFilterNone" Type="list">nil</field>
+				<field Name="simstat" Type="string">""</field>
+				<field Name="dcSeverity" Type="string">""</field>
+				<field Name="maxnotestologfile" Type="string">""</field>
+				<field Name="pzFilterExtreme" Type="list">nil</field>
+				<field Name="colslog" Type="string">""</field>
+				<field Name="vabstol" Type="string">"1e-6"</field>
+				<field Name="tranFilterExtreme" Type="list">nil</field>
+				<field Name="maxwarnstologfile" Type="string">""</field>
+				<field Name="temp" Type="string">"27"</field>
+				<field Name="generalnoiseinst" Type="list">nil</field>
+				<field Name="scalefactor" Type="string">""</field>
+				<field Name="dcEnableAll" Type="list">nil</field>
+				<field Name="printstep" Type="string">""</field>
+				<field Name="generalnoiseinstonoff" Type="string">""</field>
+				<field Name="pzFilterNone" Type="list">nil</field>
+				<field Name="iccapcheck" Type="string">""</field>
+				<field Name="noiseOnType" Type="list">(nil nil nil nil nil)</field>
+				<field Name="multithread" Type="string">""</field>
+				<field Name="dcDisableAll" Type="list">nil</field>
+				<field Name="tranCheckWindows" Type="string">""</field>
+				<field Name="noiseOffType" Type="list">(nil nil nil nil nil)</field>
+				<field Name="pzAddtionalArguments" Type="string">""</field>
+				<field Name="spFilterNone" Type="list">nil</field>
+				<field Name="notation" Type="string">""</field>
+				<field Name="dptran_gmethod" Type="string">""</field>
+				<field Name="spAddtionalArguments" Type="string">""</field>
+				<field Name="additionalArgs" Type="string">""</field>
+				<field Name="tranStopTime" Type="string">""</field>
+				<field Name="pzEnableAll" Type="list">nil</field>
+				<field Name="try_fast_op" Type="string">""</field>
+				<field Name="pzDisableAll" Type="list">nil</field>
+				<field Name="dochecklimit" Type="string">""</field>
+				<field Name="preorder" Type="string">""</field>
+				<field Name="nport_default_interp" Type="string">""</field>
+				<field Name="iccheck" Type="string">""</field>
+				<field Name="dc_pivot_check" Type="string">""</field>
+				<field Name="sensbinparam" Type="string">""</field>
+			</partition>
+		</component>
+		<component Name="subckts" Type="skillTable">subckt
+			<field Name="subcktKeepList" Type="list">nil</field>
+		</component>
+		<component Name="turboOptions" Type="skillTable">asiEnvSaveTable
+			<partition Name="turboOpts">
+				<field Name="spectreXAccuracyScale" Type="string">"MX"</field>
+				<field Name="msdcOPSolver" Type="list">nil</field>
+				<field Name="spectreFXEnableOpt" Type="list">nil</field>
+				<field Name="errorLevel" Type="string">"Do not override"</field>
+				<field Name="digitalspeed" Type="string">"2"</field>
+				<field Name="psrSwitch" Type="list">nil</field>
+				<field Name="spectreXSocketHost" Type="string">"1"</field>
+				<field Name="spectreDecouplingCapacitorThreshold" Type="string">""</field>
+				<field Name="enableXpsms" Type="list">nil</field>
+				<field Name="Savefilter" Type="string">""</field>
+				<field Name="spectreXMTPOption" Type="string">"Multi-Threading"</field>
+				<field Name="spectreXAPSDC" Type="list">nil</field>
+				<field Name="spectreXMpOption" Type="string">"SSH"</field>
+				<field Name="psrOption" Type="string">"Default"</field>
+				<field Name="dcOPSolver" Type="string">"APS"</field>
+				<field Name="spectreXEnableLocalizedRC" Type="list">nil</field>
+				<field Name="spectreXAdvanced" Type="list">nil</field>
+				<field Name="psrXpsmsOption" Type="string">"Default"</field>
+				<field Name="spectreFXAdvancedTab" Type="list">((nil "sfx_preset" "lx" nil "") (nil "skip" "cut" nil "") (nil "&lt;Click_To_Add&gt;" "" nil ""))</field>
+				<field Name="apsplus" Type="list">nil</field>
+				<field Name="SpectreFXNumThreads" Type="string">"8"</field>
+				<field Name="SpectreFXAdditionalNetlistOptions" Type="string">""</field>
+				<field Name="SpectreFXMtOption" Type="string">"Multiple"</field>
+				<field Name="presetOverride" Type="list">nil</field>
+				<field Name="cktpreset" Type="string">"None"</field>
+				<field Name="SpectreFXAdditionalCmdOptions" Type="string">""</field>
+				<field Name="digitalSubcktValue" Type="list">nil</field>
+				<field Name="spectreXPreset" Type="string">"MX"</field>
+				<field Name="presetOverrideText" Type="string">""</field>
+				<field Name="rcrNetFmax" Type="list">nil</field>
+				<field Name="preserveInst" Type="list">nil</field>
+				<field Name="analogSubcktValue" Type="list">nil</field>
+				<field Name="spectreXMtOption" Type="string">"Auto"</field>
+				<field Name="numThreads" Type="string">""</field>
+				<field Name="virtualPowerNodeListBox" Type="skillDpl">
+					<field Name="choices" Type="list">nil</field>
+					<field Name="value" Type="list">nil</field>
+				</field>
+				<field Name="digitalInstValue" Type="list">nil</field>
+				<field Name="psrFmax" Type="string">""</field>
+				<field Name="envSwitch" Type="list">nil</field>
+				<field Name="virtualPowerNodeValue" Type="list">nil</field>
+				<field Name="spectreFXEnableAdvancedOptions" Type="list">nil</field>
+				<field Name="disableVddOverride" Type="symbol">t</field>
+				<field Name="spectreXHosts" Type="string">""</field>
+				<field Name="virtualGroundNodes" Type="list">nil</field>
+				<field Name="spectreXMaxPerformance" Type="list">nil</field>
+				<field Name="uniMode" Type="string">"APS"</field>
+				<field Name="analogInstValue" Type="list">nil</field>
+				<field Name="uniModeSpectreX" Type="string">"APS"</field>
+				<field Name="preserveOption" Type="string">"None"</field>
+				<field Name="spectreXNumThreads" Type="string">""</field>
+				<field Name="virtualPowerNodes" Type="list">nil</field>
+				<field Name="spectreFXPreset" Type="string">"lx"</field>
+				<field Name="spectreXMpThreads" Type="string">""</field>
+				<field Name="proc_affinity" Type="string">""</field>
+				<field Name="spectreXEnablePostLayout" Type="list">nil</field>
+				<field Name="spectreResistorShortingThreshold" Type="string">""</field>
+				<field Name="spectreFXOptimize" Type="string">"lx"</field>
+				<field Name="mtOption" Type="string">"Auto"</field>
+				<field Name="enable_proc_affinity" Type="list">nil</field>
+				<field Name="optvdd" Type="flonum">3.3</field>
+				<field Name="psrFmaxRCR" Type="string">""</field>
+			</partition>
+		</component>
+	</Test>
+</statedb>
