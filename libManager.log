@@ -1,7 +1,7 @@
 \o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 06/02/2021 23:23 (sjfdcl1073) $
 \o Sub version:		sub-version  s195 
-\o Arguments:		-mpssession virtuoso27754 -mpshost ecegrid-thin3.ecn.purdue.edu 
-\o Working Directory:	ecegrid-thin3.ecn.purdue.edu:/home/ecegrid/a/559mg24/In-Memory-Computing-Project
+\o Arguments:		-mpssession virtuoso38643 -mpshost ecegrid-thin8.ecn.purdue.edu 
+\o Working Directory:	ecegrid-thin8.ecn.purdue.edu:/home/ecegrid/a/559mg24/In-Memory-Computing-Project
 \o 64-bit offsets
 \o Qt version: 		5.9.1
 \o Log file is "/home/ecegrid/a/559mg24/In-Memory-Computing-Project/libManager.log".
@@ -16,11 +16,15 @@
 \o Library Manager customization server connected.
 \a cdsLibManager->libListBox->value = "Project"
 \a cdsLibManager->libLineEdit->value = "Project"
-\a cdsLibManager->cellListBox->value = "sram_array"
-\a cdsLibManager->cellLineEdit->value = "sram_array"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "sram_array_layout_best_1x16_Instance"
+\a cdsLibManager->cellLineEdit->value = "sram_array_layout_best_1x16_Instance"
+\a cdsLibManager->cellListBox->value = "sram_array_layout_best_128x16_Instance"
+\a cdsLibManager->cellLineEdit->value = "sram_array_layout_best_128x16_Instance"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
 \o MPS request: edit design
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
@@ -29,52 +33,24 @@
 \a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->libListBox->value = "Project"
 \a cdsLibManager->libLineEdit->value = "Project"
-\a cdsLibManager->cellListBox->value = "sram_array"
-\a cdsLibManager->cellLineEdit->value = "sram_array"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellListBox->value = "sram_array_layout_best_128x16_Instance"
+\a cdsLibManager->cellLineEdit->value = "sram_array_layout_best_128x16_Instance"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "sram_array"
-\a cdsLibManager->cellLineEdit->value = "sram_array"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
 \a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = "Assignment1"
-\a cdsLibManager->libLineEdit->value = "Assignment1"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "8-T_project"
-\a cdsLibManager->cellLineEdit->value = "8-T_project"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
 \o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrSetWindowVisibility(cdsLibManager "show")
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a nrSetWindowVisibility(cdsLibManager "show")
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
+\a _lmgrCloseIconify("cdsLibManager" 1)
 \o MPS service: shutdown
 \o libManager is exiting.
 \a exit(0)

@@ -1,0 +1,136 @@
+@(#)$CDS: LVS version 6.1.8-64b 06/29/2021 19:05 (sjfhw316) $
+
+Command line: /package/eda/cadence/IC618/tools.lnx86/dfII/bin/64bit/LVS -dir /home/ecegrid/a/559mg24/In-Memory-Computing-Project/LVS -l -s -t /home/ecegrid/a/559mg24/In-Memory-Computing-Project/LVS/layout /home/ecegrid/a/559mg24/In-Memory-Computing-Project/LVS/schematic
+Like matching is enabled.
+Net swapping is enabled.
+Using terminal names as correspondence points.
+
+    Net-list summary for /home/ecegrid/a/559mg24/In-Memory-Computing-Project/LVS/layout/netlist
+       count
+        100             nets
+        52              terminals
+        32              pmos
+        96              nmos
+
+    Net-list summary for /home/ecegrid/a/559mg24/In-Memory-Computing-Project/LVS/schematic/netlist
+       count
+        100             nets
+        52              terminals
+        32              pmos
+        96              nmos
+
+
+    Terminal correspondence points
+    N60       N19       GND
+    N51       N15       RBL<0>
+    N70       N5        RBL<10>
+    N63       N4        RBL<11>
+    N56       N3        RBL<12>
+    N49       N2        RBL<13>
+    N94       N1        RBL<14>
+    N89       N0        RBL<15>
+    N96       N14       RBL<1>
+    N91       N13       RBL<2>
+    N85       N12       RBL<3>
+    N79       N11       RBL<4>
+    N74       N10       RBL<5>
+    N69       N9        RBL<6>
+    N62       N8        RBL<7>
+    N55       N7        RBL<8>
+    N48       N6        RBL<9>
+    N64       N17       RWL<0>
+    N97       N18       VDD
+    N57       N20       WBL<0>
+    N87       N30       WBL<10>
+    N81       N31       WBL<11>
+    N75       N32       WBL<12>
+    N71       N33       WBL<13>
+    N65       N34       WBL<14>
+    N58       N35       WBL<15>
+    N50       N21       WBL<1>
+    N95       N22       WBL<2>
+    N90       N23       WBL<3>
+    N84       N24       WBL<4>
+    N78       N25       WBL<5>
+    N73       N26       WBL<6>
+    N67       N27       WBL<7>
+    N61       N28       WBL<8>
+    N54       N29       WBL<9>
+    N82       N36       WBLB<0>
+    N53       N46       WBLB<10>
+    N99       N47       WBLB<11>
+    N93       N48       WBLB<12>
+    N88       N49       WBLB<13>
+    N83       N50       WBLB<14>
+    N77       N51       WBLB<15>
+    N76       N37       WBLB<1>
+    N72       N38       WBLB<2>
+    N66       N39       WBLB<3>
+    N59       N40       WBLB<4>
+    N52       N41       WBLB<5>
+    N98       N42       WBLB<6>
+    N92       N43       WBLB<7>
+    N86       N44       WBLB<8>
+    N80       N45       WBLB<9>
+    N68       N16       WWL<0>
+
+Devices in the netlist but not in the rules:
+        pcapacitor pmos nmos
+
+The net-lists match.
+
+                             layout  schematic
+                                instances
+        un-matched              0       0      
+        rewired                 0       0      
+        size errors             0       0      
+        pruned                  0       0      
+        active                  128     128    
+        total                   128     128    
+
+                                  nets
+        un-matched              0       0      
+        merged                  0       0      
+        pruned                  0       0      
+        active                  100     100    
+        total                   100     100    
+
+                                terminals
+        un-matched              0       0      
+        matched but
+        different type          0       0      
+        total                   52      52     
+
+
+Probe files from /home/ecegrid/a/559mg24/In-Memory-Computing-Project/LVS/schematic
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:
+
+
+Probe files from /home/ecegrid/a/559mg24/In-Memory-Computing-Project/LVS/layout
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:
