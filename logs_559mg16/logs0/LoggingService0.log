@@ -1,0 +1,3 @@
+[Logging Service: 0]
+[2021-11-22 14:15:10.954 -0500] [INFO] [cadence.virtuoso.ade.loggingservice] - HistoryRecorderManager init : {"dbBasePath": "/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1121/Project/sram_array/maestro/results/maestro"}
+[2021-11-22 14:15:10.955 -0500] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Logging Service has successfully started. Waiting for incoming messages ... : {"hostname": "ecegrid-thin4.ecn.purdue.edu", "processid": 18209, "logfile": "/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1121/logs_559mg16/logs0/LoggingService0.log"}

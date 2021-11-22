@@ -1,0 +1,77 @@
+\# Program start time:     UTC 2021.11.22 19:15:13.324
+\# Local time: EST (UTC-05:00) 2021.11.22 14:15:13.324
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 06/29/2021 19:20 (sjfhw316) $
+\o Hierarchy:		/package/eda/cadence/IC618/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.19  (64-bit addresses)
+\# Command line:	/package/eda/cadence/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost ecegrid-thin4.ecn.purdue.edu -beanport 11300 -beanbinlog  -mpssession virtuoso13675 -mpshost ecegrid-thin4.ecn.purdue.edu -davinciService DaVinciService_13675_1637608507 -axlSession fnxSession0 -axlServiceIdFlag 1 -uuid ae4634df-1b88-4cf1-ba65-b7cd3d0184ad -heartbeat /dev/shm/swift-heartbeat.W5DySJFXxe -log /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1121/logs_559mg16/logs0/Service1.log -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D38BF8C2ACA06DB7C71ED8E51982BCE2435BEC359C428867E66E3BF1FFC06BC4D66E38F1FFC06BC4D077863211038DDD600001E46 -interactive -offlineExprEval -fenixMode explorer -heartbeatTimeout  -lingerTimeout 300
+\# Host name (type):	ecegrid-thin4.ecn.purdue.edu (x86_64)
+\# Operating system:	Linux 3.10.0-1160.42.2.el7.x86_64 #1 SMP Tue Sep 7 14:49:57 UTC 2021
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:1414 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12004000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        577 MB
+\# Available memory:	     48,925 MB
+\# System memory:	    136,914 MB
+\# Maximum memory size:	    136,615 MB
+\# Max mem available:	     49,202 MB
+\# Initial memory used:	        278 MB
+\#        process size:	      1,721 MB
+\# Thread usage limits (effective/default):	maxthreads 4096/4096 maxload 48.00/48.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		559mg16
+\o Working Directory:	ecegrid-thin4.ecn.purdue.edu:/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1121
+\# Process Id:		18779
+\o 
+\o COPYRIGHT (C) 1992-2021  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2021  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\# Memory report: using         396 MB, process size 1,956 MB at UTC 2021.11.22 19:15:22.975
+\o 
+\o *Info*    Received signal SIGTERM.
+\o 
+\o 
+\o Loading simui.cxt 
+\# Memory report: on exit            398 MB, process size 1,959 MB at UTC 2021.11.22 19:15:22.993
+\# Memory report: peak usage         398 MB, process size 1,959 MB

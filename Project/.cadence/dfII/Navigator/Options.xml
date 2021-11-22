@@ -1,0 +1,27 @@
+<optionsForm>
+<afterButton checked='1'/>
+<separator text='-'/>
+<delimLeft text='('/>
+<delimRight text=')'/>
+<selectedCols>
+<text>Cell Name</text>
+</selectedCols>
+<blockFirst checked='1'/>
+<netFirst checked='0'/>
+<pinFirst checked='0'/>
+<sortEnabled checked='1'/>
+<elabEnabled checked='0'/>
+<leavesEnabled checked='0'/>
+<maxInst value='1'/>
+<maxNet value='1'/>
+<maxPin value='1'/>
+<maxTwig value='1'/>
+<maxUngenInst value='1'/>
+<maxUngenPin value='1'/>
+<maxFigGroup value='1'/>
+<mode value='read'/>
+<where value='current tab'/>
+<opcSideBySide value='nil'/>
+<opcCurrentSetName value=''/>
+</optionsForm>
+
