@@ -1,19 +1,19 @@
 @(#)$CDS: LVS version 6.1.8-64b 06/29/2021 19:05 (sjfhw316) $
 
-Command line: /package/eda/cadence/IC618/tools.lnx86/dfII/bin/64bit/LVS -dir /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1121/LVS -l -s -t /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1121/LVS/layout /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1121/LVS/schematic
+Command line: /package/eda/cadence/IC618/tools.lnx86/dfII/bin/64bit/LVS -dir /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1122/In-Memory-Computing-Project/LVS -l -s -t /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1122/In-Memory-Computing-Project/LVS/layout /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1122/In-Memory-Computing-Project/LVS/schematic
 Like matching is enabled.
 Net swapping is enabled.
 Using terminal names as correspondence points.
 Compiling Diva LVS rules...
 
-    Net-list summary for /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1121/LVS/layout/netlist
+    Net-list summary for /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1122/In-Memory-Computing-Project/LVS/layout/netlist
        count
         6450            nets
         306             terminals
         4096            pmos
         12288           nmos
 
-    Net-list summary for /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1121/LVS/schematic/netlist
+    Net-list summary for /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1122/In-Memory-Computing-Project/LVS/schematic/netlist
        count
         6450            nets
         306             terminals
@@ -359,7 +359,7 @@ The net-lists match.
         total                   306     306    
 
 
-Probe files from /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1121/LVS/schematic
+Probe files from /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1122/In-Memory-Computing-Project/LVS/schematic
 
 devbad.out:
 
@@ -376,7 +376,7 @@ prunedev.out:
 audit.out:
 
 
-Probe files from /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1121/LVS/layout
+Probe files from /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1122/In-Memory-Computing-Project/LVS/layout
 
 devbad.out:
 
