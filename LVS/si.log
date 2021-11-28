@@ -1,12 +1,80 @@
-Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.06s.
-ERROR (LMF-02005): License call failed for feature Virtuoso_Layout_Suite_L, version 6.180 and quantity 1. The license server search path is defined as 1720@marina.ecn.purdue.edu:1718@marina.ecn.purdue.edu:1710@marina.ecn.purdue.edu. The FLEXnet error message is as follows,     FLEXnet ERROR(-5, 0, 0): No such feature exists.  Run 'lic_error LMF-02005' for more information..
-ERROR (ELI-00111) Failed to check out license 'Virtuoso_Layout_Suite_L'.
-ERROR (OSSSIM): Unable to check out license for OSS capability. Details follow:
-ERROR (LMF-02005): License call failed for feature Virtuoso_Layout_Suite_L, version 6.180 and quantity 1. The license server search path is defined as 1720@marina.ecn.purdue.edu:1718@marina.ecn.purdue.edu:1710@marina.ecn.purdue.edu. The FLEXnet error message is as follows,
-    FLEXnet ERROR(-5, 0, 0): No such feature exists.
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.05s.
 
-Run 'lic_error LMF-02005' for more information.
+Running simulation in directory: "/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1128/In-Memory-Computing-Project/LVS".
+
+INFO (TECH-150003): The technology database "NCSU_TechLib_tsmc02d" has been automatically
+updated from revision 226610(DM 0) to revision 227612(DM 3) in virtual memory.
 
 
-Your key validation has failed.
-The Cadence capability 'se' will not run until this problem is resolved.
+Begin netlist:    Nov 28 14:36:58 2021
+	view name list	= ("auLvs" "extracted" "schematic")
+	stop name list	= ("auLvs")
+	library name	= "Project"
+	cell name	= "sram_array_layout_best_128x16_Instance_Senseamp"
+	view name	= "extracted"
+	globals lib	= "basic"
+Running Artist Flat Netlisting ...
+Loading hnlInit.cxt 
+*WARNING* Parameter 'lxUseCell' already exists.
+End netlist:    Nov 28 14:37:19 2021
+
+Moving original netlist to extNetlist
+Removing parasitic components from netlist
+	presistors removed:  0
+	pcapacitors removed: 57314
+	pinductors removed:  0
+	pdiodes removed:     0
+	trans lines removed: 0
+	6466 nodes merged into 6466 nodes
+
+
+Begin netlist:    Nov 28 14:37:20 2021
+	view name list	= ("auLvs" "schematic")
+	stop name list	= ("auLvs")
+	library name	= "Project"
+	cell name	= "sram_array_layout_best_128x16_Instance_Senseamp"
+	view name	= "schematic"
+	globals lib	= "basic"
+Running Artist Flat Netlisting ...
+End netlist:    Nov 28 14:37:27 2021
+
+Moving original netlist to extNetlist
+Removing parasitic components from netlist
+	presistors removed:  0
+	pcapacitors removed: 0
+	pinductors removed:  0
+	pdiodes removed:     0
+	trans lines removed: 0
+	20800 nodes merged into 20800 nodes
+
+Running netlist comparison program:  LVS
+Begin comparison:    Nov 28 14:37:27 2021
+@(#)$CDS: LVS version 6.1.8-64b 06/29/2021 19:05 (sjfhw316) $
+
+The net-lists match.
+
+                             layout  schematic
+                                instances
+        un-matched              0       0      
+        rewired                 0       0      
+        size errors             0       0      
+        pruned                  0       0      
+        active                  16416   16416  
+        total                   16416   16416  
+
+                                  nets
+        un-matched              0       0      
+        merged                  0       0      
+        pruned                  0       0      
+        active                  6466    6466   
+        total                   6466    6466   
+
+                                terminals
+        un-matched              0       0      
+        matched but
+        different type          16      16     
+        total                   322     322    
+End comparison:      Nov 28 14:37:28 2021
+
+
+Comparison program completed successfully.

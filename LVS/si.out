@@ -1,333 +1,349 @@
 @(#)$CDS: LVS version 6.1.8-64b 06/29/2021 19:05 (sjfhw316) $
 
-Command line: /package/eda/cadence/IC618/tools.lnx86/dfII/bin/64bit/LVS -dir /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1122/In-Memory-Computing-Project/LVS -l -s -t /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1122/In-Memory-Computing-Project/LVS/layout /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1122/In-Memory-Computing-Project/LVS/schematic
+Command line: /package/eda/cadence/IC618/tools.lnx86/dfII/bin/64bit/LVS -dir /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1128/In-Memory-Computing-Project/LVS -l -s -t /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1128/In-Memory-Computing-Project/LVS/layout /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1128/In-Memory-Computing-Project/LVS/schematic
 Like matching is enabled.
 Net swapping is enabled.
 Using terminal names as correspondence points.
 Compiling Diva LVS rules...
 
-    Net-list summary for /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1122/In-Memory-Computing-Project/LVS/layout/netlist
+    Net-list summary for /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1128/In-Memory-Computing-Project/LVS/layout/netlist
        count
-        6450            nets
-        306             terminals
-        4096            pmos
-        12288           nmos
+        6466            nets
+        322             terminals
+        4112            pmos
+        12304           nmos
 
-    Net-list summary for /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1122/In-Memory-Computing-Project/LVS/schematic/netlist
+    Net-list summary for /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1128/In-Memory-Computing-Project/LVS/schematic/netlist
        count
-        6450            nets
-        306             terminals
-        4096            pmos
-        12288           nmos
+        6466            nets
+        322             terminals
+        4112            pmos
+        12304           nmos
 
 
     Terminal correspondence points
-    N6214     N19       GND
-    N6163     N15       RBL<0>
-    N6258     N5        RBL<10>
-    N6222     N4        RBL<11>
-    N6188     N3        RBL<12>
-    N6152     N2        RBL<13>
-    N6417     N1        RBL<14>
-    N6380     N0        RBL<15>
-    N6431     N14       RBL<1>
-    N6394     N13       RBL<2>
-    N6362     N12       RBL<3>
-    N6330     N11       RBL<4>
-    N6296     N10       RBL<5>
-    N6257     N9        RBL<6>
-    N6221     N8        RBL<7>
-    N6187     N7        RBL<8>
-    N6151     N6        RBL<9>
-    N6223     N17       RWL<0>
-    N6277     N151      RWL<100>
-    N6238     N152      RWL<101>
-    N6205     N153      RWL<102>
-    N6172     N154      RWL<103>
-    N6441     N155      RWL<104>
-    N6403     N156      RWL<105>
-    N6370     N157      RWL<106>
-    N6338     N158      RWL<107>
-    N6303     N159      RWL<108>
-    N6265     N160      RWL<109>
+    N6218     N19       GND
+    N6164     N15       RBL<0>
+    N6265     N5        RBL<10>
+    N6227     N4        RBL<11>
+    N6191     N3        RBL<12>
+    N6153     N2        RBL<13>
+    N6431     N1        RBL<14>
+    N6391     N0        RBL<15>
+    N6446     N14       RBL<1>
+    N6406     N13       RBL<2>
+    N6372     N12       RBL<3>
+    N6339     N11       RBL<4>
+    N6304     N10       RBL<5>
+    N6264     N9        RBL<6>
+    N6226     N8        RBL<7>
+    N6190     N7        RBL<8>
+    N6152     N6        RBL<9>
+    N6445     N307      RBL_out<0>
+    N6238     N316      RBL_out<10>
+    N6203     N317      RBL_out<11>
+    N6168     N318      RBL_out<12>
+    N6451     N319      RBL_out<13>
+    N6410     N320      RBL_out<14>
+    N6376     N321      RBL_out<15>
+    N6405     N306      RBL_out<1>
+    N6371     N308      RBL_out<2>
+    N6338     N309      RBL_out<3>
+    N6303     N310      RBL_out<4>
+    N6263     N311      RBL_out<5>
+    N6225     N312      RBL_out<6>
+    N6189     N313      RBL_out<7>
+    N6151     N314      RBL_out<8>
+    N6430     N315      RBL_out<9>
+    N6228     N17       RWL<0>
+    N6284     N151      RWL<100>
+    N6244     N152      RWL<101>
+    N6209     N153      RWL<102>
+    N6174     N154      RWL<103>
+    N6457     N155      RWL<104>
+    N6416     N156      RWL<105>
+    N6381     N157      RWL<106>
+    N6347     N158      RWL<107>
+    N6311     N159      RWL<108>
+    N6272     N160      RWL<109>
     N6146     N61       RWL<10>
-    N6427     N161      RWL<110>
-    N6390     N162      RWL<111>
-    N6358     N163      RWL<112>
-    N6326     N164      RWL<113>
-    N6292     N165      RWL<114>
-    N6253     N166      RWL<115>
-    N6218     N167      RWL<116>
-    N6184     N168      RWL<117>
+    N6441     N161      RWL<110>
+    N6401     N162      RWL<111>
+    N6367     N163      RWL<112>
+    N6334     N164      RWL<113>
+    N6299     N165      RWL<114>
+    N6259     N166      RWL<115>
+    N6222     N167      RWL<116>
+    N6186     N168      RWL<117>
     N6148     N169      RWL<118>
-    N6413     N170      RWL<119>
-    N6411     N62       RWL<11>
-    N6280     N171      RWL<120>
-    N6241     N172      RWL<121>
-    N6208     N173      RWL<122>
-    N6175     N174      RWL<123>
-    N6444     N175      RWL<124>
-    N6405     N176      RWL<125>
-    N6371     N177      RWL<126>
-    N6339     N178      RWL<127>
-    N6375     N63       RWL<12>
-    N6344     N64       RWL<13>
-    N6312     N65       RWL<14>
-    N6278     N66       RWL<15>
-    N6239     N67       RWL<16>
-    N6206     N68       RWL<17>
-    N6173     N69       RWL<18>
-    N6442     N70       RWL<19>
-    N6189     N52       RWL<1>
-    N6304     N71       RWL<20>
-    N6266     N72       RWL<21>
-    N6227     N73       RWL<22>
-    N6194     N74       RWL<23>
-    N6161     N75       RWL<24>
-    N6429     N76       RWL<25>
-    N6392     N77       RWL<26>
-    N6360     N78       RWL<27>
-    N6328     N79       RWL<28>
-    N6294     N80       RWL<29>
-    N6153     N53       RWL<2>
+    N6426     N170      RWL<119>
+    N6424     N62       RWL<11>
+    N6287     N171      RWL<120>
+    N6247     N172      RWL<121>
+    N6212     N173      RWL<122>
+    N6177     N174      RWL<123>
+    N6460     N175      RWL<124>
+    N6418     N176      RWL<125>
+    N6382     N177      RWL<126>
+    N6348     N178      RWL<127>
+    N6386     N63       RWL<12>
+    N6353     N64       RWL<13>
+    N6320     N65       RWL<14>
+    N6285     N66       RWL<15>
+    N6245     N67       RWL<16>
+    N6210     N68       RWL<17>
+    N6175     N69       RWL<18>
+    N6458     N70       RWL<19>
+    N6192     N52       RWL<1>
+    N6312     N71       RWL<20>
+    N6273     N72       RWL<21>
+    N6232     N73       RWL<22>
+    N6197     N74       RWL<23>
+    N6162     N75       RWL<24>
+    N6443     N76       RWL<25>
+    N6403     N77       RWL<26>
+    N6369     N78       RWL<27>
+    N6336     N79       RWL<28>
+    N6301     N80       RWL<29>
+    N6154     N53       RWL<2>
     N6150     N81       RWL<30>
-    N6415     N82       RWL<31>
-    N6378     N83       RWL<32>
-    N6347     N84       RWL<33>
-    N6315     N85       RWL<34>
-    N6282     N86       RWL<35>
-    N6243     N87       RWL<36>
-    N6209     N88       RWL<37>
-    N6176     N89       RWL<38>
-    N6445     N90       RWL<39>
-    N6418     N54       RWL<3>
-    N6306     N91       RWL<40>
-    N6269     N92       RWL<41>
-    N6230     N93       RWL<42>
-    N6197     N94       RWL<43>
-    N6164     N95       RWL<44>
-    N6433     N96       RWL<45>
-    N6395     N97       RWL<46>
-    N6363     N98       RWL<47>
-    N6331     N99       RWL<48>
-    N6297     N100      RWL<49>
-    N6381     N55       RWL<4>
-    N6154     N101      RWL<50>
-    N6419     N102      RWL<51>
-    N6382     N103      RWL<52>
-    N6350     N104      RWL<53>
-    N6318     N105      RWL<54>
-    N6285     N106      RWL<55>
-    N6246     N107      RWL<56>
-    N6212     N108      RWL<57>
-    N6179     N109      RWL<58>
-    N6448     N110      RWL<59>
-    N6349     N56       RWL<5>
-    N6309     N111      RWL<60>
-    N6272     N112      RWL<61>
-    N6233     N113      RWL<62>
-    N6200     N114      RWL<63>
-    N6167     N115      RWL<64>
-    N6436     N116      RWL<65>
-    N6398     N117      RWL<66>
-    N6366     N118      RWL<67>
-    N6334     N119      RWL<68>
-    N6299     N120      RWL<69>
-    N6317     N57       RWL<6>
-    N6156     N121      RWL<70>
-    N6422     N122      RWL<71>
-    N6385     N123      RWL<72>
-    N6353     N124      RWL<73>
-    N6321     N125      RWL<74>
-    N6288     N126      RWL<75>
-    N6249     N127      RWL<76>
-    N6215     N128      RWL<77>
-    N6181     N129      RWL<78>
+    N6428     N82       RWL<31>
+    N6389     N83       RWL<32>
+    N6356     N84       RWL<33>
+    N6323     N85       RWL<34>
+    N6289     N86       RWL<35>
+    N6249     N87       RWL<36>
+    N6213     N88       RWL<37>
+    N6178     N89       RWL<38>
+    N6461     N90       RWL<39>
+    N6432     N54       RWL<3>
+    N6314     N91       RWL<40>
+    N6276     N92       RWL<41>
+    N6235     N93       RWL<42>
+    N6200     N94       RWL<43>
+    N6165     N95       RWL<44>
+    N6448     N96       RWL<45>
+    N6407     N97       RWL<46>
+    N6373     N98       RWL<47>
+    N6340     N99       RWL<48>
+    N6305     N100      RWL<49>
+    N6392     N55       RWL<4>
+    N6155     N101      RWL<50>
+    N6433     N102      RWL<51>
+    N6393     N103      RWL<52>
+    N6359     N104      RWL<53>
+    N6326     N105      RWL<54>
+    N6292     N106      RWL<55>
+    N6252     N107      RWL<56>
+    N6216     N108      RWL<57>
+    N6181     N109      RWL<58>
+    N6464     N110      RWL<59>
+    N6358     N56       RWL<5>
+    N6317     N111      RWL<60>
+    N6279     N112      RWL<61>
+    N6239     N113      RWL<62>
+    N6204     N114      RWL<63>
+    N6169     N115      RWL<64>
+    N6452     N116      RWL<65>
+    N6411     N117      RWL<66>
+    N6377     N118      RWL<67>
+    N6343     N119      RWL<68>
+    N6307     N120      RWL<69>
+    N6325     N57       RWL<6>
+    N6157     N121      RWL<70>
+    N6436     N122      RWL<71>
+    N6396     N123      RWL<72>
+    N6362     N124      RWL<73>
+    N6329     N125      RWL<74>
+    N6295     N126      RWL<75>
+    N6255     N127      RWL<76>
+    N6219     N128      RWL<77>
+    N6183     N129      RWL<78>
     N6144     N130      RWL<79>
-    N6284     N58       RWL<7>
-    N6311     N131      RWL<80>
-    N6275     N132      RWL<81>
-    N6236     N133      RWL<82>
-    N6203     N134      RWL<83>
-    N6170     N135      RWL<84>
-    N6439     N136      RWL<85>
-    N6401     N137      RWL<86>
-    N6368     N138      RWL<87>
-    N6336     N139      RWL<88>
-    N6301     N140      RWL<89>
-    N6245     N59       RWL<8>
-    N6159     N141      RWL<90>
-    N6426     N142      RWL<91>
-    N6389     N143      RWL<92>
-    N6357     N144      RWL<93>
-    N6325     N145      RWL<94>
-    N6291     N146      RWL<95>
-    N6252     N147      RWL<96>
-    N6217     N148      RWL<97>
-    N6183     N149      RWL<98>
+    N6291     N58       RWL<7>
+    N6319     N131      RWL<80>
+    N6282     N132      RWL<81>
+    N6242     N133      RWL<82>
+    N6207     N134      RWL<83>
+    N6172     N135      RWL<84>
+    N6455     N136      RWL<85>
+    N6414     N137      RWL<86>
+    N6379     N138      RWL<87>
+    N6345     N139      RWL<88>
+    N6309     N140      RWL<89>
+    N6251     N59       RWL<8>
+    N6160     N141      RWL<90>
+    N6440     N142      RWL<91>
+    N6400     N143      RWL<92>
+    N6366     N144      RWL<93>
+    N6333     N145      RWL<94>
+    N6298     N146      RWL<95>
+    N6258     N147      RWL<96>
+    N6221     N148      RWL<97>
+    N6185     N149      RWL<98>
     N6147     N150      RWL<99>
-    N6211     N60       RWL<9>
-    N6432     N18       VDD
-    N6193     N20       WBL<0>
-    N6372     N30       WBL<10>
-    N6340     N31       WBL<11>
-    N6305     N32       WBL<12>
-    N6268     N33       WBL<13>
-    N6229     N34       WBL<14>
-    N6196     N35       WBL<15>
-    N6160     N21       WBL<1>
-    N6428     N22       WBL<2>
-    N6391     N23       WBL<3>
-    N6359     N24       WBL<4>
-    N6327     N25       WBL<5>
-    N6293     N26       WBL<6>
-    N6254     N27       WBL<7>
-    N6219     N28       WBL<8>
-    N6185     N29       WBL<9>
-    N6341     N36       WBLB<0>
-    N6178     N46       WBLB<10>
-    N6447     N47       WBLB<11>
-    N6407     N48       WBLB<12>
-    N6373     N49       WBLB<13>
-    N6342     N50       WBLB<14>
-    N6308     N51       WBLB<15>
-    N6307     N37       WBLB<1>
-    N6271     N38       WBLB<2>
-    N6232     N39       WBLB<3>
-    N6199     N40       WBLB<4>
-    N6166     N41       WBLB<5>
-    N6435     N42       WBLB<6>
-    N6397     N43       WBLB<7>
-    N6365     N44       WBLB<8>
-    N6333     N45       WBLB<9>
-    N6255     N16       WWL<0>
-    N6260     N278      WWL<100>
-    N6224     N279      WWL<101>
-    N6190     N280      WWL<102>
-    N6155     N281      WWL<103>
-    N6421     N282      WWL<104>
-    N6384     N283      WWL<105>
-    N6352     N284      WWL<106>
-    N6320     N285      WWL<107>
-    N6287     N286      WWL<108>
-    N6248     N287      WWL<109>
-    N6263     N188      WWL<10>
-    N6409     N288      WWL<110>
-    N6374     N289      WWL<111>
-    N6343     N290      WWL<112>
-    N6310     N291      WWL<113>
-    N6274     N292      WWL<114>
-    N6235     N293      WWL<115>
-    N6202     N294      WWL<116>
-    N6169     N295      WWL<117>
-    N6438     N296      WWL<118>
-    N6400     N297      WWL<119>
-    N6226     N189      WWL<11>
-    N6262     N298      WWL<120>
-    N6225     N299      WWL<121>
-    N6191     N300      WWL<122>
-    N6157     N301      WWL<123>
-    N6424     N302      WWL<124>
-    N6387     N303      WWL<125>
-    N6355     N304      WWL<126>
-    N6323     N305      WWL<127>
-    N6192     N190      WWL<12>
-    N6158     N191      WWL<13>
-    N6425     N192      WWL<14>
-    N6388     N193      WWL<15>
-    N6356     N194      WWL<16>
-    N6324     N195      WWL<17>
-    N6290     N196      WWL<18>
-    N6251     N197      WWL<19>
-    N6220     N179      WWL<1>
-    N6412     N198      WWL<20>
-    N6376     N199      WWL<21>
-    N6345     N200      WWL<22>
-    N6313     N201      WWL<23>
-    N6279     N202      WWL<24>
-    N6240     N203      WWL<25>
-    N6207     N204      WWL<26>
-    N6174     N205      WWL<27>
-    N6443     N206      WWL<28>
-    N6404     N207      WWL<29>
-    N6186     N180      WWL<2>
-    N6267     N208      WWL<30>
-    N6228     N209      WWL<31>
-    N6195     N210      WWL<32>
-    N6162     N211      WWL<33>
-    N6430     N212      WWL<34>
-    N6393     N213      WWL<35>
-    N6361     N214      WWL<36>
-    N6329     N215      WWL<37>
-    N6295     N216      WWL<38>
-    N6256     N217      WWL<39>
+    N6215     N60       RWL<9>
+    N6447     N18       VDD
+    N6196     N20       WBL<0>
+    N6383     N30       WBL<10>
+    N6349     N31       WBL<11>
+    N6313     N32       WBL<12>
+    N6275     N33       WBL<13>
+    N6234     N34       WBL<14>
+    N6199     N35       WBL<15>
+    N6161     N21       WBL<1>
+    N6442     N22       WBL<2>
+    N6402     N23       WBL<3>
+    N6368     N24       WBL<4>
+    N6335     N25       WBL<5>
+    N6300     N26       WBL<6>
+    N6260     N27       WBL<7>
+    N6223     N28       WBL<8>
+    N6187     N29       WBL<9>
+    N6350     N36       WBLB<0>
+    N6180     N46       WBLB<10>
+    N6463     N47       WBLB<11>
+    N6420     N48       WBLB<12>
+    N6384     N49       WBLB<13>
+    N6351     N50       WBLB<14>
+    N6316     N51       WBLB<15>
+    N6315     N37       WBLB<1>
+    N6278     N38       WBLB<2>
+    N6237     N39       WBLB<3>
+    N6202     N40       WBLB<4>
+    N6167     N41       WBLB<5>
+    N6450     N42       WBLB<6>
+    N6409     N43       WBLB<7>
+    N6375     N44       WBLB<8>
+    N6342     N45       WBLB<9>
+    N6261     N16       WWL<0>
+    N6267     N278      WWL<100>
+    N6229     N279      WWL<101>
+    N6193     N280      WWL<102>
+    N6156     N281      WWL<103>
+    N6435     N282      WWL<104>
+    N6395     N283      WWL<105>
+    N6361     N284      WWL<106>
+    N6328     N285      WWL<107>
+    N6294     N286      WWL<108>
+    N6254     N287      WWL<109>
+    N6270     N188      WWL<10>
+    N6422     N288      WWL<110>
+    N6385     N289      WWL<111>
+    N6352     N290      WWL<112>
+    N6318     N291      WWL<113>
+    N6281     N292      WWL<114>
+    N6241     N293      WWL<115>
+    N6206     N294      WWL<116>
+    N6171     N295      WWL<117>
+    N6454     N296      WWL<118>
+    N6413     N297      WWL<119>
+    N6231     N189      WWL<11>
+    N6269     N298      WWL<120>
+    N6230     N299      WWL<121>
+    N6194     N300      WWL<122>
+    N6158     N301      WWL<123>
+    N6438     N302      WWL<124>
+    N6398     N303      WWL<125>
+    N6364     N304      WWL<126>
+    N6331     N305      WWL<127>
+    N6195     N190      WWL<12>
+    N6159     N191      WWL<13>
+    N6439     N192      WWL<14>
+    N6399     N193      WWL<15>
+    N6365     N194      WWL<16>
+    N6332     N195      WWL<17>
+    N6297     N196      WWL<18>
+    N6257     N197      WWL<19>
+    N6224     N179      WWL<1>
+    N6425     N198      WWL<20>
+    N6387     N199      WWL<21>
+    N6354     N200      WWL<22>
+    N6321     N201      WWL<23>
+    N6286     N202      WWL<24>
+    N6246     N203      WWL<25>
+    N6211     N204      WWL<26>
+    N6176     N205      WWL<27>
+    N6459     N206      WWL<28>
+    N6417     N207      WWL<29>
+    N6188     N180      WWL<2>
+    N6274     N208      WWL<30>
+    N6233     N209      WWL<31>
+    N6198     N210      WWL<32>
+    N6163     N211      WWL<33>
+    N6444     N212      WWL<34>
+    N6404     N213      WWL<35>
+    N6370     N214      WWL<36>
+    N6337     N215      WWL<37>
+    N6302     N216      WWL<38>
+    N6262     N217      WWL<39>
     N6149     N181      WWL<3>
-    N6416     N218      WWL<40>
-    N6379     N219      WWL<41>
-    N6348     N220      WWL<42>
-    N6316     N221      WWL<43>
-    N6283     N222      WWL<44>
-    N6244     N223      WWL<45>
-    N6210     N224      WWL<46>
-    N6177     N225      WWL<47>
-    N6446     N226      WWL<48>
-    N6406     N227      WWL<49>
-    N6414     N182      WWL<4>
-    N6270     N228      WWL<50>
-    N6231     N229      WWL<51>
-    N6198     N230      WWL<52>
-    N6165     N231      WWL<53>
-    N6434     N232      WWL<54>
-    N6396     N233      WWL<55>
-    N6364     N234      WWL<56>
-    N6332     N235      WWL<57>
-    N6298     N236      WWL<58>
-    N6259     N237      WWL<59>
-    N6377     N183      WWL<5>
-    N6420     N238      WWL<60>
-    N6383     N239      WWL<61>
-    N6351     N240      WWL<62>
-    N6319     N241      WWL<63>
-    N6286     N242      WWL<64>
-    N6247     N243      WWL<65>
-    N6213     N244      WWL<66>
-    N6180     N245      WWL<67>
-    N6449     N246      WWL<68>
-    N6408     N247      WWL<69>
-    N6346     N184      WWL<6>
-    N6273     N248      WWL<70>
-    N6234     N249      WWL<71>
-    N6201     N250      WWL<72>
-    N6168     N251      WWL<73>
-    N6437     N252      WWL<74>
-    N6399     N253      WWL<75>
-    N6367     N254      WWL<76>
-    N6335     N255      WWL<77>
-    N6300     N256      WWL<78>
-    N6261     N257      WWL<79>
-    N6314     N185      WWL<7>
-    N6423     N258      WWL<80>
-    N6386     N259      WWL<81>
-    N6354     N260      WWL<82>
-    N6322     N261      WWL<83>
-    N6289     N262      WWL<84>
-    N6250     N263      WWL<85>
-    N6216     N264      WWL<86>
-    N6182     N265      WWL<87>
+    N6429     N218      WWL<40>
+    N6390     N219      WWL<41>
+    N6357     N220      WWL<42>
+    N6324     N221      WWL<43>
+    N6290     N222      WWL<44>
+    N6250     N223      WWL<45>
+    N6214     N224      WWL<46>
+    N6179     N225      WWL<47>
+    N6462     N226      WWL<48>
+    N6419     N227      WWL<49>
+    N6427     N182      WWL<4>
+    N6277     N228      WWL<50>
+    N6236     N229      WWL<51>
+    N6201     N230      WWL<52>
+    N6166     N231      WWL<53>
+    N6449     N232      WWL<54>
+    N6408     N233      WWL<55>
+    N6374     N234      WWL<56>
+    N6341     N235      WWL<57>
+    N6306     N236      WWL<58>
+    N6266     N237      WWL<59>
+    N6388     N183      WWL<5>
+    N6434     N238      WWL<60>
+    N6394     N239      WWL<61>
+    N6360     N240      WWL<62>
+    N6327     N241      WWL<63>
+    N6293     N242      WWL<64>
+    N6253     N243      WWL<65>
+    N6217     N244      WWL<66>
+    N6182     N245      WWL<67>
+    N6465     N246      WWL<68>
+    N6421     N247      WWL<69>
+    N6355     N184      WWL<6>
+    N6280     N248      WWL<70>
+    N6240     N249      WWL<71>
+    N6205     N250      WWL<72>
+    N6170     N251      WWL<73>
+    N6453     N252      WWL<74>
+    N6412     N253      WWL<75>
+    N6378     N254      WWL<76>
+    N6344     N255      WWL<77>
+    N6308     N256      WWL<78>
+    N6268     N257      WWL<79>
+    N6322     N185      WWL<7>
+    N6437     N258      WWL<80>
+    N6397     N259      WWL<81>
+    N6363     N260      WWL<82>
+    N6330     N261      WWL<83>
+    N6296     N262      WWL<84>
+    N6256     N263      WWL<85>
+    N6220     N264      WWL<86>
+    N6184     N265      WWL<87>
     N6145     N266      WWL<88>
-    N6410     N267      WWL<89>
-    N6281     N186      WWL<8>
-    N6276     N268      WWL<90>
-    N6237     N269      WWL<91>
-    N6204     N270      WWL<92>
-    N6171     N271      WWL<93>
-    N6440     N272      WWL<94>
-    N6402     N273      WWL<95>
-    N6369     N274      WWL<96>
-    N6337     N275      WWL<97>
-    N6302     N276      WWL<98>
-    N6264     N277      WWL<99>
-    N6242     N187      WWL<9>
+    N6423     N267      WWL<89>
+    N6288     N186      WWL<8>
+    N6283     N268      WWL<90>
+    N6243     N269      WWL<91>
+    N6208     N270      WWL<92>
+    N6173     N271      WWL<93>
+    N6456     N272      WWL<94>
+    N6415     N273      WWL<95>
+    N6380     N274      WWL<96>
+    N6346     N275      WWL<97>
+    N6310     N276      WWL<98>
+    N6271     N277      WWL<99>
+    N6248     N187      WWL<9>
 
 Devices in the netlist but not in the rules:
         pcapacitor
@@ -342,24 +358,24 @@ The net-lists match.
         rewired                 0       0      
         size errors             0       0      
         pruned                  0       0      
-        active                  16384   16384  
-        total                   16384   16384  
+        active                  16416   16416  
+        total                   16416   16416  
 
                                   nets
         un-matched              0       0      
         merged                  0       0      
         pruned                  0       0      
-        active                  6450    6450   
-        total                   6450    6450   
+        active                  6466    6466   
+        total                   6466    6466   
 
                                 terminals
         un-matched              0       0      
         matched but
-        different type          0       0      
-        total                   306     306    
+        different type          16      16     
+        total                   322     322    
 
 
-Probe files from /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1122/In-Memory-Computing-Project/LVS/schematic
+Probe files from /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1128/In-Memory-Computing-Project/LVS/schematic
 
 devbad.out:
 
@@ -368,6 +384,22 @@ netbad.out:
 mergenet.out:
 
 termbad.out:
+? Terminal RBL_out<0>'s type in the schematic: output, in the layout: inputOutput
+? Terminal RBL_out<10>'s type in the schematic: output, in the layout: inputOutput
+? Terminal RBL_out<11>'s type in the schematic: output, in the layout: inputOutput
+? Terminal RBL_out<12>'s type in the schematic: output, in the layout: inputOutput
+? Terminal RBL_out<13>'s type in the schematic: output, in the layout: inputOutput
+? Terminal RBL_out<14>'s type in the schematic: output, in the layout: inputOutput
+? Terminal RBL_out<15>'s type in the schematic: output, in the layout: inputOutput
+? Terminal RBL_out<1>'s type in the schematic: output, in the layout: inputOutput
+? Terminal RBL_out<2>'s type in the schematic: output, in the layout: inputOutput
+? Terminal RBL_out<3>'s type in the schematic: output, in the layout: inputOutput
+? Terminal RBL_out<4>'s type in the schematic: output, in the layout: inputOutput
+? Terminal RBL_out<5>'s type in the schematic: output, in the layout: inputOutput
+? Terminal RBL_out<6>'s type in the schematic: output, in the layout: inputOutput
+? Terminal RBL_out<7>'s type in the schematic: output, in the layout: inputOutput
+? Terminal RBL_out<8>'s type in the schematic: output, in the layout: inputOutput
+? Terminal RBL_out<9>'s type in the schematic: output, in the layout: inputOutput
 
 prunenet.out:
 
@@ -376,7 +408,7 @@ prunedev.out:
 audit.out:
 
 
-Probe files from /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1122/In-Memory-Computing-Project/LVS/layout
+Probe files from /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1128/In-Memory-Computing-Project/LVS/layout
 
 devbad.out:
 
@@ -385,6 +417,22 @@ netbad.out:
 mergenet.out:
 
 termbad.out:
+? Terminal RBL_out<0>'s type in the layout: inputOutput, in the schematic: output
+? Terminal RBL_out<10>'s type in the layout: inputOutput, in the schematic: output
+? Terminal RBL_out<11>'s type in the layout: inputOutput, in the schematic: output
+? Terminal RBL_out<12>'s type in the layout: inputOutput, in the schematic: output
+? Terminal RBL_out<13>'s type in the layout: inputOutput, in the schematic: output
+? Terminal RBL_out<14>'s type in the layout: inputOutput, in the schematic: output
+? Terminal RBL_out<15>'s type in the layout: inputOutput, in the schematic: output
+? Terminal RBL_out<1>'s type in the layout: inputOutput, in the schematic: output
+? Terminal RBL_out<2>'s type in the layout: inputOutput, in the schematic: output
+? Terminal RBL_out<3>'s type in the layout: inputOutput, in the schematic: output
+? Terminal RBL_out<4>'s type in the layout: inputOutput, in the schematic: output
+? Terminal RBL_out<5>'s type in the layout: inputOutput, in the schematic: output
+? Terminal RBL_out<6>'s type in the layout: inputOutput, in the schematic: output
+? Terminal RBL_out<7>'s type in the layout: inputOutput, in the schematic: output
+? Terminal RBL_out<8>'s type in the layout: inputOutput, in the schematic: output
+? Terminal RBL_out<9>'s type in the layout: inputOutput, in the schematic: output
 
 prunenet.out:
 
