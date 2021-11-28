@@ -1,80 +1,12 @@
-Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.05s.
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.06s.
+ERROR (LMF-02005): License call failed for feature Virtuoso_Layout_Suite_L, version 6.180 and quantity 1. The license server search path is defined as 1720@marina.ecn.purdue.edu:1718@marina.ecn.purdue.edu:1710@marina.ecn.purdue.edu. The FLEXnet error message is as follows,     FLEXnet ERROR(-5, 0, 0): No such feature exists.  Run 'lic_error LMF-02005' for more information..
+ERROR (ELI-00111) Failed to check out license 'Virtuoso_Layout_Suite_L'.
+ERROR (OSSSIM): Unable to check out license for OSS capability. Details follow:
+ERROR (LMF-02005): License call failed for feature Virtuoso_Layout_Suite_L, version 6.180 and quantity 1. The license server search path is defined as 1720@marina.ecn.purdue.edu:1718@marina.ecn.purdue.edu:1710@marina.ecn.purdue.edu. The FLEXnet error message is as follows,
+    FLEXnet ERROR(-5, 0, 0): No such feature exists.
 
-Running simulation in directory: "/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1122/In-Memory-Computing-Project/LVS".
-
-INFO (TECH-150003): The technology database "NCSU_TechLib_tsmc02d" has been automatically
-updated from revision 226610(DM 0) to revision 227612(DM 3) in virtual memory.
-
-
-Begin netlist:    Nov 23 11:31:45 2021
-	view name list	= ("auLvs" "extracted" "schematic")
-	stop name list	= ("auLvs")
-	library name	= "Project"
-	cell name	= "sram_array_128x16_final1"
-	view name	= "extracted"
-	globals lib	= "basic"
-Running Artist Flat Netlisting ...
-Loading hnlInit.cxt 
-*WARNING* Parameter 'lxUseCell' already exists.
-End netlist:    Nov 23 11:32:08 2021
-
-Moving original netlist to extNetlist
-Removing parasitic components from netlist
-	presistors removed:  0
-	pcapacitors removed: 57234
-	pinductors removed:  0
-	pdiodes removed:     0
-	trans lines removed: 0
-	6450 nodes merged into 6450 nodes
+Run 'lic_error LMF-02005' for more information.
 
 
-Begin netlist:    Nov 23 11:32:09 2021
-	view name list	= ("auLvs" "schematic")
-	stop name list	= ("auLvs")
-	library name	= "Project"
-	cell name	= "sram_array_128x16_final1"
-	view name	= "schematic"
-	globals lib	= "basic"
-Running Artist Flat Netlisting ...
-End netlist:    Nov 23 11:32:16 2021
-
-Moving original netlist to extNetlist
-Removing parasitic components from netlist
-	presistors removed:  0
-	pcapacitors removed: 0
-	pinductors removed:  0
-	pdiodes removed:     0
-	trans lines removed: 0
-	20784 nodes merged into 20784 nodes
-
-Running netlist comparison program:  LVS
-Begin comparison:    Nov 23 11:32:17 2021
-@(#)$CDS: LVS version 6.1.8-64b 06/29/2021 19:05 (sjfhw316) $
-
-The net-lists match.
-
-                             layout  schematic
-                                instances
-        un-matched              0       0      
-        rewired                 0       0      
-        size errors             0       0      
-        pruned                  0       0      
-        active                  16384   16384  
-        total                   16384   16384  
-
-                                  nets
-        un-matched              0       0      
-        merged                  0       0      
-        pruned                  0       0      
-        active                  6450    6450   
-        total                   6450    6450   
-
-                                terminals
-        un-matched              0       0      
-        matched but
-        different type          0       0      
-        total                   306     306    
-End comparison:      Nov 23 11:32:18 2021
-
-
-Comparison program completed successfully.
+Your key validation has failed.
+The Cadence capability 'se' will not run until this problem is resolved.

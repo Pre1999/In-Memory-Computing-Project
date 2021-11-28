@@ -1,3 +1,4 @@
-SOFTINCLUDE /home/ecegrid/a/559mg16/cds.lib
-DEFINE Project /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1122/In-Memory-Computing-Project/Project
-DEFINE Assignment1 /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1122/In-Memory-Computing-Project/Assignment1
+SOFTINCLUDE /home/ecegrid/a/559mg24/cds.lib
+DEFINE Project /home/ecegrid/a/559mg24/In-Memory-Computing-Project/Project
+DEFINE Assignment1 /home/ecegrid/a/559mg24/In-Memory-Computing-Project/Assignment1
+DEFINE 6T_Cell /home/ecegrid/a/559mg24/6T_Memory_Cell/6T_Cell
