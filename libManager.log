@@ -1,65 +1,257 @@
 \o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 06/02/2021 23:23 (sjfdcl1073) $
 \o Sub version:		sub-version  s195 
-\o Arguments:		-mpssession virtuoso14076 -mpshost cparch03.ecn.purdue.edu 
-\o Working Directory:	cparch03.ecn.purdue.edu:/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1128/In-Memory-Computing-Project
+\o Arguments:		-mpssession virtuoso33685 -mpshost ecegrid-thin7.ecn.purdue.edu 
+\o Working Directory:	ecegrid-thin7.ecn.purdue.edu:/home/ecegrid/a/559mg24/In-Memory-Computing-Project
 \o 64-bit offsets
+\o changeWorkingDir("/home/ecegrid/a/559mg24/In-Memory-Computing-Project") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\a nrSetWindowVisibility(cdsLibManager "show")
+\o MPS service: map window
 \o Qt version: 		5.9.1
-\o Log file is "/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1128/In-Memory-Computing-Project/libManager.log".
+\o Log file is "/home/ecegrid/a/559mg24/In-Memory-Computing-Project/libManager.log".
 \o Opening libManager window.
-\a nrSetCurrentWindow(cdsLibManager)
 \o Loading customization file "/package/eda/cells/ncsu-cdk-1.6.0.beta/cdssetup/cdsLibMgr.il"
 \o Loading NCSU Library Manager customizations...done.
-\a cdsLibManager->cellComboFilter->value = "INV"
-\a cdsLibManager->cellComboFilter->value = ""
-\a nrResizeWindow(cdsLibManager list(515 254 674 491))
-\o changeWorkingDir("/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1128/In-Memory-Computing-Project") unnecessary.
-\o ddSetForcedLib("") unnecessary.
-\o MPS service: map window
 \o Library Manager customization server connected.
+\a nrResizeWindow(cdsLibManager list(328 181 1187 464))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "Project"
+\a cdsLibManager->libLineEdit->value = "Project"
+\a cdsLibManager->cellListBox->value = "sense_amp_layout_lvs"
+\a cdsLibManager->cellLineEdit->value = "sense_amp_layout_lvs"
+\a cdsLibManager->cellListBox->value = "sense_amp_layout_L"
+\a cdsLibManager->cellLineEdit->value = "sense_amp_layout_L"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "sense_amp_layout"
+\a cdsLibManager->cellLineEdit->value = "sense_amp_layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "sense_amp_layout_L"
+\a cdsLibManager->cellLineEdit->value = "sense_amp_layout_L"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(0 28 1187 464))
+\o MPS request: edit design
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "sense_amp_layout_L"
+\a cdsLibManager->cellLineEdit->value = "sense_amp_layout_L"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 11 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "Project"
+\a cdsLibManager->libLineEdit->value = "Project"
+\a cdsLibManager->cellListBox->value = "sense_amp_layout_L"
+\a cdsLibManager->cellLineEdit->value = "sense_amp_layout_L"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->libListBox->value = "Project"
+\a cdsLibManager->libLineEdit->value = "Project"
+\a cdsLibManager->cellListBox->value = "sense_amp_layout_L"
+\a cdsLibManager->cellLineEdit->value = "sense_amp_layout_L"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(533 351 1187 464))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "sense_amp_layout"
+\a cdsLibManager->cellLineEdit->value = "sense_amp_layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "sense_amp_layout"
+\a cdsLibManager->cellLineEdit->value = "sense_amp_layout"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 10 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "Project"
+\a cdsLibManager->libLineEdit->value = "Project"
+\a cdsLibManager->cellListBox->value = "sense_amp_layout"
+\a cdsLibManager->cellLineEdit->value = "sense_amp_layout"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "sram_array_layout_best_128x16_Instance"
+\a cdsLibManager->cellLineEdit->value = "sram_array_layout_best_128x16_Instance"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "sram_array_layout_best_128x16_Instance_Senseamp"
+\a cdsLibManager->cellLineEdit->value = "sram_array_layout_best_128x16_Instance_Senseamp"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "sram_array_layout_best_128x16_Instance_Senseamp"
+\a cdsLibManager->cellLineEdit->value = "sram_array_layout_best_128x16_Instance_Senseamp"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 28 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->libListBox->value = "Project"
 \a cdsLibManager->libLineEdit->value = "Project"
 \a cdsLibManager->cellListBox->value = "sram_array_layout_best_128x16_Instance_Senseamp"
 \a cdsLibManager->cellLineEdit->value = "sram_array_layout_best_128x16_Instance_Senseamp"
-\a cdsLibManager->cellListBox->value = "sense_amp_schematic"
-\a cdsLibManager->cellLineEdit->value = "sense_amp_schematic"
-\a cdsLibManager->cellListBox->value = "sense_amp_layout_L"
-\a cdsLibManager->cellLineEdit->value = "sense_amp_layout_L"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "8-T_complete_best"
+\a cdsLibManager->cellLineEdit->value = "8-T_complete_best"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "layout"
 \a cdsLibManager->viewLineEdit->value = "layout"
 \a cdsLibManager->cellListBox->value = "sense_amp_schematic"
 \a cdsLibManager->cellLineEdit->value = "sense_amp_schematic"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "sense_amp_layout_L"
+\a cdsLibManager->cellLineEdit->value = "sense_amp_layout_L"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "sense_amp_layout_L"
+\a cdsLibManager->cellLineEdit->value = "sense_amp_layout_L"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
 \o MPS request: edit design
-\a nrListItemAction(cdsLibManager->cellListBox 13 0)
+\a nrListItemAction(cdsLibManager->cellListBox 11 0)
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->libListBox->value = "Project"
 \a cdsLibManager->libLineEdit->value = "Project"
-\a cdsLibManager->cellListBox->value = "sense_amp_schematic"
-\a cdsLibManager->cellLineEdit->value = "sense_amp_schematic"
+\a cdsLibManager->cellListBox->value = "sense_amp_layout_L"
+\a cdsLibManager->cellLineEdit->value = "sense_amp_layout_L"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "sense_amp_layout_lvs"
+\a cdsLibManager->cellLineEdit->value = "sense_amp_layout_lvs"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 12 0)
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->libListBox->value = "Project"
 \a cdsLibManager->libLineEdit->value = "Project"
+\a cdsLibManager->cellListBox->value = "sense_amp_layout_lvs"
+\a cdsLibManager->cellLineEdit->value = "sense_amp_layout_lvs"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->cellListBox->value = "sense_amp_schematic"
 \a cdsLibManager->cellLineEdit->value = "sense_amp_schematic"
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "Project"
-\a cdsLibManager->libLineEdit->value = "Project"
-\a cdsLibManager->cellListBox->value = "sense_amp_schematic"
-\a cdsLibManager->cellLineEdit->value = "sense_amp_schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
 \a nrSetWindowVisibility(cdsLibManager "hide")
-\a _lmgrCloseIconify("cdsLibManager" 1)
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "sense_amp_layout_lvs"
+\a cdsLibManager->cellLineEdit->value = "sense_amp_layout_lvs"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
 \o MPS service: shutdown
 \o libManager is exiting.
 \a exit(0)
