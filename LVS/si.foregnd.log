@@ -1,5 +1,5 @@
 si: simSetDef().... simHost is initialized to "localhost" .
-si: simSetDef().... simLoginName is initialized to "559mg16" .
+si: simSetDef().... simLoginName is initialized to "559mg24" .
 si: simSetDef().... simHostDiffers is initialized to "nil".
 si: simSetDef().... simInteractiveSimulatorList is initialized to ("verilog") .
 si: simSetDef().... simPostAnalysisProcessingFunc is initialized to "nil".
@@ -101,8 +101,7 @@ ignored.
 si: simSetDef().... lvsNetlistSchematic is already set to t. Redefinition to nil
 is ignored.
 si: simSetDef().... correspondenceFile is already set to
-"/home/ecegrid/a/559mg24/In-Memory-Computing-Project/lvs_corr_file".
-Redefinition to nil is ignored.
+"/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1128/In-Memory-Computing-Project/lvs_corr_file". Redefinition to nil is ignored.
 si: simSetDef().... createXref is initialized to "nil".
 si: simSetDef().... disableLikeMatch is initialized to "nil".
 si: simSetDef().... disableRewire is initialized to "nil".
@@ -110,6 +109,8 @@ si: simSetDef().... useFileCorrespondence is initialized to "nil".
 si: simSetDef().... useLastBinaryXrefTable is initialized to "nil".
 si: simSetDef().... useTerminalCorrespondence is already set to t. Redefinition
 to nil is ignored.
+si: simSetDef().... lvsRulesFilePath is already set to "divaLVS.rul".
+Redefinition to "" is ignored.
 si: simSetDef().... lvsRulesLibName is already set to "NCSU_TechLib_tsmc02d".
 Redefinition to "" is ignored.
 si: simSetDef().... lvsRulesFromLib is already set to t. Redefinition to nil is
@@ -144,413 +145,30 @@ ignored.
 si: simSetDef().... lvsNetlistSchematic is already set to t. Redefinition to nil
 is ignored.
 si: simSetDef().... correspondenceFile is already set to
+"/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1128/In-Memory-Computing-Project/lvs_corr_file". Redefinition to nil is ignored.
+si: simSetDef().... createXref is initialized to "nil".
+si: simSetDef().... disableLikeMatch is initialized to "nil".
+si: simSetDef().... disableRewire is initialized to "nil".
+si: simSetDef().... useFileCorrespondence is initialized to "nil".
+si: simSetDef().... useLastBinaryXrefTable is initialized to "nil".
+si: simSetDef().... useTerminalCorrespondence is already set to t. Redefinition
+to nil is ignored.
+si: simSetDef().... lvsRulesFilePath is already set to "divaLVS.rul".
+Redefinition to "" is ignored.
+si: simSetDef().... lvsRulesLibName is already set to "NCSU_TechLib_tsmc02d".
+Redefinition to "" is ignored.
+si: simSetDef().... lvsRulesFromLib is already set to t. Redefinition to nil is
+ignored.
+si: simSetDef().... simInstViewListTable is initialized to "nil".
+si: simSetDef().... simInstStopListTable is initialized to "nil".
+si: simSetDef().... applyDeviceFixing is initialized to "nil".
+si: simSetDef().... lvsNetlistLayout is already set to t. Redefinition to nil is
+ignored.
+si: simSetDef().... lvsNetlistSchematic is already set to t. Redefinition to nil
+is ignored.
+si: simSetDef().... correspondenceFile is already set to
 "/home/ecegrid/a/559mg24/In-Memory-Computing-Project/lvs_corr_file".
 Redefinition to nil is ignored.
-si: simSetDef().... createXref is initialized to "nil".
-si: simSetDef().... disableLikeMatch is initialized to "nil".
-si: simSetDef().... disableRewire is initialized to "nil".
-si: simSetDef().... useFileCorrespondence is initialized to "nil".
-si: simSetDef().... useLastBinaryXrefTable is initialized to "nil".
-si: simSetDef().... useTerminalCorrespondence is already set to t. Redefinition
-to nil is ignored.
-si: simSetDef().... lvsRulesLibName is already set to "NCSU_TechLib_tsmc02d".
-Redefinition to "" is ignored.
-si: simSetDef().... lvsRulesFromLib is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... simInstViewListTable is initialized to "nil".
-si: simSetDef().... simInstStopListTable is initialized to "nil".
-si: simSetDef().... applyDeviceFixing is initialized to "nil".
-si: simSetDef().... lvsNetlistLayout is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... lvsNetlistSchematic is already set to t. Redefinition to nil
-is ignored.
-si: simSetDef().... correspondenceFile is already set to
-"/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1128/In-Memory-Computing-Project/lvs_corr_file". Redefinition to nil is ignored.
-si: simSetDef().... createXref is initialized to "nil".
-si: simSetDef().... disableLikeMatch is initialized to "nil".
-si: simSetDef().... disableRewire is initialized to "nil".
-si: simSetDef().... useFileCorrespondence is initialized to "nil".
-si: simSetDef().... useLastBinaryXrefTable is initialized to "nil".
-si: simSetDef().... useTerminalCorrespondence is already set to t. Redefinition
-to nil is ignored.
-si: simSetDef().... lvsRulesFromLib is initialized to "nil".
-si: simSetDef().... simInstViewListTable is initialized to "nil".
-si: simSetDef().... simInstStopListTable is initialized to "nil".
-si: simSetDef().... applyDeviceFixing is initialized to "nil".
-si: simSetDef().... lvsNetlistLayout is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... lvsNetlistSchematic is already set to t. Redefinition to nil
-is ignored.
-si: simSetDef().... correspondenceFile is already set to
-"/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1128/In-Memory-Computing-Project/lvs_corr_file". Redefinition to nil is ignored.
-si: simSetDef().... createXref is initialized to "nil".
-si: simSetDef().... disableLikeMatch is initialized to "nil".
-si: simSetDef().... disableRewire is initialized to "nil".
-si: simSetDef().... useFileCorrespondence is initialized to "nil".
-si: simSetDef().... useLastBinaryXrefTable is initialized to "nil".
-si: simSetDef().... useTerminalCorrespondence is already set to t. Redefinition
-to nil is ignored.
-si: simSetDef().... lvsRulesFilePath is already set to "divaLVS.rul".
-Redefinition to "" is ignored.
-si: simSetDef().... lvsRulesFromLib is initialized to "nil".
-si: simSetDef().... simInstViewListTable is initialized to "nil".
-si: simSetDef().... simInstStopListTable is initialized to "nil".
-si: simSetDef().... applyDeviceFixing is initialized to "nil".
-si: simSetDef().... lvsNetlistLayout is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... lvsNetlistSchematic is already set to t. Redefinition to nil
-is ignored.
-si: simSetDef().... correspondenceFile is already set to
-"/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1128/In-Memory-Computing-Project/lvs_corr_file". Redefinition to nil is ignored.
-si: simSetDef().... createXref is initialized to "nil".
-si: simSetDef().... disableLikeMatch is initialized to "nil".
-si: simSetDef().... disableRewire is initialized to "nil".
-si: simSetDef().... useFileCorrespondence is initialized to "nil".
-si: simSetDef().... useLastBinaryXrefTable is initialized to "nil".
-si: simSetDef().... useTerminalCorrespondence is already set to t. Redefinition
-to nil is ignored.
-si: simSetDef().... lvsRulesFilePath is already set to "divaLVS.rul".
-Redefinition to "" is ignored.
-si: simSetDef().... lvsRulesFromLib is initialized to "nil".
-si: simSetDef().... simInstViewListTable is initialized to "nil".
-si: simSetDef().... simInstStopListTable is initialized to "nil".
-si: simSetDef().... applyDeviceFixing is initialized to "nil".
-si: simSetDef().... lvsNetlistLayout is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... lvsNetlistSchematic is already set to t. Redefinition to nil
-is ignored.
-si: simSetDef().... correspondenceFile is already set to
-"/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1128/In-Memory-Computing-Project/lvs_corr_file". Redefinition to nil is ignored.
-si: simSetDef().... createXref is initialized to "nil".
-si: simSetDef().... disableLikeMatch is initialized to "nil".
-si: simSetDef().... disableRewire is initialized to "nil".
-si: simSetDef().... useFileCorrespondence is initialized to "nil".
-si: simSetDef().... useLastBinaryXrefTable is initialized to "nil".
-si: simSetDef().... useTerminalCorrespondence is already set to t. Redefinition
-to nil is ignored.
-si: simSetDef().... lvsRulesFilePath is already set to "divaLVS.rul".
-Redefinition to "" is ignored.
-si: simSetDef().... lvsRulesLibName is already set to "NCSU_TechLib_tsmc02d".
-Redefinition to "" is ignored.
-si: simSetDef().... lvsRulesFromLib is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... simInstViewListTable is initialized to "nil".
-si: simSetDef().... simInstStopListTable is initialized to "nil".
-si: simSetDef().... applyDeviceFixing is initialized to "nil".
-si: simSetDef().... lvsNetlistLayout is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... lvsNetlistSchematic is already set to t. Redefinition to nil
-is ignored.
-si: simSetDef().... correspondenceFile is already set to
-"/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1128/In-Memory-Computing-Project/lvs_corr_file". Redefinition to nil is ignored.
-si: simSetDef().... createXref is initialized to "nil".
-si: simSetDef().... disableLikeMatch is initialized to "nil".
-si: simSetDef().... disableRewire is initialized to "nil".
-si: simSetDef().... useFileCorrespondence is initialized to "nil".
-si: simSetDef().... useLastBinaryXrefTable is initialized to "nil".
-si: simSetDef().... useTerminalCorrespondence is already set to t. Redefinition
-to nil is ignored.
-si: simSetDef().... lvsRulesFilePath is already set to "divaLVS.rul".
-Redefinition to "" is ignored.
-si: simSetDef().... lvsRulesLibName is already set to "NCSU_TechLib_tsmc02d".
-Redefinition to "" is ignored.
-si: simSetDef().... lvsRulesFromLib is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... simInstViewListTable is initialized to "nil".
-si: simSetDef().... simInstStopListTable is initialized to "nil".
-si: simSetDef().... applyDeviceFixing is initialized to "nil".
-si: simSetDef().... lvsNetlistLayout is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... lvsNetlistSchematic is already set to t. Redefinition to nil
-is ignored.
-si: simSetDef().... correspondenceFile is already set to
-"/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1128/In-Memory-Computing-Project/lvs_corr_file". Redefinition to nil is ignored.
-si: simSetDef().... createXref is initialized to "nil".
-si: simSetDef().... disableLikeMatch is initialized to "nil".
-si: simSetDef().... disableRewire is initialized to "nil".
-si: simSetDef().... useFileCorrespondence is initialized to "nil".
-si: simSetDef().... useLastBinaryXrefTable is initialized to "nil".
-si: simSetDef().... useTerminalCorrespondence is already set to t. Redefinition
-to nil is ignored.
-si: simSetDef().... lvsRulesFilePath is already set to "divaLVS.rul".
-Redefinition to "" is ignored.
-si: simSetDef().... lvsRulesLibName is already set to "NCSU_TechLib_tsmc02d".
-Redefinition to "" is ignored.
-si: simSetDef().... lvsRulesFromLib is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... simInstViewListTable is initialized to "nil".
-si: simSetDef().... simInstStopListTable is initialized to "nil".
-si: simSetDef().... applyDeviceFixing is initialized to "nil".
-si: simSetDef().... lvsNetlistLayout is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... lvsNetlistSchematic is already set to t. Redefinition to nil
-is ignored.
-si: simSetDef().... correspondenceFile is already set to
-"/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1128/In-Memory-Computing-Project/lvs_corr_file". Redefinition to nil is ignored.
-si: simSetDef().... createXref is initialized to "nil".
-si: simSetDef().... disableLikeMatch is initialized to "nil".
-si: simSetDef().... disableRewire is initialized to "nil".
-si: simSetDef().... useFileCorrespondence is initialized to "nil".
-si: simSetDef().... useLastBinaryXrefTable is initialized to "nil".
-si: simSetDef().... useTerminalCorrespondence is already set to t. Redefinition
-to nil is ignored.
-si: simSetDef().... lvsRulesFilePath is already set to "divaLVS.rul".
-Redefinition to "" is ignored.
-si: simSetDef().... lvsRulesLibName is already set to "NCSU_TechLib_tsmc02d".
-Redefinition to "" is ignored.
-si: simSetDef().... lvsRulesFromLib is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... simInstViewListTable is initialized to "nil".
-si: simSetDef().... simInstStopListTable is initialized to "nil".
-si: simSetDef().... applyDeviceFixing is initialized to "nil".
-si: simSetDef().... lvsNetlistLayout is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... lvsNetlistSchematic is already set to t. Redefinition to nil
-is ignored.
-si: simSetDef().... correspondenceFile is already set to
-"/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1128/In-Memory-Computing-Project/lvs_corr_file". Redefinition to nil is ignored.
-si: simSetDef().... createXref is initialized to "nil".
-si: simSetDef().... disableLikeMatch is initialized to "nil".
-si: simSetDef().... disableRewire is initialized to "nil".
-si: simSetDef().... useFileCorrespondence is initialized to "nil".
-si: simSetDef().... useLastBinaryXrefTable is initialized to "nil".
-si: simSetDef().... useTerminalCorrespondence is already set to t. Redefinition
-to nil is ignored.
-si: simSetDef().... lvsRulesFilePath is already set to "divaLVS.rul".
-Redefinition to "" is ignored.
-si: simSetDef().... lvsRulesLibName is already set to "NCSU_TechLib_tsmc02d".
-Redefinition to "" is ignored.
-si: simSetDef().... lvsRulesFromLib is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... simInstViewListTable is initialized to "nil".
-si: simSetDef().... simInstStopListTable is initialized to "nil".
-si: simSetDef().... applyDeviceFixing is initialized to "nil".
-si: simSetDef().... lvsNetlistLayout is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... lvsNetlistSchematic is already set to t. Redefinition to nil
-is ignored.
-si: simSetDef().... correspondenceFile is already set to
-"/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1128/In-Memory-Computing-Project/lvs_corr_file". Redefinition to nil is ignored.
-si: simSetDef().... createXref is initialized to "nil".
-si: simSetDef().... disableLikeMatch is initialized to "nil".
-si: simSetDef().... disableRewire is initialized to "nil".
-si: simSetDef().... useFileCorrespondence is initialized to "nil".
-si: simSetDef().... useLastBinaryXrefTable is initialized to "nil".
-si: simSetDef().... useTerminalCorrespondence is already set to t. Redefinition
-to nil is ignored.
-si: simSetDef().... lvsRulesFilePath is already set to "divaLVS.rul".
-Redefinition to "" is ignored.
-si: simSetDef().... lvsRulesLibName is already set to "NCSU_TechLib_tsmc02d".
-Redefinition to "" is ignored.
-si: simSetDef().... lvsRulesFromLib is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... simInstViewListTable is initialized to "nil".
-si: simSetDef().... simInstStopListTable is initialized to "nil".
-si: simSetDef().... applyDeviceFixing is initialized to "nil".
-si: simSetDef().... lvsNetlistLayout is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... lvsNetlistSchematic is already set to t. Redefinition to nil
-is ignored.
-si: simSetDef().... correspondenceFile is already set to
-"/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1128/In-Memory-Computing-Project/lvs_corr_file". Redefinition to nil is ignored.
-si: simSetDef().... createXref is initialized to "nil".
-si: simSetDef().... disableLikeMatch is initialized to "nil".
-si: simSetDef().... disableRewire is initialized to "nil".
-si: simSetDef().... useFileCorrespondence is initialized to "nil".
-si: simSetDef().... useLastBinaryXrefTable is initialized to "nil".
-si: simSetDef().... useTerminalCorrespondence is already set to t. Redefinition
-to nil is ignored.
-si: simSetDef().... lvsRulesFilePath is already set to "divaLVS.rul".
-Redefinition to "" is ignored.
-si: simSetDef().... lvsRulesLibName is already set to "NCSU_TechLib_tsmc02d".
-Redefinition to "" is ignored.
-si: simSetDef().... lvsRulesFromLib is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... simInstViewListTable is initialized to "nil".
-si: simSetDef().... simInstStopListTable is initialized to "nil".
-si: simSetDef().... applyDeviceFixing is initialized to "nil".
-si: simSetDef().... lvsNetlistLayout is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... lvsNetlistSchematic is already set to t. Redefinition to nil
-is ignored.
-si: simSetDef().... correspondenceFile is already set to
-"/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1128/In-Memory-Computing-Project/lvs_corr_file". Redefinition to nil is ignored.
-si: simSetDef().... createXref is initialized to "nil".
-si: simSetDef().... disableLikeMatch is initialized to "nil".
-si: simSetDef().... disableRewire is initialized to "nil".
-si: simSetDef().... useFileCorrespondence is initialized to "nil".
-si: simSetDef().... useLastBinaryXrefTable is initialized to "nil".
-si: simSetDef().... useTerminalCorrespondence is already set to t. Redefinition
-to nil is ignored.
-si: simSetDef().... lvsRulesFilePath is already set to "divaLVS.rul".
-Redefinition to "" is ignored.
-si: simSetDef().... lvsRulesLibName is already set to "NCSU_TechLib_tsmc02d".
-Redefinition to "" is ignored.
-si: simSetDef().... lvsRulesFromLib is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... simInstViewListTable is initialized to "nil".
-si: simSetDef().... simInstStopListTable is initialized to "nil".
-si: simSetDef().... applyDeviceFixing is initialized to "nil".
-si: simSetDef().... lvsNetlistLayout is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... lvsNetlistSchematic is already set to t. Redefinition to nil
-is ignored.
-si: simSetDef().... correspondenceFile is already set to
-"/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1128/In-Memory-Computing-Project/lvs_corr_file". Redefinition to nil is ignored.
-si: simSetDef().... createXref is initialized to "nil".
-si: simSetDef().... disableLikeMatch is initialized to "nil".
-si: simSetDef().... disableRewire is initialized to "nil".
-si: simSetDef().... useFileCorrespondence is initialized to "nil".
-si: simSetDef().... useLastBinaryXrefTable is initialized to "nil".
-si: simSetDef().... useTerminalCorrespondence is already set to t. Redefinition
-to nil is ignored.
-si: simSetDef().... lvsRulesFilePath is already set to "divaLVS.rul".
-Redefinition to "" is ignored.
-si: simSetDef().... lvsRulesLibName is already set to "NCSU_TechLib_tsmc02d".
-Redefinition to "" is ignored.
-si: simSetDef().... lvsRulesFromLib is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... simInstViewListTable is initialized to "nil".
-si: simSetDef().... simInstStopListTable is initialized to "nil".
-si: simSetDef().... applyDeviceFixing is initialized to "nil".
-si: simSetDef().... lvsNetlistLayout is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... lvsNetlistSchematic is already set to t. Redefinition to nil
-is ignored.
-si: simSetDef().... correspondenceFile is already set to
-"/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1128/In-Memory-Computing-Project/lvs_corr_file". Redefinition to nil is ignored.
-si: simSetDef().... createXref is initialized to "nil".
-si: simSetDef().... disableLikeMatch is initialized to "nil".
-si: simSetDef().... disableRewire is initialized to "nil".
-si: simSetDef().... useFileCorrespondence is initialized to "nil".
-si: simSetDef().... useLastBinaryXrefTable is initialized to "nil".
-si: simSetDef().... useTerminalCorrespondence is already set to t. Redefinition
-to nil is ignored.
-si: simSetDef().... lvsRulesFilePath is already set to "divaLVS.rul".
-Redefinition to "" is ignored.
-si: simSetDef().... lvsRulesLibName is already set to "NCSU_TechLib_tsmc02d".
-Redefinition to "" is ignored.
-si: simSetDef().... lvsRulesFromLib is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... simInstViewListTable is initialized to "nil".
-si: simSetDef().... simInstStopListTable is initialized to "nil".
-si: simSetDef().... applyDeviceFixing is initialized to "nil".
-si: simSetDef().... lvsNetlistLayout is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... lvsNetlistSchematic is already set to t. Redefinition to nil
-is ignored.
-si: simSetDef().... correspondenceFile is already set to
-"/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1128/In-Memory-Computing-Project/lvs_corr_file". Redefinition to nil is ignored.
-si: simSetDef().... createXref is initialized to "nil".
-si: simSetDef().... disableLikeMatch is initialized to "nil".
-si: simSetDef().... disableRewire is initialized to "nil".
-si: simSetDef().... useFileCorrespondence is initialized to "nil".
-si: simSetDef().... useLastBinaryXrefTable is initialized to "nil".
-si: simSetDef().... useTerminalCorrespondence is already set to t. Redefinition
-to nil is ignored.
-si: simSetDef().... lvsRulesFilePath is already set to "divaLVS.rul".
-Redefinition to "" is ignored.
-si: simSetDef().... lvsRulesLibName is already set to "NCSU_TechLib_tsmc02d".
-Redefinition to "" is ignored.
-si: simSetDef().... lvsRulesFromLib is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... simInstViewListTable is initialized to "nil".
-si: simSetDef().... simInstStopListTable is initialized to "nil".
-si: simSetDef().... applyDeviceFixing is initialized to "nil".
-si: simSetDef().... lvsNetlistLayout is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... lvsNetlistSchematic is already set to t. Redefinition to nil
-is ignored.
-si: simSetDef().... correspondenceFile is already set to
-"/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1128/In-Memory-Computing-Project/lvs_corr_file". Redefinition to nil is ignored.
-si: simSetDef().... createXref is initialized to "nil".
-si: simSetDef().... disableLikeMatch is initialized to "nil".
-si: simSetDef().... disableRewire is initialized to "nil".
-si: simSetDef().... useFileCorrespondence is initialized to "nil".
-si: simSetDef().... useLastBinaryXrefTable is initialized to "nil".
-si: simSetDef().... useTerminalCorrespondence is already set to t. Redefinition
-to nil is ignored.
-si: simSetDef().... lvsRulesFilePath is already set to "divaLVS.rul".
-Redefinition to "" is ignored.
-si: simSetDef().... lvsRulesLibName is already set to "NCSU_TechLib_tsmc02d".
-Redefinition to "" is ignored.
-si: simSetDef().... lvsRulesFromLib is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... simInstViewListTable is initialized to "nil".
-si: simSetDef().... simInstStopListTable is initialized to "nil".
-si: simSetDef().... applyDeviceFixing is initialized to "nil".
-si: simSetDef().... lvsNetlistLayout is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... lvsNetlistSchematic is already set to t. Redefinition to nil
-is ignored.
-si: simSetDef().... correspondenceFile is already set to
-"/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1128/In-Memory-Computing-Project/lvs_corr_file". Redefinition to nil is ignored.
-si: simSetDef().... createXref is initialized to "nil".
-si: simSetDef().... disableLikeMatch is initialized to "nil".
-si: simSetDef().... disableRewire is initialized to "nil".
-si: simSetDef().... useFileCorrespondence is initialized to "nil".
-si: simSetDef().... useLastBinaryXrefTable is initialized to "nil".
-si: simSetDef().... useTerminalCorrespondence is already set to t. Redefinition
-to nil is ignored.
-si: simSetDef().... lvsRulesFilePath is already set to "divaLVS.rul".
-Redefinition to "" is ignored.
-si: simSetDef().... lvsRulesLibName is already set to "NCSU_TechLib_tsmc02d".
-Redefinition to "" is ignored.
-si: simSetDef().... lvsRulesFromLib is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... simInstViewListTable is initialized to "nil".
-si: simSetDef().... simInstStopListTable is initialized to "nil".
-si: simSetDef().... applyDeviceFixing is initialized to "nil".
-si: simSetDef().... lvsNetlistLayout is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... lvsNetlistSchematic is already set to t. Redefinition to nil
-is ignored.
-si: simSetDef().... correspondenceFile is already set to
-"/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1128/In-Memory-Computing-Project/lvs_corr_file". Redefinition to nil is ignored.
-si: simSetDef().... createXref is initialized to "nil".
-si: simSetDef().... disableLikeMatch is initialized to "nil".
-si: simSetDef().... disableRewire is initialized to "nil".
-si: simSetDef().... useFileCorrespondence is initialized to "nil".
-si: simSetDef().... useLastBinaryXrefTable is initialized to "nil".
-si: simSetDef().... useTerminalCorrespondence is already set to t. Redefinition
-to nil is ignored.
-si: simSetDef().... lvsRulesFilePath is already set to "divaLVS.rul".
-Redefinition to "" is ignored.
-si: simSetDef().... lvsRulesLibName is already set to "NCSU_TechLib_tsmc02d".
-Redefinition to "" is ignored.
-si: simSetDef().... lvsRulesFromLib is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... simInstViewListTable is initialized to "nil".
-si: simSetDef().... simInstStopListTable is initialized to "nil".
-si: simSetDef().... applyDeviceFixing is initialized to "nil".
-si: simSetDef().... lvsNetlistLayout is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... lvsNetlistSchematic is already set to t. Redefinition to nil
-is ignored.
-si: simSetDef().... correspondenceFile is already set to
-"/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1128/In-Memory-Computing-Project/lvs_corr_file". Redefinition to nil is ignored.
-si: simSetDef().... createXref is initialized to "nil".
-si: simSetDef().... disableLikeMatch is initialized to "nil".
-si: simSetDef().... disableRewire is initialized to "nil".
-si: simSetDef().... useFileCorrespondence is initialized to "nil".
-si: simSetDef().... useLastBinaryXrefTable is initialized to "nil".
-si: simSetDef().... useTerminalCorrespondence is already set to t. Redefinition
-to nil is ignored.
-si: simSetDef().... lvsRulesFilePath is already set to "divaLVS.rul".
-Redefinition to "" is ignored.
-si: simSetDef().... lvsRulesLibName is already set to "NCSU_TechLib_tsmc02d".
-Redefinition to "" is ignored.
-si: simSetDef().... lvsRulesFromLib is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... simInstViewListTable is initialized to "nil".
-si: simSetDef().... simInstStopListTable is initialized to "nil".
-si: simSetDef().... applyDeviceFixing is initialized to "nil".
-si: simSetDef().... lvsNetlistLayout is already set to t. Redefinition to nil is
-ignored.
-si: simSetDef().... lvsNetlistSchematic is already set to t. Redefinition to nil
-is ignored.
-si: simSetDef().... correspondenceFile is already set to
-"/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1128/In-Memory-Computing-Project/lvs_corr_file". Redefinition to nil is ignored.
 si: simSetDef().... createXref is initialized to "nil".
 si: simSetDef().... disableLikeMatch is initialized to "nil".
 si: simSetDef().... disableRewire is initialized to "nil".
