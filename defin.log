@@ -1,0 +1,17 @@
+
+********************************************************************************
+Product   : Virtuoso(R) DEF In 
+Program   : @(#)$CDS: defin version 6.1.8-64b 06/29/2021 19:12 (sjfhw316) $
+SubVersion: sub-version  IC6.1.8-64b.500.19 
+Started at: 07-Dec-2021  23:57:12
+User Name : 559mg24
+Host Name : ecegrid-thin6.ecn.purdue.edu
+Directory : /home/ecegrid/a/559mg24/In-Memory-Computing-Project
+DB Version: 	20210629 (SJ)
+CADENCE Design Systems, Inc.
+********************************************************************************
+Running: defin -lib Decoder_3x8 -def "/home/ecegrid/a/559mg24/Music/ece559/pnr/decoder_3_8.ports.def" -cell decoder_3_8 -view layout_ports
+
+Elapsed Time: 0.9s
+
+defin translation completed (errors: 0, warnings: 0).

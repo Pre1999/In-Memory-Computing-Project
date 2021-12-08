@@ -2,24 +2,24 @@
 Product   : Virtuoso(R) XStream In
 Program   : @(#)$CDS: strmin version 6.1.8-64b 06/29/2021 19:07 (sjfhw315) $
           : sub-version  IC6.1.8-64b.500.19 
-Started at: 22-Nov-2021  15:06:18
-User Name : 559mg16
-Host Name : ecegrid-thin4.ecn.purdue.edu
-Directory : /home/ecegrid/a/559mg16/In-Memory-Computing-Project_new/In-Memory-Computing-Project
+Started at: 07-Dec-2021  14:54:31
+User Name : 559mg24
+Host Name : ecegrid-thin2.ecn.purdue.edu
+Directory : /home/ecegrid/a/559mg24/In-Memory-Computing-Project
 CADENCE Design Systems, Inc.
 ********************************************************************************
 Info: Cellview Rev Num:99,  Tech Rev Num:59
 
-WARNING (XSTRM-75): Target library 'Decoder' is attached to the technology library 'NCSU_TechLib_tsmc02d'. Therefore, the technology file is opened in read-only mode. All the undefined layer-purpose pairs will be dropped.
+WARNING (XSTRM-75): Target library 'Decoder_3x8' is attached to the technology library 'NCSU_TechLib_tsmc02d'. Therefore, the technology file is opened in read-only mode. All the undefined layer-purpose pairs will be dropped.
 WARNING (XSTRM-107): Existing cells in the target library will be overwritten if the cell names in the Stream file and the target library are the same. To prevent this, set the '-writeMode' option to 'noOverwrite'.
 INFO (XSTRM-217): Reading the layer map file, /package/eda/cells/OSU/v2.7/cadence/lib/source/gds2/streamin.map
 INFO (XSTRM-163): You have not used the viaMap option. If a viaMap file, corresponding techfile or technology library exist, then use the -viaMap option for creating oaVia instances in the Streamed-In library. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design. For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
 
 Summary of Options:
-	library				Decoder
-	strmFile			/home/ecegrid/a/559mg16/SRAM_PnR/decoder.merge.gds
+	library				Decoder_3x8
+	strmFile			/home/ecegrid/a/559mg24/Music/ece559/pnr/decoder_3_8.merge.gds
 	logFile				strmIn.log
-	topCell				decoder
+	topCell				decoder_3_8
 	view				layout
 	case				Preserve
 	layerMap			/package/eda/cells/OSU/v2.7/cadence/lib/source/gds2/streamin.map
@@ -28,42 +28,36 @@ Summary of Options:
 	checkPolygon				
 
 WARNING (XSTRM-284): DbuPerUU (1000) specified in the technology database or using '-dbuPerUU' is not divisible by the value (10000) set in the GDSII file. This can cause loss in data precision during translation.
-INFO (XSTRM-220): 1. Translating STRUCTURE AND2X2 as cellView Decoder/AND2X2/layout.
+INFO (XSTRM-220): 1. Translating STRUCTURE AND2X1 as cellView Decoder_3x8/AND2X1/layout.
 WARNING (XSTRM-36): The objects in the stream layer-datatype '81:0' are ignored. This is because the stream layer-datatype pair is either not specified in the layer map file or the entry is invalid and was therefore ignored. Specify the stream layer-datatype pair in the layer map file or correct the wrong entry and try again.
-INFO (XSTRM-220): 2. Translating STRUCTURE AOI21X1 as cellView Decoder/AOI21X1/layout.
+INFO (XSTRM-220): 2. Translating STRUCTURE AOI22X1 as cellView Decoder_3x8/AOI22X1/layout.
 WARNING (XSTRM-36): The objects in the stream layer-datatype '81:0' are ignored. This is because the stream layer-datatype pair is either not specified in the layer map file or the entry is invalid and was therefore ignored. Specify the stream layer-datatype pair in the layer map file or correct the wrong entry and try again.
-INFO (XSTRM-220): 3. Translating STRUCTURE BUFX2 as cellView Decoder/BUFX2/layout.
+INFO (XSTRM-220): 3. Translating STRUCTURE INVX2 as cellView Decoder_3x8/INVX2/layout.
 WARNING (XSTRM-36): The objects in the stream layer-datatype '81:0' are ignored. This is because the stream layer-datatype pair is either not specified in the layer map file or the entry is invalid and was therefore ignored. Specify the stream layer-datatype pair in the layer map file or correct the wrong entry and try again.
-INFO (XSTRM-220): 4. Translating STRUCTURE INVX1 as cellView Decoder/INVX1/layout.
+INFO (XSTRM-220): 4. Translating STRUCTURE INVX8 as cellView Decoder_3x8/INVX8/layout.
 WARNING (XSTRM-36): The objects in the stream layer-datatype '81:0' are ignored. This is because the stream layer-datatype pair is either not specified in the layer map file or the entry is invalid and was therefore ignored. Specify the stream layer-datatype pair in the layer map file or correct the wrong entry and try again.
-INFO (XSTRM-220): 5. Translating STRUCTURE INVX2 as cellView Decoder/INVX2/layout.
+INFO (XSTRM-220): 5. Translating STRUCTURE NAND2X1 as cellView Decoder_3x8/NAND2X1/layout.
 WARNING (XSTRM-36): The objects in the stream layer-datatype '81:0' are ignored. This is because the stream layer-datatype pair is either not specified in the layer map file or the entry is invalid and was therefore ignored. Specify the stream layer-datatype pair in the layer map file or correct the wrong entry and try again.
-INFO (XSTRM-220): 6. Translating STRUCTURE INVX8 as cellView Decoder/INVX8/layout.
+INFO (XSTRM-220): 6. Translating STRUCTURE OR2X2 as cellView Decoder_3x8/OR2X2/layout.
 WARNING (XSTRM-36): The objects in the stream layer-datatype '81:0' are ignored. This is because the stream layer-datatype pair is either not specified in the layer map file or the entry is invalid and was therefore ignored. Specify the stream layer-datatype pair in the layer map file or correct the wrong entry and try again.
-INFO (XSTRM-220): 7. Translating STRUCTURE NAND2X1 as cellView Decoder/NAND2X1/layout.
+INFO (XSTRM-220): 7. Translating STRUCTURE XOR2X1 as cellView Decoder_3x8/XOR2X1/layout.
 WARNING (XSTRM-36): The objects in the stream layer-datatype '81:0' are ignored. This is because the stream layer-datatype pair is either not specified in the layer map file or the entry is invalid and was therefore ignored. Specify the stream layer-datatype pair in the layer map file or correct the wrong entry and try again.
-INFO (XSTRM-220): 8. Translating STRUCTURE NAND3X1 as cellView Decoder/NAND3X1/layout.
-WARNING (XSTRM-36): The objects in the stream layer-datatype '81:0' are ignored. This is because the stream layer-datatype pair is either not specified in the layer map file or the entry is invalid and was therefore ignored. Specify the stream layer-datatype pair in the layer map file or correct the wrong entry and try again.
-INFO (XSTRM-220): 9. Translating STRUCTURE NOR2X1 as cellView Decoder/NOR2X1/layout.
-WARNING (XSTRM-36): The objects in the stream layer-datatype '81:0' are ignored. This is because the stream layer-datatype pair is either not specified in the layer map file or the entry is invalid and was therefore ignored. Specify the stream layer-datatype pair in the layer map file or correct the wrong entry and try again.
-INFO (XSTRM-220): 10. Translating STRUCTURE OAI21X1 as cellView Decoder/OAI21X1/layout.
-WARNING (XSTRM-36): The objects in the stream layer-datatype '81:0' are ignored. This is because the stream layer-datatype pair is either not specified in the layer map file or the entry is invalid and was therefore ignored. Specify the stream layer-datatype pair in the layer map file or correct the wrong entry and try again.
-INFO (XSTRM-220): 11. Translating STRUCTURE decoder as cellView Decoder/decoder/layout.
+INFO (XSTRM-220): 8. Translating STRUCTURE decoder_3_8 as cellView Decoder_3x8/decoder_3_8/layout.
 
 Summary of Objects Translated:
-	Instances:                              1384
+	Instances:                              26
 	CustomVias:                             0
 	StandardVias:                           0
 	CdsGenVias:                             0
 	Arrays:                                 0
 	Polygons:                               0
-	Paths:                                  10599
+	Paths:                                  295
 	PathSegs:                               0
-	Rectangles:                             43406
-	Text:                                   457
+	Rectangles:                             14515
+	Text:                                   46
 	Node:                                   0
 	Line:                                   0
-	Cells:                                  11
+	Cells:                                  8
 
-Elapsed Time: 1.5s   User Time: 0.2s   CPU Time: 0.1s   Peak VM: 78232KB  CPUs Used: 2
-INFO (XSTRM-234): Translation completed. '0' error(s) and '13' warning(s) found.
+Elapsed Time: 2.1s   User Time: 0.2s   CPU Time: 0.2s   Peak VM: 11460KB  CPUs Used: 2
+INFO (XSTRM-234): Translation completed. '0' error(s) and '10' warning(s) found.
