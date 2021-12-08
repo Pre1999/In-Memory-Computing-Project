@@ -1,0 +1,141 @@
+# 
+# IC Compiler II write_def
+# Release      : Q-2019.12-SP5
+# User Name    : 559mg16
+# Date         : Wed Dec  8 16:30:59 2021
+# 
+VERSION 5.8 ;
+DIVIDERCHAR "/" ;
+BUSBITCHARS "[]" ;
+DESIGN decoder ;
+UNITS DISTANCE MICRONS 1000 ;
+PROPERTYDEFINITIONS
+COMPONENTPIN ACCESS_DIRECTION STRING ;
+END PROPERTYDEFINITIONS
+PINS 26 ;
+ - read_address1[6] + NET read_address1[6] + DIRECTION INPUT + USE SIGNAL
+   + LAYER metal3 ( 0 0 ) ( 800 480 )
+   + PLACED ( 0 190760 ) N ;
+ - read_address1[5] + NET read_address1[5] + DIRECTION INPUT + USE SIGNAL
+   + LAYER metal3 ( 0 0 ) ( 800 480 )
+   + PLACED ( 0 305760 ) N ;
+ - read_address1[4] + NET read_address1[4] + DIRECTION INPUT + USE SIGNAL
+   + LAYER metal3 ( 0 0 ) ( 800 480 )
+   + PLACED ( 0 195760 ) N ;
+ - read_address1[3] + NET read_address1[3] + DIRECTION INPUT + USE SIGNAL
+   + LAYER metal3 ( 0 0 ) ( 800 480 )
+   + PLACED ( 0 300760 ) N ;
+ - read_address1[2] + NET read_address1[2] + DIRECTION INPUT + USE SIGNAL
+   + LAYER metal3 ( 0 0 ) ( 800 480 )
+   + PLACED ( 0 200760 ) N ;
+ - read_address1[1] + NET read_address1[1] + DIRECTION INPUT + USE SIGNAL
+   + LAYER metal3 ( 0 0 ) ( 800 480 )
+   + PLACED ( 0 295760 ) N ;
+ - read_address1[0] + NET read_address1[0] + DIRECTION INPUT + USE SIGNAL
+   + LAYER metal3 ( 0 0 ) ( 800 480 )
+   + PLACED ( 0 205760 ) N ;
+ - read_address2[6] + NET read_address2[6] + DIRECTION INPUT + USE SIGNAL
+   + LAYER metal3 ( 0 0 ) ( 800 480 )
+   + PLACED ( 0 290760 ) N ;
+ - read_address2[5] + NET read_address2[5] + DIRECTION INPUT + USE SIGNAL
+   + LAYER metal3 ( 0 0 ) ( 800 480 )
+   + PLACED ( 0 210760 ) N ;
+ - read_address2[4] + NET read_address2[4] + DIRECTION INPUT + USE SIGNAL
+   + LAYER metal3 ( 0 0 ) ( 800 480 )
+   + PLACED ( 0 285760 ) N ;
+ - read_address2[3] + NET read_address2[3] + DIRECTION INPUT + USE SIGNAL
+   + LAYER metal3 ( 0 0 ) ( 800 480 )
+   + PLACED ( 0 215760 ) N ;
+ - read_address2[2] + NET read_address2[2] + DIRECTION INPUT + USE SIGNAL
+   + LAYER metal3 ( 0 0 ) ( 800 480 )
+   + PLACED ( 0 280760 ) N ;
+ - read_address2[1] + NET read_address2[1] + DIRECTION INPUT + USE SIGNAL
+   + LAYER metal3 ( 0 0 ) ( 800 480 )
+   + PLACED ( 0 220760 ) N ;
+ - read_address2[0] + NET read_address2[0] + DIRECTION INPUT + USE SIGNAL
+   + LAYER metal3 ( 0 0 ) ( 800 480 )
+   + PLACED ( 0 275760 ) N ;
+ - read_enable1 + NET read_enable1 + DIRECTION INPUT + USE SIGNAL
+   + LAYER metal3 ( 0 0 ) ( 800 480 )
+   + PLACED ( 0 225760 ) N ;
+ - read_enable2 + NET read_enable2 + DIRECTION INPUT + USE SIGNAL
+   + LAYER metal3 ( 0 0 ) ( 800 480 )
+   + PLACED ( 0 270760 ) N ;
+ - write_address[6] + NET write_address[6] + DIRECTION INPUT + USE SIGNAL
+   + LAYER metal3 ( 0 0 ) ( 800 480 )
+   + PLACED ( 0 230760 ) N ;
+ - write_address[5] + NET write_address[5] + DIRECTION INPUT + USE SIGNAL
+   + LAYER metal3 ( 0 0 ) ( 800 480 )
+   + PLACED ( 0 265760 ) N ;
+ - write_address[4] + NET write_address[4] + DIRECTION INPUT + USE SIGNAL
+   + LAYER metal3 ( 0 0 ) ( 800 480 )
+   + PLACED ( 0 235760 ) N ;
+ - write_address[3] + NET write_address[3] + DIRECTION INPUT + USE SIGNAL
+   + LAYER metal3 ( 0 0 ) ( 800 480 )
+   + PLACED ( 0 260760 ) N ;
+ - write_address[2] + NET write_address[2] + DIRECTION INPUT + USE SIGNAL
+   + LAYER metal3 ( 0 0 ) ( 800 480 )
+   + PLACED ( 0 240760 ) N ;
+ - write_address[1] + NET write_address[1] + DIRECTION INPUT + USE SIGNAL
+   + LAYER metal3 ( 0 0 ) ( 800 480 )
+   + PLACED ( 0 255760 ) N ;
+ - write_address[0] + NET write_address[0] + DIRECTION INPUT + USE SIGNAL
+   + LAYER metal3 ( 0 0 ) ( 800 480 )
+   + PLACED ( 0 245760 ) N ;
+ - write_enable + NET write_enable + DIRECTION INPUT + USE SIGNAL
+   + LAYER metal3 ( 0 0 ) ( 800 480 )
+   + PLACED ( 0 250760 ) N ;
+ - GND + NET GND + SPECIAL + DIRECTION INPUT + USE GROUND ;
+ - VDD + NET VDD + SPECIAL + DIRECTION INPUT + USE POWER ;
+END PINS
+PINPROPERTIES 24 ;
+ - PIN read_address1[6]
+   + PROPERTY ACCESS_DIRECTION "0 left" ;
+ - PIN read_address1[5]
+   + PROPERTY ACCESS_DIRECTION "0 left" ;
+ - PIN read_address1[4]
+   + PROPERTY ACCESS_DIRECTION "0 left" ;
+ - PIN read_address1[3]
+   + PROPERTY ACCESS_DIRECTION "0 left" ;
+ - PIN read_address1[2]
+   + PROPERTY ACCESS_DIRECTION "0 left" ;
+ - PIN read_address1[1]
+   + PROPERTY ACCESS_DIRECTION "0 left" ;
+ - PIN read_address1[0]
+   + PROPERTY ACCESS_DIRECTION "0 left" ;
+ - PIN read_address2[6]
+   + PROPERTY ACCESS_DIRECTION "0 left" ;
+ - PIN read_address2[5]
+   + PROPERTY ACCESS_DIRECTION "0 left" ;
+ - PIN read_address2[4]
+   + PROPERTY ACCESS_DIRECTION "0 left" ;
+ - PIN read_address2[3]
+   + PROPERTY ACCESS_DIRECTION "0 left" ;
+ - PIN read_address2[2]
+   + PROPERTY ACCESS_DIRECTION "0 left" ;
+ - PIN read_address2[1]
+   + PROPERTY ACCESS_DIRECTION "0 left" ;
+ - PIN read_address2[0]
+   + PROPERTY ACCESS_DIRECTION "0 left" ;
+ - PIN read_enable1
+   + PROPERTY ACCESS_DIRECTION "0 left" ;
+ - PIN read_enable2
+   + PROPERTY ACCESS_DIRECTION "0 left" ;
+ - PIN write_address[6]
+   + PROPERTY ACCESS_DIRECTION "0 left" ;
+ - PIN write_address[5]
+   + PROPERTY ACCESS_DIRECTION "0 left" ;
+ - PIN write_address[4]
+   + PROPERTY ACCESS_DIRECTION "0 left" ;
+ - PIN write_address[3]
+   + PROPERTY ACCESS_DIRECTION "0 left" ;
+ - PIN write_address[2]
+   + PROPERTY ACCESS_DIRECTION "0 left" ;
+ - PIN write_address[1]
+   + PROPERTY ACCESS_DIRECTION "0 left" ;
+ - PIN write_address[0]
+   + PROPERTY ACCESS_DIRECTION "0 left" ;
+ - PIN write_enable
+   + PROPERTY ACCESS_DIRECTION "0 left" ;
+END PINPROPERTIES
+END DESIGN

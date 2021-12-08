@@ -1,0 +1,63 @@
+# Bitwise explanation of patterns ('--' = hold)
+
+# --
+# w[0x00] <= 0x28AE
+# --
+# PRE
+# r[0]
+# --
+# w[0x2D] <= 0x515D
+# --
+# w[0x6E] <= 0xF3F3
+# --
+# PRE
+# r[0x2D,0x6E]
+# --
+# --
+
+pre_pattern      pattern data="00010000001000"
+
+wen_pattern      pattern data="01000010100000"
+w0_pattern       pattern data="00000010000000"
+w1_pattern       pattern data="00000000100000"
+w2_pattern       pattern data="00000010100000"
+w3_pattern       pattern data="00000010100000"
+w4_pattern       pattern data="00000000000000"
+w5_pattern       pattern data="00000010100000"
+w6_pattern       pattern data="00000000100000"
+
+r1en_pattern     pattern data="00001000000100"
+r10_pattern      pattern data="00000000000100"
+r11_pattern      pattern data="00000000000000"
+r12_pattern      pattern data="00000000000100"
+r13_pattern      pattern data="00000000000100"
+r14_pattern      pattern data="00000000000000"
+r15_pattern      pattern data="00000000000100"
+r16_pattern      pattern data="00000000000000"
+
+r2en_pattern     pattern data="00000000000100"
+r20_pattern      pattern data="00000000000000"
+r21_pattern      pattern data="00000000000100"
+r22_pattern      pattern data="00000000000100"
+r23_pattern      pattern data="00000000000100"
+r24_pattern      pattern data="00000000000000"
+r25_pattern      pattern data="00000000000100"
+r26_pattern      pattern data="00000000000100"
+
+
+data0_pattern    pattern data="00000010100000"
+data1_pattern    pattern data="01000000100000"
+data2_pattern    pattern data="01000010000000"
+data3_pattern    pattern data="01000010000000"
+data4_pattern    pattern data="00000010100000"
+data5_pattern    pattern data="01000000100000"
+data6_pattern    pattern data="00000010100000"
+data7_pattern    pattern data="01000000100000"
+data8_pattern    pattern data="00000010100000"
+data9_pattern    pattern data="00000000000000"
+data10_pattern   pattern data="00000000000000"
+data11_pattern   pattern data="01000000100000"
+data12_pattern   pattern data="00000010100000"
+data13_pattern   pattern data="01000000100000"
+data14_pattern   pattern data="00000010100000"
+data15_pattern   pattern data="00000000000000"

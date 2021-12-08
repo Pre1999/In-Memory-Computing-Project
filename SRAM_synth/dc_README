@@ -1,0 +1,9 @@
+1. Copy /home/ecegrid/a/ece559/syn/.synopsys_dc.setup file to your home area. This file is used to set up the environment for dc_shell. (It is a hidden file, so use "ls -a" to see the file)
+
+2. Add "syn-P-2019.03-SP5" to the list of tools in you .cshrc file. You must restart your terminal for changes to take effect.
+
+3. Copy the contents of directory "syn" to your work area. You only need files from this directory !!
+
+4. Go to your work area and bring up Design Compiler shell by using the command "dc_shell".
+
+5. Write your RTL and go through the script dc_compile_script.tcl. To get further help on each command, you can use "man <command_name>" on the dc_shell. More resources are available in the User Guide PDF.

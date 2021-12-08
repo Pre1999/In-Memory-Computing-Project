@@ -1,0 +1,7 @@
+1. Add "icc2-Q-2019.12-SP5" to the list of tools in you .cshrc file. You must restart your terminal for changes to take effect.
+
+2. Copy the contents of directory "pnr" to your work area. You only need files from this directory !!
+
+3. Go to your work area and bring up IC Compiler 2 shell by using the command "icc2_shell".
+
+4. Follow through the script icc2_pnr_script.tcl. To get further help on each command, you can use "man <command_name>" on the icc2_shell.

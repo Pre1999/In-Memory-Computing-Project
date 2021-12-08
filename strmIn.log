@@ -2,10 +2,10 @@
 Product   : Virtuoso(R) XStream In
 Program   : @(#)$CDS: strmin version 6.1.8-64b 06/29/2021 19:07 (sjfhw315) $
           : sub-version  IC6.1.8-64b.500.19 
-Started at: 22-Nov-2021  15:06:18
+Started at: 08-Dec-2021  16:33:45
 User Name : 559mg16
-Host Name : ecegrid-thin4.ecn.purdue.edu
-Directory : /home/ecegrid/a/559mg16/In-Memory-Computing-Project_new/In-Memory-Computing-Project
+Host Name : cparch25.ecn.purdue.edu
+Directory : /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1208/In-Memory-Computing-Project
 CADENCE Design Systems, Inc.
 ********************************************************************************
 Info: Cellview Rev Num:99,  Tech Rev Num:59
@@ -32,38 +32,42 @@ INFO (XSTRM-220): 1. Translating STRUCTURE AND2X2 as cellView Decoder/AND2X2/lay
 WARNING (XSTRM-36): The objects in the stream layer-datatype '81:0' are ignored. This is because the stream layer-datatype pair is either not specified in the layer map file or the entry is invalid and was therefore ignored. Specify the stream layer-datatype pair in the layer map file or correct the wrong entry and try again.
 INFO (XSTRM-220): 2. Translating STRUCTURE AOI21X1 as cellView Decoder/AOI21X1/layout.
 WARNING (XSTRM-36): The objects in the stream layer-datatype '81:0' are ignored. This is because the stream layer-datatype pair is either not specified in the layer map file or the entry is invalid and was therefore ignored. Specify the stream layer-datatype pair in the layer map file or correct the wrong entry and try again.
-INFO (XSTRM-220): 3. Translating STRUCTURE BUFX2 as cellView Decoder/BUFX2/layout.
+INFO (XSTRM-220): 3. Translating STRUCTURE AOI22X1 as cellView Decoder/AOI22X1/layout.
 WARNING (XSTRM-36): The objects in the stream layer-datatype '81:0' are ignored. This is because the stream layer-datatype pair is either not specified in the layer map file or the entry is invalid and was therefore ignored. Specify the stream layer-datatype pair in the layer map file or correct the wrong entry and try again.
-INFO (XSTRM-220): 4. Translating STRUCTURE INVX1 as cellView Decoder/INVX1/layout.
+INFO (XSTRM-220): 4. Translating STRUCTURE BUFX2 as cellView Decoder/BUFX2/layout.
 WARNING (XSTRM-36): The objects in the stream layer-datatype '81:0' are ignored. This is because the stream layer-datatype pair is either not specified in the layer map file or the entry is invalid and was therefore ignored. Specify the stream layer-datatype pair in the layer map file or correct the wrong entry and try again.
-INFO (XSTRM-220): 5. Translating STRUCTURE INVX2 as cellView Decoder/INVX2/layout.
+INFO (XSTRM-220): 5. Translating STRUCTURE NOR3X1 as cellView Decoder/NOR3X1/layout.
 WARNING (XSTRM-36): The objects in the stream layer-datatype '81:0' are ignored. This is because the stream layer-datatype pair is either not specified in the layer map file or the entry is invalid and was therefore ignored. Specify the stream layer-datatype pair in the layer map file or correct the wrong entry and try again.
-INFO (XSTRM-220): 6. Translating STRUCTURE INVX8 as cellView Decoder/INVX8/layout.
+INFO (XSTRM-220): 6. Translating STRUCTURE INVX1 as cellView Decoder/INVX1/layout.
 WARNING (XSTRM-36): The objects in the stream layer-datatype '81:0' are ignored. This is because the stream layer-datatype pair is either not specified in the layer map file or the entry is invalid and was therefore ignored. Specify the stream layer-datatype pair in the layer map file or correct the wrong entry and try again.
-INFO (XSTRM-220): 7. Translating STRUCTURE NAND2X1 as cellView Decoder/NAND2X1/layout.
+INFO (XSTRM-220): 7. Translating STRUCTURE INVX2 as cellView Decoder/INVX2/layout.
 WARNING (XSTRM-36): The objects in the stream layer-datatype '81:0' are ignored. This is because the stream layer-datatype pair is either not specified in the layer map file or the entry is invalid and was therefore ignored. Specify the stream layer-datatype pair in the layer map file or correct the wrong entry and try again.
-INFO (XSTRM-220): 8. Translating STRUCTURE NAND3X1 as cellView Decoder/NAND3X1/layout.
+INFO (XSTRM-220): 8. Translating STRUCTURE INVX8 as cellView Decoder/INVX8/layout.
 WARNING (XSTRM-36): The objects in the stream layer-datatype '81:0' are ignored. This is because the stream layer-datatype pair is either not specified in the layer map file or the entry is invalid and was therefore ignored. Specify the stream layer-datatype pair in the layer map file or correct the wrong entry and try again.
-INFO (XSTRM-220): 9. Translating STRUCTURE NOR2X1 as cellView Decoder/NOR2X1/layout.
+INFO (XSTRM-220): 9. Translating STRUCTURE NAND2X1 as cellView Decoder/NAND2X1/layout.
 WARNING (XSTRM-36): The objects in the stream layer-datatype '81:0' are ignored. This is because the stream layer-datatype pair is either not specified in the layer map file or the entry is invalid and was therefore ignored. Specify the stream layer-datatype pair in the layer map file or correct the wrong entry and try again.
-INFO (XSTRM-220): 10. Translating STRUCTURE OAI21X1 as cellView Decoder/OAI21X1/layout.
+INFO (XSTRM-220): 10. Translating STRUCTURE NAND3X1 as cellView Decoder/NAND3X1/layout.
 WARNING (XSTRM-36): The objects in the stream layer-datatype '81:0' are ignored. This is because the stream layer-datatype pair is either not specified in the layer map file or the entry is invalid and was therefore ignored. Specify the stream layer-datatype pair in the layer map file or correct the wrong entry and try again.
-INFO (XSTRM-220): 11. Translating STRUCTURE decoder as cellView Decoder/decoder/layout.
+INFO (XSTRM-220): 11. Translating STRUCTURE NOR2X1 as cellView Decoder/NOR2X1/layout.
+WARNING (XSTRM-36): The objects in the stream layer-datatype '81:0' are ignored. This is because the stream layer-datatype pair is either not specified in the layer map file or the entry is invalid and was therefore ignored. Specify the stream layer-datatype pair in the layer map file or correct the wrong entry and try again.
+INFO (XSTRM-220): 12. Translating STRUCTURE OAI21X1 as cellView Decoder/OAI21X1/layout.
+WARNING (XSTRM-36): The objects in the stream layer-datatype '81:0' are ignored. This is because the stream layer-datatype pair is either not specified in the layer map file or the entry is invalid and was therefore ignored. Specify the stream layer-datatype pair in the layer map file or correct the wrong entry and try again.
+INFO (XSTRM-220): 13. Translating STRUCTURE decoder as cellView Decoder/decoder/layout.
 
 Summary of Objects Translated:
-	Instances:                              1384
+	Instances:                              1143
 	CustomVias:                             0
 	StandardVias:                           0
 	CdsGenVias:                             0
 	Arrays:                                 0
 	Polygons:                               0
-	Paths:                                  10599
+	Paths:                                  9433
 	PathSegs:                               0
-	Rectangles:                             43406
-	Text:                                   457
+	Rectangles:                             42166
+	Text:                                   86
 	Node:                                   0
 	Line:                                   0
-	Cells:                                  11
+	Cells:                                  13
 
-Elapsed Time: 1.5s   User Time: 0.2s   CPU Time: 0.1s   Peak VM: 78232KB  CPUs Used: 2
-INFO (XSTRM-234): Translation completed. '0' error(s) and '13' warning(s) found.
+Elapsed Time: 3.6s   User Time: 2.8s   CPU Time: 0.1s   Peak VM: 12300KB  CPUs Used: 2
+INFO (XSTRM-234): Translation completed. '0' error(s) and '15' warning(s) found.

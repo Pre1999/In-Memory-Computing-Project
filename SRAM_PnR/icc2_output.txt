@@ -1,0 +1,417 @@
+ 
+                              IC Compiler II (TM)
+
+             Version Q-2019.12-SP5 for linux64 - Aug 05, 2020 -SLE
+
+                    Copyright (c) 1988 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Loading user preference file /home/ecegrid/a/559mg16/.synopsys_icc2_gui/preferences.tcl
+icc2_shell> pwd
+/home/ecegrid/a/559mg16/SRAM_PnR
+icc2_shell> pwd
+/home/ecegrid/a/559mg16/SRAM_PnR
+icc2_shell> pwd
+/home/ecegrid/a/559mg16/SRAM_PnR
+icc2_shell> open_lib my_sram_decoder.nlib/
+Information: Loading library file '/home/ecegrid/a/559mg16/SRAM_PnR/my_sram_decoder.nlib/' (FILE-007)
+Information: Loading library file '/home/ecegrid/a/ece559/tsmc018_stdcell.ndm' (FILE-007)
+Information: Loading library file '/home/ecegrid/a/559mg16/SRAM_LEFtoNDM/sram_senseamp_ndm' (FILE-007)
+{my_sram_decoder.nlib}
+icc2_shell> pwd
+/home/ecegrid/a/559mg16/SRAM_PnR
+icc2_shell> get_blocks
+Warning: No block objects matched '*' (SEL-004)
+icc2_shell> get_designs
+Warning: No design objects matched '*' (SEL-004)
+icc2_shell> start_gui
+icc2_shell> open_block /home/ecegrid/a/559mg16/SRAM_PnR/my_sram_decoder.nlib:decoder.design
+Information: User units loaded from library 'tsmc018_stdcell' (LNK-040)
+Opening block 'my_sram_decoder.nlib:decoder.design' in edit mode
+icc2_shell> link_block
+Using libraries: my_sram_decoder.nlib tsmc018_stdcell sram_senseamp_ndm
+Visiting block my_sram_decoder.nlib:decoder.design
+Design 'decoder' was successfully linked.
+1
+icc2_shell> get_blocks *
+{my_sram_decoder.nlib:decoder.design}
+icc2_shell> get_cells
+{U262 U263 U264 U265 U266 U267 U268 U269 U270 U271 U272 U273 U274 U275 U276 U277 U278 U279 U280 U281 U282 U283 U284 U285 U286 U287 U288 U289 U290 U291 U292 U293 U294 U295 U296 U297 U298 U299 U300 U301 U302 U303 U304 U305 U306 U307 U308 U309 U310 U311 U312 U313 U314 U315 U316 U317 U318 U319 U320 U321 U322 U323 U324 U325 U326 U327 U328 U329 U330 U331 U332 U333 U334 U335 U336 U337 U338 U339 U340 U341 U342 U343 U344 U345 U346 U347 U348 U349 U350 U351 U352 U353 U354 U355 U356 U357 U358 U359 U360 U361 ...}
+icc2_shell> remove_cell [get_cells sram_senseamp]
+1
+icc2_shell> sh gvim icc2_pnr_script.tcl &
+30385
+icc2_shell> check_lvs -max 999
+Information: Using 1 threads for LVS
+[Check Short] Stage 1   Elapsed =    0:00:00, CPU =    0:00:00
+[Check Short] Stage 1-2 Elapsed =    0:00:00, CPU =    0:00:00
+[Check Short] Stage 2   Elapsed =    0:00:00, CPU =    0:00:00
+[Check Short] Stage 2-2 Elapsed =    0:00:00, CPU =    0:00:00
+[Check Short] Stage 3   Elapsed =    0:00:00, CPU =    0:00:00
+[Check Short] End       Elapsed =    0:00:00, CPU =    0:00:00
+[Check Net] Init        Elapsed =    0:00:00, CPU =    0:00:00
+Warning: Port VDD have no valid pin shapes. Skip this port. (RT-203)
+Warning: Port GND have no valid pin shapes. Skip this port. (RT-203)
+[Check Net] 10%         Elapsed =    0:00:00, CPU =    0:00:00
+[Check Net] 20%         Elapsed =    0:00:00, CPU =    0:00:00
+[Check Net] 30%         Elapsed =    0:00:00, CPU =    0:00:00
+[Check Net] 40%         Elapsed =    0:00:00, CPU =    0:00:00
+[Check Net] 50%         Elapsed =    0:00:00, CPU =    0:00:00
+[Check Net] 60%         Elapsed =    0:00:00, CPU =    0:00:00
+[Check Net] 70%         Elapsed =    0:00:00, CPU =    0:00:00
+Warning: Net read_wl[127] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[126] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[125] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[124] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[123] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[122] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[121] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[120] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[119] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[118] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[117] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[116] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[115] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[114] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[113] has less than 2 valid port. Skip open checking for this net. (RT-204)
+[Check Net] 80%         Elapsed =    0:00:00, CPU =    0:00:00
+Warning: Net read_wl[112] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[111] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[110] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[109] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[108] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[107] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[106] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[105] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[104] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[103] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[102] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[101] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[100] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[99] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[98] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[97] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[96] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[95] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[94] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[93] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[92] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[91] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[90] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[89] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[88] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[87] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[86] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[85] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[84] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[83] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[82] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[81] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[80] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[79] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[78] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[77] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[76] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[75] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[74] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[73] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[72] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[71] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[70] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[69] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[68] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[67] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[66] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[65] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[64] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[63] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[62] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[61] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[60] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[59] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[58] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[57] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[56] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[55] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[54] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[53] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[52] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[51] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[50] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[49] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[48] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[47] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[46] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[45] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[44] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[43] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[42] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[41] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[40] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[39] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[38] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[37] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[36] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[35] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[34] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[33] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[32] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[31] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[30] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[29] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[28] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[27] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[26] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[25] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[24] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[23] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[22] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[21] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[20] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[19] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[18] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[17] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[16] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[15] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[14] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[13] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[12] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[11] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[10] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[9] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[8] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[7] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[6] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[5] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[4] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[3] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[2] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[1] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net read_wl[0] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[127] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[126] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[125] has less than 2 valid port. Skip open checking for this net. (RT-204)
+[Check Net] 90%         Elapsed =    0:00:00, CPU =    0:00:00
+Warning: Net write_wl[124] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[123] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[122] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[121] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[120] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[119] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[118] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[117] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[116] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[115] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[114] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[113] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[112] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[111] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[110] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[109] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[108] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[107] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[106] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[105] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[104] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[103] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[102] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[101] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[100] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[99] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[98] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[97] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[96] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[95] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[94] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[93] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[92] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[91] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[90] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[89] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[88] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[87] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[86] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[85] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[84] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[83] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[82] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[81] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[80] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[79] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[78] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[77] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[76] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[75] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[74] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[73] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[72] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[71] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[70] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[69] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[68] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[67] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[66] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[65] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[64] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[63] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[62] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[61] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[60] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[59] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[58] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[57] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[56] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[55] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[54] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[53] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[52] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[51] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[50] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[49] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[48] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[47] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[46] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[45] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[44] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[43] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[42] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[41] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[40] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[39] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[38] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[37] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[36] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[35] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[34] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[33] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[32] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[31] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[30] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[29] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[28] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[27] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[26] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[25] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[24] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[23] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[22] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[21] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[20] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[19] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[18] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[17] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[16] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[15] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[14] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[13] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[12] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[11] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[10] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[9] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[8] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[7] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[6] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[5] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[4] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[3] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[2] has less than 2 valid port. Skip open checking for this net. (RT-204)
+Warning: Net write_wl[1] has less than 2 valid port. Skip open checking for this net. (RT-204)
+[Check Net] All nets are submitted.
+Warning: Net write_wl[0] has less than 2 valid port. Skip open checking for this net. (RT-204)
+[Check Net] 100%        Elapsed =    0:00:00, CPU =    0:00:00
+
+===============================================================
+    Maximum number of violations is set to 999
+    Abort checking when more than 999 violations are found
+    All violations might not be found.
+===============================================================
+Total number of input nets is 1169.
+Total number of short violations is 0.
+Total number of open nets is 0.
+Total number of floating route violations is 0.
+
+Elapsed =    0:00:00, CPU =    0:00:00
+1
+icc2_shell> write_gds -merge_files /package/eda/cells/OSU/v2.7/cadence/lib/source/gds2/osu018_stdcells.gds2     -flat_vias -layer_map /home/ecegrid/a/ece559/icc2_layer_map "[get_attr [current_design] name].merge.gds"
+Merging stream files...
+Finished scanning stream file '/package/eda/cells/OSU/v2.7/cadence/lib/source/gds2/osu018_stdcells.gds2'...
+
+Warning: Layer mapping rule for "5:-32768" is defined multiple times. Only the last instance will be effective. (GDS-010)
+Warning: Layer mapping rule for "5:-32768" is defined multiple times. Only the last instance will be effective. (GDS-010)
+blockage_as_zero_spacing  false
+2 109:*:-1:-1:0  -1:*
+0 1:*:-1:-1:0  42:*
+0 18:*:-1:-1:0  43:*
+0 2:*:-1:-1:0  103:*
+0 3:*:-1:-1:0  113:*
+0 4:*:-1:-1:0  46:*
+0 19:*:-1:-1:0  45:*
+0 20:*:-1:-1:0  44:*
+0 5:*:-1:-1:0  25:*
+0 5:*:-1:-1:0  47:*
+0 5:*:-1:-1:0  48:*
+0 6:*:-1:-1:0  49:*
+0 7:*:-1:-1:0  50:*
+0 8:*:-1:-1:0  51:*
+0 9:*:-1:-1:0  61:*
+0 10:*:-1:-1:0  62:*
+0 11:*:-1:-1:0  30:*
+0 12:*:-1:-1:0  31:*
+0 13:*:-1:-1:0  32:*
+0 14:*:-1:-1:0  33:*
+0 15:*:-1:-1:0  36:*
+0 16:*:-1:-1:0  37:*
+2 63:*:-1:-1:0  -1:*
+
+Warning: The user specified view 'layout' for lib-cell 'AOI21X1' is not available. (GDS-034)
+Warning: The user specified view 'layout' for lib-cell 'AOI22X1' is not available. (GDS-034)
+Warning: The user specified view 'layout' for lib-cell 'NAND2X1' is not available. (GDS-034)
+Warning: The user specified view 'layout' for lib-cell 'INVX2' is not available. (GDS-034)
+Warning: The user specified view 'layout' for lib-cell 'INVX8' is not available. (GDS-034)
+Warning: The user specified view 'layout' for lib-cell 'BUFX2' is not available. (GDS-034)
+Warning: The user specified view 'layout' for lib-cell 'INVX1' is not available. (GDS-034)
+Warning: The user specified view 'layout' for lib-cell 'NOR3X1' is not available. (GDS-034)
+Warning: The user specified view 'layout' for lib-cell 'AND2X2' is not available. (GDS-034)
+Warning: The user specified view 'layout' for lib-cell 'OAI21X1' is not available. (GDS-034)
+Warning: The user specified view 'layout' for lib-cell 'NOR2X1' is not available. (GDS-034)
+Warning: The user specified view 'layout' for lib-cell 'NAND3X1' is not available. (GDS-034)
+Merging stream files...
+Finished scanning stream file '/home/ecegrid/a/559mg16/SRAM_PnR/decoder.merge.gds.strm_out'...
+Merge stream file finished with 35 cells 
+1
+icc2_shell> write_def -objects [get_ports] "[get_attr [current_design] name].ports.def"
+****************************************
+Report : Data Mismatches
+Version: Q-2019.12-SP5
+Date   : Wed Dec  8 16:30:59 2021
+****************************************
+No mismatches exist on the design.
+Information: DEF PINS section is filtered by the -objects option list; 26 ports written to this section. (DEFW-009)
+---------------------------------------
+Number of Written DEF Constructs
+---------------------------------------
+VERSION                        : 1
+DIVIDERCHAR                    : 1
+BUSBITCHARS                    : 1
+DESIGN                         : 1
+UNITS                          : 1
+PROPERTYDEFINITIONS            : 1
+PINS                           : 26
+PINPROPERTIES                  : 24
+1
+icc2_shell> save_block
+Information: Saving block 'my_sram_decoder.nlib:decoder.design'
+1
+icc2_shell> save_lib
+Saving library 'my_sram_decoder.nlib'
+1
+icc2_shell> exit
+Maximum memory usage for this session: 263.83 MB
+Maximum memory usage for this session including child processes: 465.61 MB
+CPU usage for this session:     23 seconds (  0.01 hours)
+Elapsed time for this session:    191 seconds (  0.05 hours)
+Thank you for using IC Compiler II.
+

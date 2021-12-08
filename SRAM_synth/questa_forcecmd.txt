@@ -1,0 +1,4 @@
+restart
+force read_enable1 1#1 0ns,1#1 10ns -r 10ns
+force read_address1 16#8 0ns,16#2 10ns -r 20ns
+run 100 ns

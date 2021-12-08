@@ -1,0 +1,34 @@
+After completing synthesis and PnR, you can import the final layout into virtuoso.
+There are two files that must be imported into virtuoso and then manually merged.
+
+Part 1: GDS file - This file has all the geometric shapes you need for the layout. It has no connectivity information.
+
+1. Create a new lib in virtuoso. Attach it to the same techology as you did for the SRAM.
+2. From the main Virtuoso CIW window, go to File -> Import -> Stream
+3. Provide the full path to your GDS file in "Stream File" option.
+4. Select the library you created in step 1. 
+5. Set "Top Cell" to the module name you used in the RTL for the decoder.
+6. "View" should default to layout
+7. Attach to the same tech library (NCSU_Techlib_tsmc02d)
+8. Use /package/eda/cells/OSU/v2.7/cadence/lib/source/gds2/streamin.map as the "Layer Map"
+9. Hit Translate. You should see your decoder pop up in the new library you created.
+
+
+Part 2: DEF file - This file has limited view of the layers, but it has some connectivity information (net names) for those layers. We will use this to import only the ports of the decoder
+
+1. From the main Virtuoso CIW window, go to File -> Import -> DEF
+2. Provide the full path to your DEF file in "DEFIn File Name" option.
+3. Select the library you created in Part 1 for "Target Library Name"
+4. Set "Target Cell Name" to the module name you used in the RTL for the decoder.
+5. Set "Target View Name" to layout_ports.
+6. Leave all other options blank and hit "OK"
+
+
+After following the steps above, you should be able to find the layout for the decoder and the ports in the same cell_view.
+Since the ports are very small, you wont be able to see it at first. You will have to open both "layout" and "layout_ports" in LayoutL and copy the ports back to the "layout" view. To properly copy the ports, you can do the following:
+
+1. In the "layout_ports" view, hit Ctrl+A to select everything.
+2. Hit "C" to copy
+3. Now you need an anchor point to align the items beign copied. Use the origin as an anchor point by zooming in all the way and clicking on the origin.
+4. Now you have the ports in clip-board. Bring up the "layout" view and zoom all the way to the origin.
+5. Click on the origin to paste. Verify that the ports have connectivity by querying any of the port shapes.

@@ -1,0 +1,51 @@
+simulator lang=spectre
+
+_vVDD (VDD 0) vsource dc=1.8 type=dc
+_vGND (GND 0) vsource dc=0   type=dc
+
+_vPRE_active_low (PRE        0)    vsource data="pre_pattern"    rptstart=1 rpttimes=0 val1=0 val0=1.8 delay=1n rise=1n fall=1n period=10n type=bit
+
+_vdatain0  (data_in\\<0\\>   0)    vsource data="data0_pattern"  rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vdatain1  (data_in\\<1\\>   0)    vsource data="data1_pattern"  rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vdatain2  (data_in\\<2\\>   0)    vsource data="data2_pattern"  rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vdatain3  (data_in\\<3\\>   0)    vsource data="data3_pattern"  rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vdatain4  (data_in\\<4\\>   0)    vsource data="data4_pattern"  rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vdatain5  (data_in\\<5\\>   0)    vsource data="data5_pattern"  rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vdatain6  (data_in\\<6\\>   0)    vsource data="data6_pattern"  rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vdatain7  (data_in\\<7\\>   0)    vsource data="data7_pattern"  rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vdatain8  (data_in\\<8\\>   0)    vsource data="data8_pattern"  rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vdatain9  (data_in\\<9\\>   0)    vsource data="data9_pattern"  rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vdatain10 (data_in\\<10\\>  0)    vsource data="data10_pattern" rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vdatain11 (data_in\\<11\\>  0)    vsource data="data11_pattern" rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vdatain12 (data_in\\<12\\>  0)    vsource data="data12_pattern" rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vdatain13 (data_in\\<13\\>  0)    vsource data="data13_pattern" rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vdatain14 (data_in\\<14\\>  0)    vsource data="data14_pattern" rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vdatain15 (data_in\\<15\\>  0)    vsource data="data15_pattern" rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+
+_vwen  (write_en             0)    vsource data="wen_pattern"    rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vr1en (read_en\\<0\\>       0)    vsource data="r1en_pattern"   rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vr2en (read_en\\<1\\>       0)    vsource data="r2en_pattern"   rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+
+_vw0   (write_address\\<0\\> 0)    vsource data="w0_pattern"     rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vw1   (write_address\\<1\\> 0)    vsource data="w1_pattern"     rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vw2   (write_address\\<2\\> 0)    vsource data="w2_pattern"     rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vw3   (write_address\\<3\\> 0)    vsource data="w3_pattern"     rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vw4   (write_address\\<4\\> 0)    vsource data="w4_pattern"     rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vw5   (write_address\\<5\\> 0)    vsource data="w5_pattern"     rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vw6   (write_address\\<6\\> 0)    vsource data="w6_pattern"     rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+
+_vr10  (read1_address\\<0\\> 0)    vsource data="r10_pattern"    rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vr11  (read1_address\\<1\\> 0)    vsource data="r11_pattern"    rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vr12  (read1_address\\<2\\> 0)    vsource data="r12_pattern"    rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vr13  (read1_address\\<3\\> 0)    vsource data="r13_pattern"    rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vr14  (read1_address\\<4\\> 0)    vsource data="r14_pattern"    rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vr15  (read1_address\\<5\\> 0)    vsource data="r15_pattern"    rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vr16  (read1_address\\<6\\> 0)    vsource data="r16_pattern"    rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+
+_vr20  (read2_address\\<0\\> 0)    vsource data="r20_pattern"    rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vr21  (read2_address\\<1\\> 0)    vsource data="r21_pattern"    rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vr22  (read2_address\\<2\\> 0)    vsource data="r22_pattern"    rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vr23  (read2_address\\<3\\> 0)    vsource data="r23_pattern"    rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vr24  (read2_address\\<4\\> 0)    vsource data="r24_pattern"    rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vr25  (read2_address\\<5\\> 0)    vsource data="r25_pattern"    rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vr26  (read2_address\\<6\\> 0)    vsource data="r26_pattern"    rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit

@@ -1,0 +1,589 @@
+****************************************
+Report : List of Attribute Definitions
+Version: Q-2019.12-SP5
+Date   : Tue Dec  7 09:29:35 2021
+****************************************
+
+Properties:
+    A - Application-defined
+    U - User-defined
+    I - Importable from design/library (for user-defined)
+    S - Settable
+    B - Subscripted
+
+Attribute Name            Object     Type       Properties  Constraints
+--------------------------------------------------------------------------------
+abstract_dont_touch       cell       boolean    A           
+actual_internal_power_derate_factor
+                          cell       float      A           
+actual_leakage_power_derate_factor
+                          cell       float      A           
+actual_switching_power_derate_factor
+                          cell       float      A           
+allowable_orientation     cell       orientations
+                                                A           
+annotated_internal_power  cell       double     A           
+annotated_leakage_power   cell       double     A           
+annotated_switching_power cell       double     A           
+area                      cell       area       A           
+aspect_ratio              cell       double     A           
+average_power             cell       double     A,B         
+base_name                 cell       string     A           
+bbox                      cell       rect       A           
+block_grid                cell       string     A,S         
+block_placement_type      cell       string     A,S         regular, center, distributed
+blockage_group_id         cell       int        A,S         
+boundary                  cell       coord_list A,S         
+boundary_bbox             cell       rect       A           
+boundary_bounding_box     cell       collection A           
+boundary_optimization     cell       string     A           
+bounding_box              cell       collection A           
+bounds                    cell       collection A           
+bus                       cell       collection A           
+busplan_trace_through     cell       boolean    A,S         
+cell_created_by_core_wrapper
+                          cell       int        A           
+cell_created_by_q_gating  cell       boolean    A           
+cell_created_by_test_point_analysis
+                          cell       int        A           
+cell_is_test_only         cell       boolean    A           
+clock_gating_integrated_cell
+                          cell       string     A           
+clock_path_target_lib_cell_exclusions
+                          cell       collection A           
+clock_path_target_lib_cell_subset
+                          cell       collection A           
+clock_path_target_library_subset
+                          cell       collection A           
+color                     cell       int        A,S         
+congestion_factor         cell       float      A,S         
+const_prop_off            cell       boolean    A           
+const_propagation         cell       boolean    A           
+constant_propagation      cell       boolean    A           
+cts_dont_touch            cell       boolean    A           
+cts_size_in_place         cell       boolean    A           
+data_path_target_lib_cell_exclusions
+                          cell       collection A           
+data_path_target_lib_cell_subset
+                          cell       collection A           
+data_path_target_library_subset
+                          cell       collection A           
+del_unloaded_gate_off     cell       boolean    A           
+design_type               cell       string     A           3dic, abstract, analog, analysis, black_box, bridge, corner, cover, die, diode, end_cap, feedthrough, fill, filler, flip_chip_driver, flip_chip_pad, interposer, lib_cell, macro, module, pad, pad_spacer, rtl, substrate, tsv, vib, well_tap
+dft_drc_shadow_cell       cell       boolean    A           
+disable_timing            cell       boolean    A           
+dont_retime               cell       boolean    A           
+dont_touch                cell       boolean    A,S         
+dpgen_options             cell       string     A           
+early_fall_cell_check_derate_factor
+                          cell       float      A           
+early_fall_cell_check_derate_factor_source
+                          cell       string     A           
+early_fall_cell_check_derate_file_line_info
+                          cell       string     A           
+early_fall_clk_cell_derate_factor
+                          cell       float      A           
+early_fall_clk_cell_derate_factor_file_line_info
+                          cell       string     A           
+early_fall_clk_cell_derate_factor_source
+                          cell       string     A           
+early_fall_data_cell_derate_factor
+                          cell       float      A           
+early_fall_data_cell_derate_factor_file_line_info
+                          cell       string     A           
+early_fall_data_cell_derate_factor_source
+                          cell       string     A           
+early_rise_cell_check_derate_factor
+                          cell       float      A           
+early_rise_cell_check_derate_factor_file_line_info
+                          cell       string     A           
+early_rise_cell_check_derate_factor_source
+                          cell       string     A           
+early_rise_clk_cell_derate_factor
+                          cell       float      A           
+early_rise_clk_cell_derate_factor_file_line_info
+                          cell       string     A           
+early_rise_clk_cell_derate_factor_source
+                          cell       string     A           
+early_rise_data_cell_derate_factor
+                          cell       float      A           
+early_rise_data_cell_derate_factor_file_line_info
+                          cell       string     A           
+early_rise_data_cell_derate_factor_source
+                          cell       string     A           
+eco_change_status         cell       string     A,S         add_buffer, add_buffer_on_route, change_link, create_cell, eco_legalized, eco_placed, size_cell
+eco_cluster_id            cell       int        A,S         
+eco_repeater_group_id     cell       int        A           
+effective_process_label_early
+                          cell       string     A           
+effective_process_label_late
+                          cell       string     A           
+effective_process_number_early
+                          cell       float      A           
+effective_process_number_late
+                          cell       float      A           
+effective_temperature_early
+                          cell       float      A           
+effective_temperature_late
+                          cell       float      A           
+effective_voltage_early   cell       float      A           
+effective_voltage_late    cell       float      A           
+equal_opposite_propagation
+                          cell       boolean    A           
+escaped_full_name         cell       string     A           
+exclude_multibit          cell       string     A           
+exclude_multibit_pamb     cell       string     A           
+exclude_multibit_rtl      cell       string     A           
+fixed_placement_dont_touch
+                          cell       boolean    A           
+fixed_placement_size_only cell       boolean    A           
+flat_net_count            cell       int        A           
+forced_implementation     cell       string     A           
+freeze_clock_ports        cell       boolean    A,S         
+freeze_data_ports         cell       boolean    A,S         
+freeze_logical_feedthrough_ports
+                          cell       boolean    A,S         
+fs_dont_use               cell       boolean    A,S         
+fs_mapped_cell_name       cell       string     A           
+full_name                 cell       string     A           
+glitch_power              cell       double     A           
+gobble                    cell       boolean    A           
+group_repeater_driver     cell       string     A           
+group_repeater_loads      cell       string     A           
+groups                    cell       collection A           
+hard_macro_count          cell       int        A           
+has_child_logical_hierarchy
+                          cell       boolean    A           
+has_child_physical_hierarchy
+                          cell       boolean    A           
+has_multi_power_rails     cell       boolean    A           
+has_timing_model          cell       boolean    A           
+has_variant_ref           cell       boolean    A           
+hdl_canonical_params      cell       string     A           
+hdl_file                  cell       string     A           
+hdl_group                 cell       collection A           
+hdl_hier                  cell       string     A           
+hdl_line                  cell       string     A           
+hdl_origin                cell       string     A           
+hdl_parameters            cell       string     A           
+hdl_template              cell       string     A           
+height                    cell       distance   A           
+hier_elab_name            cell       string     A,S         
+hierarchy_hard_macro_count
+                          cell       int        A           
+hierarchy_has_shadow_netlist
+                          cell       boolean    A           
+hierarchy_has_shadow_netlist_only
+                          cell       boolean    A           
+hierarchy_pad_cell_count  cell       int        A           
+hierarchy_physical_only_cell_count
+                          cell       int        A           
+hierarchy_std_cell_count  cell       int        A           
+hierarchy_switch_cell_count
+                          cell       int        A           
+hierarchy_type            cell       string     A           
+hold_fix_dont_touch       cell       boolean    A           
+in_edit_group             cell       boolean    A           
+infer_mux_override        cell       boolean    A,S         
+inner_keepout_margin_hard cell       margin_list
+                                                A,S         
+inner_keepout_margin_hard_macro
+                          cell       margin_list
+                                                A,S         
+inner_keepout_margin_route_blockage
+                          cell       margin_list
+                                                A,S         
+inner_keepout_margin_route_blockage_layers
+                          cell       collection A           
+inner_keepout_margin_soft cell       margin_list
+                                                A,S         
+internal_clock_input_pin_power
+                          cell       double     A           
+internal_power            cell       double     A           
+internal_power_derate_factor
+                          cell       float      A           
+io_guide                  cell       collection A           
+io_guide_neighbor_relative
+                          cell       boolean    A           
+io_guide_offset           cell       distance   A,S         
+io_guide_spacing          cell       distance   A,S         
+io_ring_name              cell       string     A           
+is_aon_backplane          cell       boolean    A           
+is_auto_floorplan_modified
+                          cell       boolean    A           
+is_bbt_object             cell       boolean    A           
+is_black_box              cell       boolean    A           
+is_bus_bit                cell       boolean    A           
+is_clock_network_cell     cell       boolean    A           
+is_combinational          cell       boolean    A           
+is_dft_repeater_flop      cell       boolean    A           
+is_diff_level_shifter     cell       boolean    A           
+is_diode_cell             cell       boolean    A           
+is_empty                  cell       boolean    A           
+is_enable_level_shifter   cell       boolean    A           
+is_etm_moded_cell         cell       boolean    A           
+is_fall_edge_triggered    cell       boolean    A           
+is_fixed                  cell       boolean    A           
+is_flipped                cell       boolean    A,S         
+is_fs_eco_add             cell       boolean    A,S         
+is_hard_macro             cell       boolean    A           
+is_hierarchical           cell       boolean    A           
+is_ideal                  cell       boolean    A           
+is_integrated_clock_gating_cell
+                          cell       boolean    A           
+is_io                     cell       boolean    A           
+is_isolation              cell       boolean    A           
+is_level_shifter          cell       boolean    A           
+is_lft_buf                cell       boolean    A           
+is_logical_black_box      cell       boolean    A           
+is_mapped                 cell       boolean    A           
+is_memory_cell            cell       boolean    A           
+is_multiply_instantiated_block
+                          cell       boolean    A           
+is_multiply_instantiated_module
+                          cell       boolean    A           
+is_mux                    cell       boolean    A           
+is_negative_level_sensitive
+                          cell       boolean    A           
+is_outline                cell       boolean    A           
+is_physical               cell       boolean    A           
+is_physical_only          cell       boolean    A           
+is_placed                 cell       boolean    A           
+is_positive_level_sensitive
+                          cell       boolean    A           
+is_power_domain_root_cell cell       boolean    A           
+is_power_switch           cell       boolean    A           
+is_retention              cell       boolean    A           
+is_rise_edge_triggered    cell       boolean    A           
+is_sequential             cell       boolean    A           
+is_shadow                 cell       boolean    A           
+is_snap_point_fixed       cell       boolean    A,S         
+is_soft_macro             cell       boolean    A           
+is_soi                    cell       boolean    A           
+is_spare_cell             cell       boolean    A,S         
+is_spare_overridden       cell       boolean    A           
+is_switch_place_holder_cell
+                          cell       boolean    A           
+is_synlib_module          cell       boolean    A           
+is_synlib_operator        cell       boolean    A           
+is_test_circuitry         cell       boolean    A           
+is_three_state            cell       boolean    A           
+is_tsv                    cell       boolean    A           
+is_unbound                cell       boolean    A           
+is_unmapped               cell       boolean    A           
+keepouts                  cell       collection A           
+late_fall_cell_check_derate_factor
+                          cell       float      A           
+late_fall_cell_check_derate_factor_file_line_info
+                          cell       string     A           
+late_fall_cell_check_derate_factor_source
+                          cell       string     A           
+late_fall_clk_cell_derate_factor
+                          cell       float      A           
+late_fall_clk_cell_derate_factor_file_line_info
+                          cell       string     A           
+late_fall_clk_cell_derate_factor_source
+                          cell       string     A           
+late_fall_data_cell_derate_factor
+                          cell       float      A           
+late_fall_data_cell_derate_factor_file_line_info
+                          cell       string     A           
+late_fall_data_cell_derate_factor_source
+                          cell       string     A           
+late_rise_cell_check_derate_factor
+                          cell       float      A           
+late_rise_cell_check_derate_factor_file_line_info
+                          cell       string     A           
+late_rise_cell_check_derate_factor_source
+                          cell       string     A           
+late_rise_clk_cell_derate_factor
+                          cell       float      A           
+late_rise_clk_cell_derate_factor_file_line_info
+                          cell       string     A           
+late_rise_clk_cell_derate_factor_source
+                          cell       string     A           
+late_rise_data_cell_derate_factor
+                          cell       float      A           
+late_rise_data_cell_derate_factor_file_line_info
+                          cell       string     A           
+late_rise_data_cell_derate_factor_source
+                          cell       string     A           
+leakage_power             cell       double     A           
+leakage_power_derate_factor
+                          cell       float      A           
+lib_cell                  cell       collection A           
+libcell_subset            cell       string     A           
+local_optz_off            cell       boolean    A           
+map_sync_enable_to_mux    cell       boolean    A,S         
+map_to_mux                cell       boolean    A,S         
+mask_shift                cell       string     A,S         
+matching_type             cell       collection A           
+max_context_leakage_power cell       double     A           
+metrics_cong_flp_score    cell       float      A           
+metrics_cong_global_net_count
+                          cell       int        A           
+metrics_cong_global_net_count_local
+                          cell       int        A           
+metrics_cong_local_net_count
+                          cell       int        A           
+metrics_cong_local_net_count_local
+                          cell       int        A           
+metrics_cong_logic_cong   cell       int        A           
+metrics_cong_logic_cong_local
+                          cell       int        A           
+metrics_cong_number_cells cell       int        A           
+metrics_cong_number_cells_in_cong_area
+                          cell       int        A           
+metrics_cong_number_cells_in_cong_area_local
+                          cell       int        A           
+metrics_cong_number_cells_in_cong_channel
+                          cell       int        A           
+metrics_cong_number_cells_in_cong_channel_local
+                          cell       int        A           
+metrics_cong_number_cells_local
+                          cell       int        A           
+metrics_cong_overflow     cell       double     A           
+metrics_cong_overflow_local
+                          cell       double     A           
+metrics_cong_percent_cells_in_cong_area
+                          cell       float      A           
+metrics_cong_percent_cells_in_cong_area_local
+                          cell       float      A           
+metrics_cong_percent_of_cong_area
+                          cell       float      A           
+metrics_cong_percent_of_cong_area_local
+                          cell       float      A           
+metrics_cong_rtl_score    cell       float      A           
+metrics_cong_shape_dispersion
+                          cell       float      A           
+metrics_cong_shape_distortion
+                          cell       float      A           
+metrics_cong_unk_score    cell       float      A           
+metrics_tim_bottleneck_count
+                          cell       int        A           
+metrics_tim_logic_levels_viol
+                          cell       int        A           
+metrics_tim_net_length_viol
+                          cell       int        A           
+metrics_tim_nvp_global    cell       int        A           
+metrics_tim_nvp_global_local
+                          cell       int        A           
+metrics_tim_nvp_internal  cell       int        A           
+metrics_tim_nvp_internal_local
+                          cell       int        A           
+metrics_tim_nvp_io        cell       int        A           
+metrics_tim_nvp_r2r       cell       int        A           
+metrics_tim_nvp_total     cell       int        A           
+metrics_tim_path_length_viol
+                          cell       int        A           
+metrics_tim_tns_global    cell       float      A           
+metrics_tim_tns_global_local
+                          cell       float      A           
+metrics_tim_tns_internal  cell       float      A           
+metrics_tim_tns_internal_local
+                          cell       float      A           
+metrics_tim_tns_io        cell       float      A           
+metrics_tim_tns_io_local  cell       float      A           
+metrics_tim_tns_r2r       cell       float      A           
+metrics_tim_tns_r2r_local cell       float      A           
+metrics_tim_tns_total     cell       float      A           
+metrics_tim_tns_total_local
+                          cell       float      A           
+metrics_tim_wns_global    cell       float      A           
+metrics_tim_wns_global_local
+                          cell       float      A           
+metrics_tim_wns_internal  cell       float      A           
+metrics_tim_wns_internal_local
+                          cell       float      A           
+metrics_tim_wns_io        cell       float      A           
+metrics_tim_wns_io_local  cell       float      A           
+metrics_tim_wns_r2r       cell       float      A           
+metrics_tim_wns_r2r_local cell       float      A           
+metrics_tim_wns_total     cell       float      A           
+metrics_tim_wns_total_local
+                          cell       float      A           
+metrics_tim_zwl_viol_count
+                          cell       int        A           
+min_context_leakage_power cell       double     A           
+mismatched_process_label_max
+                          cell       boolean    A           
+mismatched_process_label_min
+                          cell       boolean    A           
+mismatched_process_number_max
+                          cell       boolean    A           
+mismatched_process_number_min
+                          cell       boolean    A           
+mismatched_pvt_max        cell       boolean    A           
+mismatched_pvt_min        cell       boolean    A           
+mismatched_temperature_max
+                          cell       boolean    A           
+mismatched_temperature_min
+                          cell       boolean    A           
+mismatched_voltage_max    cell       boolean    A           
+mismatched_voltage_min    cell       boolean    A           
+mpn_size_only             cell       boolean    A           
+multibit_fail_reason      cell       string     A           
+multibit_width            cell       int        A           
+mv_dont_touch             cell       boolean    A           
+name                      cell       string     A,S         
+net_count                 cell       int        A           
+num_of_virtual_connection cell       int        A           
+number_of_pins            cell       int        A           
+object_class              cell       string     A           
+object_id                 cell       string     A           
+object_rtl_name           cell       string     A,S         
+off_state_leakage         cell       double     A,S         
+on_state_resistance       cell       double     A,S         
+optimize_congestion_inst  cell       boolean    A           
+optimize_registers        cell       boolean    A           
+orientation               cell       string     A,S         R0, R90, R180, R270, MX, MXR90, MY, MYR90
+origin                    cell       coord      A,S         
+outer_keepout_margin      cell       margin_list
+                                                A,S         
+outer_keepout_margin_hard cell       margin_list
+                                                A,S         
+outer_keepout_margin_hard_macro
+                          cell       margin_list
+                                                A,S         
+outer_keepout_margin_route_blockage
+                          cell       margin_list
+                                                A,S         
+outer_keepout_margin_route_blockage_layers
+                          cell       collection A           
+outer_keepout_margin_soft cell       margin_list
+                                                A,S         
+outer_keepout_type        cell       string     A,S         hard, hard_macro, routing_blockage, soft
+outline_port_count        cell       int        A           
+outline_ref_count         cell       string     A           
+pad_cell                  cell       boolean    A           
+pad_offset                cell       coord      A,S         
+pane_early                cell       int        A           
+pane_late                 cell       int        A           
+parent_block              cell       collection A           
+parent_block_cell         cell       collection A           
+parent_cell               cell       collection A           
+phase_inversion           cell       boolean    A           
+physical_hierarchy_level  cell       int        A           
+physical_status           cell       string     A,S         application_fixed, fixed, legalize_only, locked, placed, unplaced
+pin_pair                  cell       string     A           
+placement_attractions     cell       collection A           
+plc_ir_drop_bf            cell       double     A           
+power_domain              cell       string     A           
+power_group               cell       string     A           
+power_strategy            cell       collection A           
+power_switch_resistance   cell       double     A,S         
+preserve                  cell       boolean    A,S         
+preserve_multiply_instantiated_module
+                          cell       boolean    A,S         
+process_label_early       cell       string     A           
+process_label_early_file_line_info
+                          cell       string     A           
+process_label_early_source
+                          cell       string     A           
+process_label_late        cell       string     A           
+process_label_late_file_line_info
+                          cell       string     A           
+process_label_late_source cell       string     A           
+process_number_early      cell       float      A           
+process_number_early_file_line_info
+                          cell       string     A           
+process_number_early_source
+                          cell       string     A           
+process_number_late       cell       float      A           
+process_number_late_file_line_info
+                          cell       string     A           
+process_number_late_source
+                          cell       string     A           
+psc_filler_is_used        cell       boolean    A           
+ref_block                 cell       collection A           
+ref_full_name             cell       string     A           
+ref_label_name            cell       string     A           
+ref_lib_name              cell       string     A           
+ref_module                cell       collection A           
+ref_module_name           cell       string     A           
+ref_name                  cell       string     A           
+ref_phys_block            cell       collection A           
+ref_via_def               cell       collection A           
+ref_view_name             cell       string     A           , abstract, conn, design, frame, layout, outline, rtl, timing
+register_list             cell       string     A,S         
+register_merging          cell       boolean    A           
+register_output_inversion cell       int        A           
+register_replication      cell       int        A           
+remove_constant_register  cell       boolean    A           
+remove_constant_register_inherited
+                          cell       boolean    A           
+remove_unloaded_register  cell       boolean    A           
+remove_unloaded_register_inherited
+                          cell       boolean    A           
+retention_cell_style      cell       string     A           
+retiming_flop             cell       boolean    A           
+rgb_core_internal_net_rbid
+                          cell       int        A,S         
+rgb_core_routing_blockages
+                          cell       string     A,S         
+rp_column                 cell       int        A           
+rp_is_free_placement      cell       boolean    A           
+rp_num_columns            cell       int        A           
+rp_num_rows               cell       int        A           
+rp_orientations           cell       orientation_list
+                                                A,S         
+rp_override_alignment     cell       string     A,S         left, right
+rp_parent_group           cell       string     A           
+rp_pin_name               cell       string     A,S         
+rp_row                    cell       int        A           
+rp_size_in_place          cell       boolean    A           
+rp_top_group              cell       string     A           
+safety_error_signal       cell       collection A           
+scan_element              cell       boolean    A           
+scan_lockup               cell       boolean    A           
+scanned_by_test_compiler  cell       boolean    A           
+shadow_status             cell       string     A,S         copied_down, copied_up, normal, pulled_up, pushed_down, virtual_flat
+shaping_constraints       cell       collection A           
+single_bit_list           cell       string     A,S         
+size_in_place             cell       boolean    A           
+size_only                 cell       boolean    A           
+skip_buf_core_wrapper     cell       boolean    A,S         
+snap_point                cell       coord      A,S         
+spare_cell_mode           cell       string     A,S         auto, false, true
+spfm_loss                 cell       float      A,S         
+static_power              cell       double     A,S         
+std_cell_count            cell       int        A           
+supernet_disabled         cell       boolean    A           
+supernet_transparent      cell       boolean    A           
+supernet_transparent_pins cell       collection A           
+switching_power           cell       double     A           
+switching_power_derate_factor
+                          cell       float      A           
+synchronization_element   cell       boolean    A           
+target_area               cell       double     A,S         
+target_boundary_area      cell       area       A,S         
+target_utilization        cell       float      A,S         
+temperature_early         cell       float      A           
+temperature_early_file_line_info
+                          cell       string     A           
+temperature_early_source  cell       string     A           
+temperature_late          cell       float      A           
+temperature_late_file_line_info
+                          cell       string     A           
+temperature_late_source   cell       string     A           
+top_block                 cell       collection A           
+total_power               cell       double     A           
+ungroup                   cell       boolean    A,S         
+unloaded_propagation      cell       boolean    A           
+user_dont_touch           cell       boolean    A,S         
+user_power_group          cell       string     A           
+user_size_only            cell       boolean    A,S         
+verification_priority     cell       int        A           
+view_name                 cell       string     A           , abstract, conn, design, frame, layout, outline, rtl, timing
+voltage_area              cell       collection A           
+voltage_area_shape        cell       collection A           
+voltage_early             cell       float      A           
+voltage_early_file_line_info
+                          cell       string     A           
+voltage_early_source      cell       string     A           
+voltage_late              cell       float      A           
+voltage_late_file_line_info
+                          cell       string     A           
+voltage_late_source       cell       string     A           
+width                     cell       distance   A           
+z_offset                  cell       int        A,S         

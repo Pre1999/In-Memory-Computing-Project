@@ -1,0 +1,17 @@
+#@ # 
+#@ # Running lm_shell Version Q-2019.12-SP5 for linux64 -- Aug 05, 2020
+#@ # Date:   Wed Dec  8 12:37:32 2021
+#@ # Run by: 559mg16@cparch25.ecn.purdue.edu
+#@ 
+
+pwd
+sh gvim lef_to_ndm_script.tcl
+sh gvim lef_to_ndm_script.tcl &
+create_workspace sram_senseamp_ndm -flow normal -technology /package/eda/cells/OSU/v2.7/synopsys/flow/tsmc018/tech.tf
+sh rm -rf sram_senseamp_ndm/
+create_workspace sram_senseamp_ndm -flow normal -technology /package/eda/cells/OSU/v2.7/synopsys/flow/tsmc018/tech.tf
+read_lef /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1208/In-Memory-Computing-Project/sram_senseamp.lef
+set lib.workspace.remove_frame_bus_properties true
+check_workspace
+commit_workspace -output sram_senseamp_ndm -force
+exit

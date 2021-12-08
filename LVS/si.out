@@ -1,19 +1,19 @@
 @(#)$CDS: LVS version 6.1.8-64b 06/29/2021 19:05 (sjfhw316) $
 
-Command line: /package/eda/cadence/IC618/tools.lnx86/dfII/bin/64bit/LVS -dir /home/ecegrid/a/559mg24/In-Memory-Computing-Project/LVS -l -s -t /home/ecegrid/a/559mg24/In-Memory-Computing-Project/LVS/layout /home/ecegrid/a/559mg24/In-Memory-Computing-Project/LVS/schematic
+Command line: /package/eda/cadence/IC618/tools.lnx86/dfII/bin/64bit/LVS -dir /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1208/In-Memory-Computing-Project/LVS -l -s -t /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1208/In-Memory-Computing-Project/LVS/layout /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1208/In-Memory-Computing-Project/LVS/schematic
 Like matching is enabled.
 Net swapping is enabled.
 Using terminal names as correspondence points.
 Compiling Diva LVS rules...
 
-    Net-list summary for /home/ecegrid/a/559mg24/In-Memory-Computing-Project/LVS/layout/netlist
+    Net-list summary for /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1208/In-Memory-Computing-Project/LVS/layout/netlist
        count
         6482            nets
         338             terminals
         4128            pmos
         12320           nmos
 
-    Net-list summary for /home/ecegrid/a/559mg24/In-Memory-Computing-Project/LVS/schematic/netlist
+    Net-list summary for /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1208/In-Memory-Computing-Project/LVS/schematic/netlist
        count
         6482            nets
         338             terminals
@@ -387,11 +387,11 @@ The net-lists match.
                                 terminals
         un-matched              0       0      
         matched but
-        different type          32      32     
+        different type          0       0      
         total                   338     338    
 
 
-Probe files from /home/ecegrid/a/559mg24/In-Memory-Computing-Project/LVS/schematic
+Probe files from /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1208/In-Memory-Computing-Project/LVS/schematic
 
 devbad.out:
 
@@ -400,9 +400,6 @@ netbad.out:
 mergenet.out:
 
 termbad.out:
-The no. of lines exceeded than specified by the variable lvsLimitLinesInOutFile.
-To see the complete information please see the file:
-/home/ecegrid/a/559mg24/In-Memory-Computing-Project/LVS/schematic/termbad.out
 
 prunenet.out:
 
@@ -411,7 +408,7 @@ prunedev.out:
 audit.out:
 
 
-Probe files from /home/ecegrid/a/559mg24/In-Memory-Computing-Project/LVS/layout
+Probe files from /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1208/In-Memory-Computing-Project/LVS/layout
 
 devbad.out:
 
@@ -420,9 +417,6 @@ netbad.out:
 mergenet.out:
 
 termbad.out:
-The no. of lines exceeded than specified by the variable lvsLimitLinesInOutFile.
-To see the complete information please see the file:
-/home/ecegrid/a/559mg24/In-Memory-Computing-Project/LVS/layout/termbad.out
 
 prunenet.out:
 
