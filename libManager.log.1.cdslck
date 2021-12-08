@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      559mg16
+HostName                       ecegrid-thin4.ecn.purdue.edu
+ProcessIdentifier              3057
+ProcessCreationTime_UTC        1638917173
+ProcessCreationTime_Readable   Tue Dec  7 17:46:13 2021 EST
+AppIdentifier                  /package/eda/cadence/IC618/tools/dfII/bin/64bit/libManager
+OSType                         lnx86
+ReasonForPlacingEditLock       log file
+FilePathUsedToEditLock         /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1204/In-Memory-Computing-Project/libManager.log.1
+TimeEditLocked                 Tue Dec  7 17:46:13 2021 EST

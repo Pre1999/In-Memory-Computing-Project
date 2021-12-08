@@ -3,15 +3,15 @@
 Product   : Virtuoso(R) DEF In 
 Program   : @(#)$CDS: defin version 6.1.8-64b 06/29/2021 19:12 (sjfhw316) $
 SubVersion: sub-version  IC6.1.8-64b.500.19 
-Started at: 04-Dec-2021  17:29:49
+Started at: 08-Dec-2021  00:25:13
 User Name : 559mg16
 Host Name : ecegrid-thin4.ecn.purdue.edu
 Directory : /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1204/In-Memory-Computing-Project
 DB Version: 	20210629 (SJ)
 CADENCE Design Systems, Inc.
 ********************************************************************************
-Running: defin -lib Decoder -def "/home/ecegrid/a/559mg16/SRAM_PnR/decoder.ports.def" -cell decoder -view layout_ports
+Running: defin -lib Decoder_new -def "/home/ecegrid/a/559mg16/SRAM_PnR/decoder.ports.def" -cell decoder -view layout_ports
 
-Elapsed Time: 0.6s
+Elapsed Time: 0.8s
 
 defin translation completed (errors: 0, warnings: 0).

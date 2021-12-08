@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      559mg16
+HostName                       ecegrid-thin4.ecn.purdue.edu
+ProcessIdentifier              2034
+ProcessCreationTime_UTC        1638917169
+ProcessCreationTime_Readable   Tue Dec  7 17:46:09 2021 EST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1204/In-Memory-Computing-Project/Decoder_new/decoder/layout/layout.oa.cdslck
+TimeEditLocked                 Tue Dec  7 18:40:35 2021 EST
