@@ -9,14 +9,8 @@
  of a written license agreement with Synopsys, Inc. All other use, reproduction,
             or distribution of this software is strictly prohibited.
 
-lm_shell> pwd
-/home/ecegrid/a/559mg16/SRAM_LEFtoNDM
-lm_shell> sh gvim lef_to_ndm_script.tcl
-lm_shell> sh gvim lef_to_ndm_script.tcl &
-1454
 lm_shell> create_workspace sram_senseamp_ndm -flow normal -technology /package/eda/cells/OSU/v2.7/synopsys/flow/tsmc018/tech.tf
-Error: Directory '/home/ecegrid/a/559mg16/SRAM_LEFtoNDM/sram_senseamp_ndm' already exists (FILE-008)
-lm_shell> sh rm -rf sram_senseamp_ndm/
+Error: Directory '/home/ecegrid/a/559mg24/In-Memory-Computing-Project/SRAM_LEFtoNDM/sram_senseamp_ndm' already exists (FILE-008)
 lm_shell> create_workspace sram_senseamp_ndm -flow normal -technology /package/eda/cells/OSU/v2.7/synopsys/flow/tsmc018/tech.tf
 Warning: tech.tf line 627, unsupported technology file section 'CapTable'. It will be ignored. (TECH-001)
 Warning: tech.tf line 641, unsupported technology file section 'CapTable'. It will be ignored. (TECH-001)
@@ -328,13 +322,13 @@ Warning: tech.tf line 5239, unsupported technology file section 'CapModel'. It w
 Warning: tech.tf line 5257, unsupported technology file section 'CapModel'. It will be ignored. (TECH-001)
 Information: Loading technology file '/package/eda/cells/OSU/v2.7/synopsys/flow/tsmc018/tech.tf' (FILE-007)
 ... created workspace sram_senseamp_ndm
-lm_shell> read_lef /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1208/In-Memory-Computing-Project/sram_senseamp.lef
+lm_shell> read_lef /home/ecegrid/a/559mg24/In-Memory-Computing-Project/SRAM_LEFtoNDM/SRAM_lefout.lef
 Information: The default value of lib.workspace.library_developer_mode will be 'true' in future release. (LMUI-054)
-Information: Loading LEF file '/home/ecegrid/a/559mg16/In-Memory-Computing-Project_1208/In-Memory-Computing-Project/sram_senseamp.lef' (FILE-007)
-Information: Read LEF into a new library 'sram_senseamp'. (LEFR-022)
+Information: Loading LEF file '/home/ecegrid/a/559mg24/In-Memory-Computing-Project/SRAM_LEFtoNDM/SRAM_lefout.lef' (FILE-007)
+Information: Read LEF into a new library 'SRAM_lefout'. (LEFR-022)
 Information: Changed the site definition for the sram_array_layout_best_128x16_Instance_Senseamp library cell to unit from none. (LEFR-064)
 Warning: Line 11, 'SYMMETRY' is not defined for marco 'sram_array_layout_best_128x16_Instance_Senseamp' , only 'N' rotation is allowed. (LEFR-037)
-{sram_senseamp}
+{SRAM_lefout}
 lm_shell> set lib.workspace.remove_frame_bus_properties true
 true
 lm_shell> check_workspace
@@ -682,13 +676,21 @@ Warning: Bus property only exist in frame view sram_array_layout_best_128x16_Ins
 Workspace check succeeded!
 
 Warning: EMS database "check_workspace.ems" already exists, over-writing it. (EMS-040)
-lm_shell> commit_workspace -output sram_senseamp_ndm -force
-... wrote sram_senseamp_ndm
-... removing library 'sram_senseamp'
+lm_shell> commit_workspace -output sram_LEFtondm -force
+... wrote sram_LEFtondm
+... removing library 'SRAM_lefout'
 ... lib workspace removed!
+lm_shell> ll
+Error: unknown command 'll' (CMD-005)
+lm_shell> sh ll
+Error: sh: ll: command not found
+        Use error_info for more info. (CMD-013)
+lm_shell> sh ll .
+Error: sh: ll: command not found
+        Use error_info for more info. (CMD-013)
 lm_shell> exit
-Maximum memory usage for this session: 62.41 MB
-CPU usage for this session:      2 seconds (  0.00 hours)
-Elapsed time for this session:    142 seconds (  0.04 hours)
+Maximum memory usage for this session: 62.48 MB
+CPU usage for this session:      4 seconds (  0.00 hours)
+Elapsed time for this session:    272 seconds (  0.08 hours)
 Thank you for using Library Manager.
 

@@ -43,7 +43,10 @@ for {set i 0} {$i < 128} {incr i} {
 }
 
 #SRAM NDM Steps
-create_routing_blockage -net_types {clock power ground signal} -zero_spacing -name_prefix sram_rblkg -layers [get_layers metal*] -boundary {{139.0000 0.0000} {250.400 502.000}}
+create_routing_blockage -net_types {clock power ground signal} -layers {metal1 metal2 metal4 metal5 metal6} -zero_spacing -name_prefix sram_rblkg  -boundary {{139.0000 0.0000} {250.400 502.000}}
+
+create_routing_blockage -net_types {clock power ground signal} -layers {metal3} -zero_spacing -name_prefix sram_rblkg  -boundary {{139.8 0.0000} {250.400 502.000}}
+
 create_placement_blockage -boundary {{139.0000 0.0000} {250.400 502.000}} -type hard -name sram_pblkg
 set_attribute [get_cells sram*] physical_status fixed
 # Create PG mesh

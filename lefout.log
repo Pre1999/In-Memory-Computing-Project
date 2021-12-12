@@ -3,18 +3,18 @@
 Product   : Virtuoso(R) LEF Out 
 Program   : @(#)$CDS: lefout version 6.1.8-64b 06/29/2021 19:12 (sjfhw316) $
 SubVersion: sub-version  IC6.1.8-64b.500.19 
-Started at: 08-Dec-2021  12:35:33
-User Name : 559mg16
-Host Name : cparch25.ecn.purdue.edu
-Directory : /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1208/In-Memory-Computing-Project
+Started at: 12-Dec-2021  12:30:58
+User Name : 559mg24
+Host Name : ecegrid-thin2.ecn.purdue.edu
+Directory : /home/ecegrid/a/559mg24/In-Memory-Computing-Project
 DB Version: 	20210629 (SJ)
 CADENCE Design Systems, Inc.
 ********************************************************************************
-Running: lefout -lib Project -cells "sram_array_layout_best_128x16_Instance_Senseamp" -views "layout" -lef /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1208/In-Memory-Computing-Project/sram_senseamp.lef -ver 5.7 -noTech
+Running: lefout -lib Project -cells "sram_array_layout_best_128x16_Instance_Senseamp" -views "layout" -lef /home/ecegrid/a/559mg24/In-Memory-Computing-Project/SRAM_lefout -ver 5.7 -noTech
 WARNING: (OALEFDEF-90016): Design sram_array_layout_best_128x16_Instance_Senseamp layout does not have a snapBoundary. Searching for a prBoundary.
 WARNING: (OALEFDEF-90017): Design sram_array_layout_best_128x16_Instance_Senseamp layout does not have a prBoundary. Searching for a layer-purpose pair. 
 WARNING: (OALEFDEF-90018): No shape on layer purpose pair found in the design sram_array_layout_best_128x16_Instance_Senseamp layout. The ORIGIN, FOREIGN, and SIZE statements will not be printed. Ensure that you have defined the snapBoundary, PRBoundary, or geometry on LPP (boundary, boundary) in the cellview.
 
-Elapsed Time: 0.7s
+Elapsed Time: 1.0s
 
 lefout translation completed (errors: 0, warnings: 3).

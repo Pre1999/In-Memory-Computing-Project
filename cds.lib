@@ -1,5 +1,6 @@
-SOFTINCLUDE /home/ecegrid/a/559mg16/cds.lib
-DEFINE Project /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1208/In-Memory-Computing-Project/Project
-DEFINE Assignment1 /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1208/In-Memory-Computing-Project/Assignment1
-DEFINE Decoder /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1208/In-Memory-Computing-Project/Decoder
-DEFINE Decoder_new /home/ecegrid/a/559mg16/In-Memory-Computing-Project_1208/In-Memory-Computing-Project/Decoder_new
+SOFTINCLUDE /home/ecegrid/a/559mg24/cds.lib
+DEFINE Project /home/ecegrid/a/559mg24/In-Memory-Computing-Project/Project
+DEFINE Assignment1 /home/ecegrid/a/559mg24/In-Memory-Computing-Project/Assignment1
+DEFINE Decoder /home/ecegrid/a/559mg24/In-Memory-Computing-Project/Decoder
+DEFINE Decoder_new /home/ecegrid/a/559mg24/In-Memory-Computing-Project/Decoder_new
+DEFINE Test_Decoder /home/ecegrid/a/559mg24/In-Memory-Computing-Project/Test_Decoder

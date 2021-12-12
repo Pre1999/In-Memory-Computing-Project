@@ -1,54 +1,9 @@
 #@ # 
 #@ # Running icc2_shell Version Q-2019.12-SP5 for linux64 -- Aug 05, 2020
-#@ # Date:   Wed Dec  8 16:27:59 2021
-#@ # Run by: 559mg16@cparch25.ecn.purdue.edu
+#@ # Date:   Sun Dec 12 14:17:08 2021
+#@ # Run by: 559mg24@ecegrid-thin2.ecn.purdue.edu
 #@ 
 
-pwd
-pwd
-pwd
-open_lib my_sram_decoder.nlib/
-pwd
-get_blocks
-get_designs
 start_gui
 gui_set_pref_value -category {SelectByNamePalette} -key {ObjectType} -value {Logical Cells}
-open_block /home/ecegrid/a/559mg16/SRAM_PnR/my_sram_decoder.nlib:decoder.design
-gui_set_pref_value -category {showRelativeLocationConstraints} -key {macroOffsetX} -value {0.050}
-gui_set_pref_value -category {showRelativeLocationConstraints} -key {macroOffsetY} -value {0.050}
-link_block
-win_set_filter -visible -class cell -filter {hard_macro_margin hard_margin route_blockage_margin soft_margin}
-win_set_filter -visible -class placement_blockage -filter {wiring} -layer {0-20}
-win_set_filter -expand_cell_types {soft_macro  }
-win_set_select_class -visible {cell port bound routing_blockage shaping_blockage pg_region pin_blockage block_shielding topology_node topology_edge topology_repeater core_area die_area edit_group shape via terminal fill_cell placement_blockage }
-win_set_filter -class cell -filter {cell_array hard_macro_margin hard_margin route_blockage_margin soft_margin}
-win_set_filter -class placement_blockage -filter {wiring} -layer {0-20}
-win_set_select_class {cell port bound routing_blockage shaping_blockage pg_region pin_blockage topology_node topology_edge topology_repeater edit_group shape via placement_blockage }
-gui_zoom -window [gui_get_current_window -view] -full
-gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {144.750 505.400}
-gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {144.600 503.650}
-gui_zoom -window [gui_get_current_window -view] -full
-gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {132.050 504.550}
-gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {134.350 504.050}
-gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {137.100 503.000}
-gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {138.350 501.300}
-gui_zoom -window [gui_get_current_window -view] -full
-gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showBlockage -value false
-win_set_select_class -visible {cell port bound pg_region block_shielding topology_node topology_edge topology_repeater core_area die_area edit_group shape via terminal fill_cell }
-win_set_select_class {cell port bound pg_region topology_node topology_edge topology_repeater edit_group shape via }
-get_blocks *
-get_cells
-remove_cell [get_cells sram_senseamp]
-gui_zoom -window [gui_get_current_window -view] -full
-gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {143.050 486.750}
-gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {142.950 486.850}
-gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {142.850 486.850}
-gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {142.850 486.850}
-gui_zoom -window [gui_get_current_window -view] -full
-sh gvim icc2_pnr_script.tcl &
-check_lvs -max 999
-write_gds -merge_files /package/eda/cells/OSU/v2.7/cadence/lib/source/gds2/osu018_stdcells.gds2     -flat_vias -layer_map /home/ecegrid/a/ece559/icc2_layer_map "[get_attr [current_design] name].merge.gds"
-write_def -objects [get_ports] "[get_attr [current_design] name].ports.def"
-save_block
-save_lib
 exit
